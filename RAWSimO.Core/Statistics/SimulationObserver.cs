@@ -93,6 +93,8 @@ namespace RAWSimO.Core.Statistics
             // Clear snapshots
             _nextSnapshotDistanceTraveled = _instance.Controller.CurrentTime + STEP_LENGTH_DISTANCE_TRAVELED;
             _lastDistanceTraveled = 0;
+            _lastTaskTimeRest = 0;
+            _lastTotoalTimeQueueing = 0;
             _nextSnapshotLocationPolling = _instance.Controller.CurrentTime;
             _logDistanceTraveled.Clear();
             _nextSnapshotBotInfoPolling = _instance.Controller.CurrentTime;
@@ -145,6 +147,16 @@ namespace RAWSimO.Core.Statistics
         /// The overall traveled distance of the last snapshot.
         /// </summary>
         private double _lastDistanceTraveled;
+
+        /// <summary>
+        /// The overall traveled distance of the last snapshot.
+        /// </summary>
+        private double _lastTotoalTimeQueueing;
+
+        /// <summary>
+        /// The overall traveled distance of the last snapshot.
+        /// </summary>
+        private double _lastTaskTimeRest;
 
         /// <summary>
         /// Log of the traveled distances over time.
@@ -744,8 +756,12 @@ namespace RAWSimO.Core.Statistics
                 _nextSnapshotDistanceTraveled += STEP_LENGTH_DISTANCE_TRAVELED;
                 // Calculate travel distance difference for this snapshot
                 double newOverallTraveledDistance = _instance.StatOverallDistanceTraveled;
-                _logDistanceTraveled.Add(new DistanceDatapoint(_instance.StatTime, newOverallTraveledDistance - _lastDistanceTraveled));
+                double newOverallTotalTimeQueueing = _instance.StatOverallTATotalTimeQueueing;
+                double newOverallTaskTimeRest = _instance.StatOverallTATaskTimeResting;
+                _logDistanceTraveled.Add(new DistanceDatapoint(_instance.StatTime, newOverallTraveledDistance - _lastDistanceTraveled));//, newOverallTotalTimeQueueing - _lastTotoalTimeQueueing, newOverallTaskTimeRest - _lastTaskTimeRest));
                 _lastDistanceTraveled = newOverallTraveledDistance;
+                _lastTotoalTimeQueueing = newOverallTotalTimeQueueing;
+                _lastTaskTimeRest = newOverallTaskTimeRest;
                 // Flush on getting too big
                 if (_logDistanceTraveled.Count >= Instance.STAT_MAX_DATA_POINTS)
                     FlushTraveledDistance();

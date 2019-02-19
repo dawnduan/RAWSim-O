@@ -1,14 +1,10 @@
 <<< Welcome to the RAWSimO CLI >>>
-<<<<<<< HEAD
-The time is: 02/18/2019 14:03:40
-=======
-The time is: 02/19/2019 06:37:24
->>>>>>> ac9655de1558e56905e6bb71b09ef3ee7460d957
+The time is: 02/19/2019 06:57:46
 Starting RAWSimO wrapper with the following arguments:
 Instance: 1-1-2-6-0.85.xlayo
 Setting: Letter-Fixed-600.xsett
 ControlConfig: PPFAR-TAShortestDistance-SAConstantRatio-ISEmptiest-PSFixed-RPDummy-OBDefault-RBSamePod-MMNoChange.xconf
-StatisticsDir: stats0218
+StatisticsDir: stats0219
 Seed: 2
 Adding handler for unhandled exceptions ...
 Initializing ... 
@@ -58,72 +54,16 @@ i b b b r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r 
 StatisticsFolder: 1-1-2-6-0.85-Letter-Fixed-600-PPFAR-TAShortestDistance-SAConstantRatio-ISEmptiest-PSFixed-RPDummy-OBDefault-RBSamePod-MMNoChange-2
 Done!
 Executing ... 
-<<<<<<< HEAD
- 14:03:41 | >>> Warming up ...
+ 06:57:47 | >>> Warming up ...
  00:00:00 | >>> Warmup finished - starting simulation ...
  Realtime |   ETA    |  Sim.Time  | Progress | #Orders | #Bundles | Inv. | Distance | #Coll. |   Memory    
- 00:00:00 | 00:24:35 | 0.00:00:00 |  0.01%   |    0    |    0     | 70%  |    0     |   0    |  35.09MB  
- 00:00:00 | 00:00:00 | 0.00:10:00 | 100.00%  |    5    |    0     | 70%  |   1041   |   0    |  38.14MB  
- 00:00:00 | >>> Simulation finished - writing results ...
- 00:00:00 | >>> Results written
-Simulation finished.
->>> Timings
-StatTimingPathPlanningAverage: 0.000151734803921569
-StatTimingPathPlanningOverall: 0.0309539
-StatTimingPathPlanningCount: 204
-StatTimingTaskAllocationAverage: 4.08753731343284E-05
-StatTimingTaskAllocationOverall: 0.0164319
-StatTimingTaskAllocationCount: 402
-StatTimingItemStorageAverage: 0
-StatTimingItemStorageOverall: 0
-StatTimingItemStorageCount: 23
-StatTimingPodStorageAverage: 0
-StatTimingPodStorageOverall: 0
-StatTimingPodStorageCount: 0
-StatTimingReplenishmentBatchingAverage: 0
-StatTimingReplenishmentBatchingOverall: 0
-StatTimingReplenishmentBatchingCount: 3
-StatTimingOrderBatchingAverage: 0.00138691818181818
-StatTimingOrderBatchingOverall: 0.0152561
-StatTimingOrderBatchingCount: 11
->>> Overall
-StatOverallBundlesPlaced: 2
-StatOverallItemsOrdered: 20
-StatOverallOrdersPlaced: 5
-StatOverallBundlesRejected: 0
-StatOverallOrdersRejected: 0
-StatOverallBundlesHandled: 0
-StatOverallItemsHandled: 20
-StatOverallLinesHandled: 20
-StatOverallOrdersHandled: 5
-StatOverallCollisions: 0
-StatAverageTurnoverTime: 73.7054522910959
-StatOverallDistanceTraveled: 1041
-StatOverallDistanceEstimated: 907
-StatOverallAssignedTasks: 402
-StatMaxMemoryUsed: 38.12890625
-StatRealTimeUsed: 0.3120844
-StatMedianTurnoverTime: 68.2929085848998
-StatLowerQuartileTurnoverTime: 66.358216522317
-StatUpperQuartileTurnoverTime: 75.0360160990552
-StatAverageThroughputTime: 73.7032466776388
-StatMedianThroughputTime: 68.2929085848998
-StatLowerQuartileThroughputTime: 66.3471884550312
-StatUpperQuartileThroughputTime: 75.0360160990552
-
-Marked tag finished after 1 tries!
-.Fin. - SUCCESS
-=======
- 06:37:28 | >>> Warming up ...
- 00:00:00 | >>> Warmup finished - starting simulation ...
- Realtime |   ETA    |  Sim.Time  | Progress | #Orders | #Bundles | Inv. | Distance | #Coll. |   Memory    
- 00:00:00 | 01:13:22 | 0.00:00:00 |  0.01%   |    0    |    0     | 70%  |    0     |   0    |  35.37MB  
- 00:00:00 | 00:00:00 | 0.00:10:00 | 100.00%  |    5    |    0     | 70%  |   1041   |   0    |  36.82MB  
+ 00:00:00 | 00:24:29 | 0.00:00:00 |  0.01%   |    0    |    0     | 70%  |    0     |   0    |  35.41MB  
+ 00:00:00 | 00:00:00 | 0.00:10:00 | 100.00%  |    5    |    0     | 70%  |   1041   |   0    |  38.40MB  
  00:00:00 | >>> Simulation finished - writing results ...
 -----------------------------------------------------------
-!!! Caught an unhandled exception: The given key was not present in the dictionary. timestamp: 02/19/2019 06:37:30
+!!! Caught an unhandled exception: The given key was not present in the dictionary. timestamp: 02/19/2019 06:57:47
 -----------------------------------------------------------
-Time: 2/19/2019 6:37:30 AM
+Time: 2/19/2019 6:57:47 AM
 Instance: 1-1-2-6-0.85.xlayo
 Setting: Letter-Fixed-600.xsett
 ControlConfig: PPFAR-TAShortestDistance-SAConstantRatio-ISEmptiest-PSFixed-RPDummy-OBDefault-RBSamePod-MMNoChange.xconf
@@ -142,4 +82,3 @@ Stacktrace:
 InnerException: 
 None
 -----------------------------------------------------------
->>>>>>> ac9655de1558e56905e6bb71b09ef3ee7460d957

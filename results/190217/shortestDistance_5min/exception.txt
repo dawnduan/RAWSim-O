@@ -78,3 +78,91 @@ Stacktrace:
 InnerException: 
 None
 -----------------------------------------------------------
+-----------------------------------------------------------
+!!! Caught an unhandled exception: The given key was not present in the dictionary. timestamp: 02/19/2019 06:36:13
+-----------------------------------------------------------
+Time: 2/19/2019 6:36:13 AM
+Instance: 1-1-2-6-0.85.xlayo
+Setting: Letter-Fixed-600.xsett
+ControlConfig: PPFAR-TAShortestDistance-SAConstantRatio-ISEmptiest-PSFixed-RPDummy-OBDefault-RBSamePod-MMNoChange.xconf
+Seed: 2
+Tag: <null>
+Stacktrace:
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RAWSimO.Core.Statistics.FootprintDatapoint.<GetFootprint>b__11_0(FootPrintEntry e) in C:\thesis\RAWSIM-O\RAWSimO.Core\Statistics\DataPoint.cs:line 1870
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.String.Join(String separator, IEnumerable`1 values)
+   at RAWSimO.Core.Statistics.FootprintDatapoint.GetFootprint() in C:\thesis\RAWSIM-O\RAWSimO.Core\Statistics\DataPoint.cs:line 1868
+   at RAWSimO.Core.Instance.WriteStatistics() in C:\thesis\RAWSIM-O\RAWSimO.Core\InstanceStatistics.cs:line 748
+   at RAWSimO.Core.Control.SimulationExecutor.Execute(Instance instance) in C:\thesis\RAWSIM-O\RAWSimO.Core\Control\SimulationExecutor.cs:line 37
+   at RAWSimO.CLI.Program.Main(String[] args) in C:\thesis\RAWSIM-O\RAWSimO.CLI\Program.cs:line 182
+InnerException: 
+None
+-----------------------------------------------------------
+-----------------------------------------------------------
+!!! Caught an unhandled exception: The given key was not present in the dictionary. timestamp: 02/19/2019 06:37:30
+-----------------------------------------------------------
+Time: 2/19/2019 6:37:30 AM
+Instance: 1-1-2-6-0.85.xlayo
+Setting: Letter-Fixed-600.xsett
+ControlConfig: PPFAR-TAShortestDistance-SAConstantRatio-ISEmptiest-PSFixed-RPDummy-OBDefault-RBSamePod-MMNoChange.xconf
+Seed: 2
+Tag: <null>
+Stacktrace:
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RAWSimO.Core.Statistics.FootprintDatapoint.<GetFootprint>b__11_0(FootPrintEntry e) in C:\thesis\RAWSIM-O\RAWSimO.Core\Statistics\DataPoint.cs:line 1870
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.String.Join(String separator, IEnumerable`1 values)
+   at RAWSimO.Core.Statistics.FootprintDatapoint.GetFootprint() in C:\thesis\RAWSIM-O\RAWSimO.Core\Statistics\DataPoint.cs:line 1868
+   at RAWSimO.Core.Instance.WriteStatistics() in C:\thesis\RAWSIM-O\RAWSimO.Core\InstanceStatistics.cs:line 748
+   at RAWSimO.Core.Control.SimulationExecutor.Execute(Instance instance) in C:\thesis\RAWSIM-O\RAWSimO.Core\Control\SimulationExecutor.cs:line 37
+   at RAWSimO.CLI.Program.Main(String[] args) in C:\thesis\RAWSIM-O\RAWSimO.CLI\Program.cs:line 182
+InnerException: 
+None
+-----------------------------------------------------------
+-----------------------------------------------------------
+!!! Caught an unhandled exception: The given key was not present in the dictionary. timestamp: 02/19/2019 06:43:05
+-----------------------------------------------------------
+Time: 2/19/2019 6:43:05 AM
+Instance: 1-1-2-6-0.85.xlayo
+Setting: Letter-Fixed-600.xsett
+ControlConfig: PPFAR-TAShortestDistance-SAConstantRatio-ISEmptiest-PSFixed-RPDummy-OBDefault-RBSamePod-MMNoChange.xconf
+Seed: 2
+Tag: <null>
+Stacktrace:
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RAWSimO.Core.Statistics.FootprintDatapoint.<GetFootprint>b__11_0(FootPrintEntry e) in C:\thesis\RAWSIM-O\RAWSimO.Core\Statistics\DataPoint.cs:line 1870
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.String.Join(String separator, IEnumerable`1 values)
+   at RAWSimO.Core.Statistics.FootprintDatapoint.GetFootprint() in C:\thesis\RAWSIM-O\RAWSimO.Core\Statistics\DataPoint.cs:line 1868
+   at RAWSimO.Core.Instance.WriteStatistics() in C:\thesis\RAWSIM-O\RAWSimO.Core\InstanceStatistics.cs:line 748
+   at RAWSimO.Core.Control.SimulationExecutor.Execute(Instance instance) in C:\thesis\RAWSIM-O\RAWSimO.Core\Control\SimulationExecutor.cs:line 37
+   at RAWSimO.CLI.Program.Main(String[] args) in C:\thesis\RAWSIM-O\RAWSimO.CLI\Program.cs:line 182
+InnerException: 
+None
+-----------------------------------------------------------
+-----------------------------------------------------------
+!!! Caught an unhandled exception: The given key was not present in the dictionary. timestamp: 02/19/2019 06:57:47
+-----------------------------------------------------------
+Time: 2/19/2019 6:57:47 AM
+Instance: 1-1-2-6-0.85.xlayo
+Setting: Letter-Fixed-600.xsett
+ControlConfig: PPFAR-TAShortestDistance-SAConstantRatio-ISEmptiest-PSFixed-RPDummy-OBDefault-RBSamePod-MMNoChange.xconf
+Seed: 2
+Tag: <null>
+Stacktrace:
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RAWSimO.Core.Statistics.FootprintDatapoint.<GetFootprint>b__11_0(FootPrintEntry e) in C:\thesis\RAWSIM-O\RAWSimO.Core\Statistics\DataPoint.cs:line 1870
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.String.Join(String separator, IEnumerable`1 values)
+   at RAWSimO.Core.Statistics.FootprintDatapoint.GetFootprint() in C:\thesis\RAWSIM-O\RAWSimO.Core\Statistics\DataPoint.cs:line 1868
+   at RAWSimO.Core.Instance.WriteStatistics() in C:\thesis\RAWSIM-O\RAWSimO.Core\InstanceStatistics.cs:line 748
+   at RAWSimO.Core.Control.SimulationExecutor.Execute(Instance instance) in C:\thesis\RAWSIM-O\RAWSimO.Core\Control\SimulationExecutor.cs:line 37
+   at RAWSimO.CLI.Program.Main(String[] args) in C:\thesis\RAWSIM-O\RAWSimO.CLI\Program.cs:line 182
+InnerException: 
+None
+-----------------------------------------------------------
