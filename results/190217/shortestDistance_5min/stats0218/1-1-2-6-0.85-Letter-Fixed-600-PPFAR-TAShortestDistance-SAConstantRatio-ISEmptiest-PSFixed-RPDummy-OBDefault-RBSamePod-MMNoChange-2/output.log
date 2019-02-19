@@ -1,5 +1,5 @@
 <<< Welcome to the RAWSimO CLI >>>
-The time is: 02/18/2019 20:16:50
+The time is: 02/19/2019 06:37:24
 Starting RAWSimO wrapper with the following arguments:
 Instance: 1-1-2-6-0.85.xlayo
 Setting: Letter-Fixed-600.xsett
@@ -54,57 +54,31 @@ i b b b r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r 
 StatisticsFolder: 1-1-2-6-0.85-Letter-Fixed-600-PPFAR-TAShortestDistance-SAConstantRatio-ISEmptiest-PSFixed-RPDummy-OBDefault-RBSamePod-MMNoChange-2
 Done!
 Executing ... 
- 20:16:52 | >>> Warming up ...
+ 06:37:28 | >>> Warming up ...
  00:00:00 | >>> Warmup finished - starting simulation ...
  Realtime |   ETA    |  Sim.Time  | Progress | #Orders | #Bundles | Inv. | Distance | #Coll. |   Memory    
- 00:00:00 |   n/a    | 0.00:00:00 |  0.00%   |    0    |    0     | 70%  |    0     |   0    |  34.39MB  
- 00:00:00 | 00:00:00 | 0.00:10:00 | 100.00%  |    5    |    0     | 70%  |   1041   |   0    |  38.41MB  
+ 00:00:00 | 01:13:22 | 0.00:00:00 |  0.01%   |    0    |    0     | 70%  |    0     |   0    |  35.37MB  
+ 00:00:00 | 00:00:00 | 0.00:10:00 | 100.00%  |    5    |    0     | 70%  |   1041   |   0    |  36.82MB  
  00:00:00 | >>> Simulation finished - writing results ...
- 00:00:01 | >>> Results written
-Simulation finished.
->>> Timings
-StatTimingPathPlanningAverage: 0.000284938235294118
-StatTimingPathPlanningOverall: 0.0581274
-StatTimingPathPlanningCount: 204
-StatTimingTaskAllocationAverage: 5.25753731343284E-05
-StatTimingTaskAllocationOverall: 0.0211353
-StatTimingTaskAllocationCount: 402
-StatTimingItemStorageAverage: 0.000207613043478261
-StatTimingItemStorageOverall: 0.0047751
-StatTimingItemStorageCount: 23
-StatTimingPodStorageAverage: 0
-StatTimingPodStorageOverall: 0
-StatTimingPodStorageCount: 0
-StatTimingReplenishmentBatchingAverage: 0.0054501
-StatTimingReplenishmentBatchingOverall: 0.0163503
-StatTimingReplenishmentBatchingCount: 3
-StatTimingOrderBatchingAverage: 0.00342549090909091
-StatTimingOrderBatchingOverall: 0.0376804
-StatTimingOrderBatchingCount: 11
->>> Overall
-StatOverallBundlesPlaced: 2
-StatOverallItemsOrdered: 20
-StatOverallOrdersPlaced: 5
-StatOverallBundlesRejected: 0
-StatOverallOrdersRejected: 0
-StatOverallBundlesHandled: 0
-StatOverallItemsHandled: 20
-StatOverallLinesHandled: 20
-StatOverallOrdersHandled: 5
-StatOverallCollisions: 0
-StatAverageTurnoverTime: 73.7054522910959
-StatOverallDistanceTraveled: 1041
-StatOverallDistanceEstimated: 907
-StatOverallAssignedTasks: 402
-StatMaxMemoryUsed: 38.39453125
-StatRealTimeUsed: 0.7074442
-StatMedianTurnoverTime: 68.2929085848998
-StatLowerQuartileTurnoverTime: 66.358216522317
-StatUpperQuartileTurnoverTime: 75.0360160990552
-StatAverageThroughputTime: 73.7032466776388
-StatMedianThroughputTime: 68.2929085848998
-StatLowerQuartileThroughputTime: 66.3471884550312
-StatUpperQuartileThroughputTime: 75.0360160990552
-
-Marked tag finished after 1 tries!
-.Fin. - SUCCESS
+-----------------------------------------------------------
+!!! Caught an unhandled exception: The given key was not present in the dictionary. timestamp: 02/19/2019 06:37:30
+-----------------------------------------------------------
+Time: 2/19/2019 6:37:30 AM
+Instance: 1-1-2-6-0.85.xlayo
+Setting: Letter-Fixed-600.xsett
+ControlConfig: PPFAR-TAShortestDistance-SAConstantRatio-ISEmptiest-PSFixed-RPDummy-OBDefault-RBSamePod-MMNoChange.xconf
+Seed: 2
+Tag: <null>
+Stacktrace:
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RAWSimO.Core.Statistics.FootprintDatapoint.<GetFootprint>b__11_0(FootPrintEntry e) in C:\thesis\RAWSIM-O\RAWSimO.Core\Statistics\DataPoint.cs:line 1870
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.String.Join(String separator, IEnumerable`1 values)
+   at RAWSimO.Core.Statistics.FootprintDatapoint.GetFootprint() in C:\thesis\RAWSIM-O\RAWSimO.Core\Statistics\DataPoint.cs:line 1868
+   at RAWSimO.Core.Instance.WriteStatistics() in C:\thesis\RAWSIM-O\RAWSimO.Core\InstanceStatistics.cs:line 748
+   at RAWSimO.Core.Control.SimulationExecutor.Execute(Instance instance) in C:\thesis\RAWSIM-O\RAWSimO.Core\Control\SimulationExecutor.cs:line 37
+   at RAWSimO.CLI.Program.Main(String[] args) in C:\thesis\RAWSIM-O\RAWSimO.CLI\Program.cs:line 182
+InnerException: 
+None
+-----------------------------------------------------------

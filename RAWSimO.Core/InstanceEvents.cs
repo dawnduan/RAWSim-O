@@ -113,8 +113,8 @@ namespace RAWSimO.Core
             if (Controller.CurrentTime - order.DueTime > 0)
                 StatOverallOrdersLate++;
             // Mark every item in the history with a timestamp
-            _statOrderHandlingTimestamps.Add(
-                new OrderHandledDatapoint(StatTime, oStation.ID, Controller.CurrentTime - order.TimeStamp, Controller.CurrentTime - order.TimeStampSubmit, Controller.CurrentTime - order.DueTime, Controller.CurrentTime - order.TimeStamp));
+            //_statOrderHandlingTimestamps.Add(
+                //new OrderHandledDatapoint(StatTime, oStation.ID, Controller.CurrentTime - order.TimeStamp, Controller.CurrentTime - order.TimeStampSubmit, Controller.CurrentTime - order.DueTime, Controller.CurrentTime - order.TimeStampSubmit, StatTime, StatTime, StatTime));
             // Flush data points in case there are too many already
             if (_statOrderHandlingTimestamps.Count > STAT_MAX_DATA_POINTS)
                 StatFlushOrdersHandled();
@@ -125,7 +125,10 @@ namespace RAWSimO.Core
             // Log lateness
             _statOrderLatenessTimes.Add(Controller.CurrentTime - order.DueTime);
             // log Time Queuing
-            _statOrderTimeQueueing.Add(Controller.CurrentTime - order.TimeStamp);
+            _statOrderTimeQueueing.Add(Controller.CurrentTime - order.TimeStampSubmit);
+            _statOrderTotalTimeQueueing.Add(StatTime);
+            _statOrderTaskTimeRest.Add(StatTime);
+           
             // Raise the event
             OrderCompleted?.Invoke(order, oStation);
         }

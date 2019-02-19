@@ -93,7 +93,11 @@ namespace RAWSimO.Core
         /// <summary>
         /// The total time that bots are queuing.
         /// </summary>
-        ///public int StatOverallTotalTimeQueueing { get { return Bots.Sum(b => b.StatTotalTimeQueueing); } }
+        public double StatOverallTATotalTimeQueueing { get { return Bots.Sum(b => b.StatTotalTimeQueueing); } }
+        /// <summary>
+        /// The total time that bots are queuing.
+        /// </summary>
+        public double StatOverallTATaskTimeResting { get { return Bots.Sum(b => b.StatTotalTaskTimes[BotTaskType.Rest]); }} // Bots.Sum(b => b.StatTaskTimeRest); } }
         /// <summary>
         /// The estimated distance by the bots.
         /// </summary>
@@ -122,6 +126,9 @@ namespace RAWSimO.Core
         /// The average time queuing for all completed orders.
         /// </summary>
         internal List<double> _statOrderTimeQueueing = new List<double>();
+        internal List<double> _statOrderTotalTimeQueueing = new List<double>();
+        internal List<double> _statOrderTaskTimeRest = new List<double>();
+
         /// <summary>
         /// The turnover times for all completed bundles.
         /// </summary>
@@ -350,6 +357,8 @@ namespace RAWSimO.Core
             _statOrderLatenessTimes.Clear();
             _statBundleThroughputTimes.Clear();
             _statBundleTurnoverTimes.Clear();
+            _statOrderTimeQueueing.Clear();
+            _statOrderTaskTimeRest.Clear();
 
             // Reset custom controller info
             StatCustomControllerInfo = new CustomControllerDatapoint();
@@ -978,6 +987,8 @@ namespace RAWSimO.Core
             sb.AppendLine("StatOverallCollisions: " + StatOverallCollisions);
             sb.AppendLine("StatAverageTurnoverTime: " + ((_statOrderTurnoverTimes.Count == 0) ? "0" : _statOrderTurnoverTimes.Average().ToString(IOConstants.FORMATTER)));
             sb.AppendLine("StatOverallDistanceTraveled: " + StatOverallDistanceTraveled.ToString(IOConstants.FORMATTER));
+            sb.AppendLine("StatOverallAccumulatedTimeQueuing: " + StatOverallTATotalTimeQueueing.ToString(IOConstants.FORMATTER));
+            sb.AppendLine("StatOverallAccumulatedTaskTimeRest: " + StatOverallTATaskTimeResting.ToString(IOConstants.FORMATTER));
             sb.AppendLine("StatOverallDistanceEstimated: " + StatOverallDistanceEstimated.ToString(IOConstants.FORMATTER));
             sb.AppendLine("StatOverallAssignedTasks: " + StatOverallAssignedTasks);
             sb.AppendLine("StatMaxMemoryUsed: " + StatMaxMemoryUsed);
