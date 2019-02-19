@@ -2719,8 +2719,8 @@ namespace RAWSimO.Core.Statistics
         /// <param name="timeQueueing">the avg time queueing</param>
         /// <param name="totalTimeQueueing">total time queueing</param>
         /// <param name="taskTimeRest">rest time by all bots</param>
-        /// <param name="distanceTraveled">distance travelled accumulated</param>
- 
+        /// <param name="distanceTravled"></param>
+        
         public OrderHandledDatapoint(double timestamp, int oStation, double turnoverTime, double throughputTime, double lateness, double timeQueueing, double totalTimeQueueing, double taskTimeRest, double distanceTravled)
         { TimeStamp = timestamp; OutputStation = oStation; TurnoverTime = turnoverTime; ThroughputTime = throughputTime; Lateness = lateness; TimeQueueing = timeQueueing; TotalTimeQueueing = totalTimeQueueing; TaskTimeRest = taskTimeRest; DistanceTraveled = distanceTravled; }
         /// <summary>
@@ -2882,20 +2882,20 @@ namespace RAWSimO.Core.Statistics
         /// <summary>
         /// total queuing time
         /// </summary>
-        //public double TotalTimeQueueing;
+        public double TotalTimeQueueing;
         /// <summary>
         /// robot rest time
         /// </summary>
-        //public double TaskTimeRest;
+        public double TaskTimeRest;
         /// <summary>
         /// Creates a new datapoint.
         /// </summary>
         /// <param name="timestamp">The timestamp.</param>
         /// <param name="distanceTraveled">The distance.</param>
-        ///// <param name="totalTimeQueuing1">queuing time</param>
-        ///// <param name="taskTimeRest1">Bot resting time</param>
+        /// <param name="totalTimeQueuing">queuing time</param>
+        /// <param name="taskTimeRest">Bot resting time</param>
         
-        public DistanceDatapoint(double timestamp, double distanceTraveled) { TimeStamp = timestamp; DistanceTraveled = distanceTraveled; TotalTimeQueueing = totalTimeQueueing1; }
+        public DistanceDatapoint(double timestamp, double distanceTraveled, double totalTimeQueueing, double taskTimeRest) { TimeStamp = timestamp; DistanceTraveled = distanceTraveled; TotalTimeQueueing = totalTimeQueueing; TaskTimeRest = taskTimeRest; }
         /// <summary>
         /// Creates a new datapoint from a line serialization.
         /// </summary>

@@ -744,7 +744,7 @@ namespace RAWSimO.Core.Statistics
                 _nextSnapshotDistanceTraveled += STEP_LENGTH_DISTANCE_TRAVELED;
                 // Calculate travel distance difference for this snapshot
                 double newOverallTraveledDistance = _instance.StatOverallDistanceTraveled;
-                _logDistanceTraveled.Add(new DistanceDatapoint(_instance.StatTime, newOverallTraveledDistance - _lastDistanceTraveled));
+                _logDistanceTraveled.Add(new DistanceDatapoint(_instance.StatTime, newOverallTraveledDistance - _lastDistanceTraveled, ));
                 _lastDistanceTraveled = newOverallTraveledDistance;
                 // Flush on getting too big
                 if (_logDistanceTraveled.Count >= Instance.STAT_MAX_DATA_POINTS)
