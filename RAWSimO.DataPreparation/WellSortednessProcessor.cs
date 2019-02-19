@@ -441,9 +441,9 @@ namespace RAWSimO.DataPreparation
                             IEnumerable<DistanceDatapoint> datapointsOfSection = distanceTraveledDatapoints.TakeWhile(d => d.TimeStamp <= timestamp);
                             // Measure distance traveled within time window
                             distanceTraveled[timestamp] = datapointsOfSection.Sum(d => d.DistanceTraveled);
-                            totalTimeQueueing[timestamp] = datapointsOfSection.Sum(d => d.TotalTimeQueueing);
+                            //totalTimeQueueing[timestamp] = datapointsOfSection.Sum(d => d.TotalTimeQueueing);
 
-                            taskTimeRest[timestamp] = datapointsOfSection.Sum(d => d.TaskTimeRest);
+                            //taskTimeRest[timestamp] = datapointsOfSection.Sum(d => d.TaskTimeRest);
 
                             // Remove measured datapoints
                             distanceTraveledDatapoints = distanceTraveledDatapoints.Skip(datapointsOfSection.Count()).ToList();
