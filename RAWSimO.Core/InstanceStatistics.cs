@@ -95,6 +95,10 @@ namespace RAWSimO.Core
         /// </summary>
         public double StatOverallTotalTimeQueueing { get { return Bots.Sum(b => b.StatTotalTimeQueueing); } }
         /// <summary>
+        /// The total time that bots are queuing.
+        /// </summary>
+        public double StatOverallTaskTimeResting { get { return Bots.Sum(b => b.StatTaskTimeRest); } }
+        /// <summary>
         /// The estimated distance by the bots.
         /// </summary>
         public double StatOverallDistanceEstimated { get { return Bots.Sum(b => b.StatDistanceEstimated); } }
