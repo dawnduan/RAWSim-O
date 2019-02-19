@@ -1,10 +1,10 @@
 <<< Welcome to the RAWSimO CLI >>>
-The time is: 02/19/2019 06:37:24
+The time is: 02/19/2019 06:57:46
 Starting RAWSimO wrapper with the following arguments:
 Instance: 1-1-2-6-0.85.xlayo
 Setting: Letter-Fixed-600.xsett
 ControlConfig: PPFAR-TAShortestDistance-SAConstantRatio-ISEmptiest-PSFixed-RPDummy-OBDefault-RBSamePod-MMNoChange.xconf
-StatisticsDir: stats0218
+StatisticsDir: stats0219
 Seed: 2
 Adding handler for unhandled exceptions ...
 Initializing ... 
@@ -54,16 +54,16 @@ i b b b r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r 
 StatisticsFolder: 1-1-2-6-0.85-Letter-Fixed-600-PPFAR-TAShortestDistance-SAConstantRatio-ISEmptiest-PSFixed-RPDummy-OBDefault-RBSamePod-MMNoChange-2
 Done!
 Executing ... 
- 06:37:28 | >>> Warming up ...
+ 06:57:47 | >>> Warming up ...
  00:00:00 | >>> Warmup finished - starting simulation ...
  Realtime |   ETA    |  Sim.Time  | Progress | #Orders | #Bundles | Inv. | Distance | #Coll. |   Memory    
- 00:00:00 | 01:13:22 | 0.00:00:00 |  0.01%   |    0    |    0     | 70%  |    0     |   0    |  35.37MB  
- 00:00:00 | 00:00:00 | 0.00:10:00 | 100.00%  |    5    |    0     | 70%  |   1041   |   0    |  36.82MB  
+ 00:00:00 | 00:24:29 | 0.00:00:00 |  0.01%   |    0    |    0     | 70%  |    0     |   0    |  35.41MB  
+ 00:00:00 | 00:00:00 | 0.00:10:00 | 100.00%  |    5    |    0     | 70%  |   1041   |   0    |  38.40MB  
  00:00:00 | >>> Simulation finished - writing results ...
 -----------------------------------------------------------
-!!! Caught an unhandled exception: The given key was not present in the dictionary. timestamp: 02/19/2019 06:37:30
+!!! Caught an unhandled exception: The given key was not present in the dictionary. timestamp: 02/19/2019 06:57:47
 -----------------------------------------------------------
-Time: 2/19/2019 6:37:30 AM
+Time: 2/19/2019 6:57:47 AM
 Instance: 1-1-2-6-0.85.xlayo
 Setting: Letter-Fixed-600.xsett
 ControlConfig: PPFAR-TAShortestDistance-SAConstantRatio-ISEmptiest-PSFixed-RPDummy-OBDefault-RBSamePod-MMNoChange.xconf
