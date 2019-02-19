@@ -758,7 +758,7 @@ namespace RAWSimO.Core.Statistics
                 double newOverallTraveledDistance = _instance.StatOverallDistanceTraveled;
                 double newOverallTotalTimeQueueing = _instance.StatOverallTATotalTimeQueueing;
                 double newOverallTaskTimeRest = _instance.StatOverallTATaskTimeResting;
-                _logDistanceTraveled.Add(new DistanceDatapoint(_instance.StatTime, newOverallTraveledDistance - _lastDistanceTraveled, newOverallTotalTimeQueueing - _lastTotoalTimeQueueing, newOverallTaskTimeRest - _lastTaskTimeRest));
+                _logDistanceTraveled.Add(new DistanceDatapoint(_instance.StatTime, newOverallTraveledDistance - _lastDistanceTraveled));//, newOverallTotalTimeQueueing - _lastTotoalTimeQueueing, newOverallTaskTimeRest - _lastTaskTimeRest));
                 _lastDistanceTraveled = newOverallTraveledDistance;
                 _lastTotoalTimeQueueing = newOverallTotalTimeQueueing;
                 _lastTaskTimeRest = newOverallTaskTimeRest;
