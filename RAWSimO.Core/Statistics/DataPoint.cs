@@ -205,6 +205,14 @@ namespace RAWSimO.Core.Statistics
             /// </summary>
             DistanceTraveled,
             /// <summary>
+            /// The time spent in the corresponding task by all bots.
+            /// </summary>
+            TATotalTaskTimeRest,
+            /// <summary>
+            /// The time spent in the corresponding task by all bots.
+            /// </summary>
+            TATotalTimeQueueing,
+            /// <summary>
             /// The distance traveled in average per bot.
             /// </summary>
             DistanceTraveledPerBot,
@@ -1538,7 +1546,7 @@ namespace RAWSimO.Core.Statistics
             _entryValues[FootPrintEntry.LinesHandled] = instance.StatOverallLinesHandled;
             _entryValues[FootPrintEntry.OrdersHandled] = instance.StatOverallOrdersHandled;
             _entryValues[FootPrintEntry.UnitsHandled] = instance.StatOverallItemsHandled + instance.StatOverallBundlesHandled;
-            //_entryValues[FootPrintEntry.TotalTimeQueueing] = instance.StatOverallTATotalTimeQueueing;
+            //_entryValues[FootPrintEntry.TotalTimeQueueing] = instance.StatOverallTotalTimeQueueing;
             _entryValues[FootPrintEntry.Collisions] = instance.StatOverallCollisions;
             _entryValues[FootPrintEntry.FailedReservations] = instance.StatOverallFailedReservations;
             _entryValues[FootPrintEntry.PathPlanningTimeouts] = instance.StatOverallPathPlanningTimeouts;
@@ -1549,8 +1557,8 @@ namespace RAWSimO.Core.Statistics
             _entryValues[FootPrintEntry.DistanceRequestedOptimal] = instance.Bots.Sum(b => b.StatDistanceRequestedOptimal);
             _entryValues[FootPrintEntry.TimeMoving] = instance.Bots.Average(b => b.StatTotalTimeMoving);
             _entryValues[FootPrintEntry.TimeQueueing] = instance.Bots.Average(b => b.StatTotalTimeQueueing);
-            _entryValues[FootPrintEntry.TATotalTimeQueueing] = instance. StatOverallTATotalTimeQueueing; //Bots.Sum(b => b.StatTotalTimeQueueing);
-            _entryValues[FootPrintEntry.TATotalTaskTimeRest] = instance.StatOverallTATaskTimeResting; //Bots.Sum(b => b.StatTaskTimeResting);
+            _entryValues[FootPrintEntry.TotalTimeQueueing] = instance.Bots.Sum(b => b.StatTotalTimeQueueing);
+
             _entryValues[FootPrintEntry.TripDistance] = instance.StatOverallDistanceTraveled / instance.Waypoints.Sum(w => w.StatOutgoingTrips);
             _entryValues[FootPrintEntry.TripTime] = instance.Waypoints.Sum(w => w.StatOutgoingTripTime) / instance.Waypoints.Sum(w => w.StatOutgoingTrips);
             _entryValues[FootPrintEntry.TripTimeWithoutQueueing] = (instance.Waypoints.Sum(w => w.StatOutgoingTripTime) - instance.Bots.Sum(b => b.StatTotalTimeQueueing)) / instance.Waypoints.Sum(w => w.StatOutgoingTrips);
