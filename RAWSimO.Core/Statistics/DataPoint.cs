@@ -227,7 +227,7 @@ namespace RAWSimO.Core.Statistics
             /// <summary>
             /// The average distance traveled per trip (overall distance traveled divided by trip count observed).
             /// </summary>
-            //TotalTimeQueueing,
+            TotalTimeQueueing,
             /// <summary>
             /// The total time a bot was queueing.
             /// </summary>
@@ -1226,7 +1226,7 @@ namespace RAWSimO.Core.Statistics
             { FootPrintEntry.DistanceRequestedOptimal, typeof(double) },
             { FootPrintEntry.TimeMoving, typeof(double) },
             { FootPrintEntry.TimeQueueing, typeof(double) },
-            //{ FootPrintEntry.TotalTimeQueueing, typeof(double) },
+            { FootPrintEntry.TotalTimeQueueing, typeof(double) },
             { FootPrintEntry.TripDistance, typeof(double) },
             { FootPrintEntry.TripTime, typeof(double) },
             { FootPrintEntry.TripTimeWithoutQueueing, typeof(double) },
@@ -1549,7 +1549,8 @@ namespace RAWSimO.Core.Statistics
             _entryValues[FootPrintEntry.DistanceRequestedOptimal] = instance.Bots.Sum(b => b.StatDistanceRequestedOptimal);
             _entryValues[FootPrintEntry.TimeMoving] = instance.Bots.Average(b => b.StatTotalTimeMoving);
             _entryValues[FootPrintEntry.TimeQueueing] = instance.Bots.Average(b => b.StatTotalTimeQueueing);
-            
+            _entryValues[FootPrintEntry.TotalTimeQueueing] = instance.Bots.Sum(b => b.StatTotalTimeQueueing);
+
             _entryValues[FootPrintEntry.TripDistance] = instance.StatOverallDistanceTraveled / instance.Waypoints.Sum(w => w.StatOutgoingTrips);
             _entryValues[FootPrintEntry.TripTime] = instance.Waypoints.Sum(w => w.StatOutgoingTripTime) / instance.Waypoints.Sum(w => w.StatOutgoingTrips);
             _entryValues[FootPrintEntry.TripTimeWithoutQueueing] = (instance.Waypoints.Sum(w => w.StatOutgoingTripTime) - instance.Bots.Sum(b => b.StatTotalTimeQueueing)) / instance.Waypoints.Sum(w => w.StatOutgoingTrips);
@@ -1677,10 +1678,10 @@ namespace RAWSimO.Core.Statistics
             _entryValues[FootPrintEntry.ISUpTimeUQ] = instance.InputStations.Count == 0 ? 0 : StatisticsHelper.GetUpperQuartile(instance.InputStations.Select(s => s.StatActiveTime / (instance.Controller.CurrentTime - instance.StatTimeStart)));
             _entryValues[FootPrintEntry.OSUpTimeAvg] = instance.OutputStations.Count == 0 ? 0 : instance.OutputStations.Average(s => s.StatActiveTime / (instance.Controller.CurrentTime - instance.StatTimeStart));
             _entryValues[FootPrintEntry.OSUpTimeMed] = instance.OutputStations.Count == 0 ? 0 : StatisticsHelper.GetMedian(instance.OutputStations.Select(s => s.StatActiveTime / (instance.Controller.CurrentTime - instance.StatTimeStart)));
+            _entryValues[FootPrintEntry.ISDownTimeAvg] = instance.InputStations.Count == 0 ? 0 : instance.InputStations.Average(s => s.StatDownTime / (instance.Controller.CurrentTime - instance.StatTimeStart));
             _entryValues[FootPrintEntry.OSUpTimeLQ] = instance.OutputStations.Count == 0 ? 0 : StatisticsHelper.GetLowerQuartile(instance.OutputStations.Select(s => s.StatActiveTime / (instance.Controller.CurrentTime - instance.StatTimeStart)));
             _entryValues[FootPrintEntry.OSUpTimeUQ] = instance.OutputStations.Count == 0 ? 0 : StatisticsHelper.GetUpperQuartile(instance.OutputStations.Select(s => s.StatActiveTime / (instance.Controller.CurrentTime - instance.StatTimeStart)));
             // Down-time
-            _entryValues[FootPrintEntry.ISDownTimeAvg] = instance.InputStations.Count == 0 ? 0 : instance.InputStations.Average(s => s.StatDownTime / (instance.Controller.CurrentTime - instance.StatTimeStart));
             _entryValues[FootPrintEntry.ISDownTimeMed] = instance.InputStations.Count == 0 ? 0 : StatisticsHelper.GetMedian(instance.InputStations.Select(s => s.StatDownTime / (instance.Controller.CurrentTime - instance.StatTimeStart)));
             _entryValues[FootPrintEntry.ISDownTimeLQ] = instance.InputStations.Count == 0 ? 0 : StatisticsHelper.GetLowerQuartile(instance.InputStations.Select(s => s.StatDownTime / (instance.Controller.CurrentTime - instance.StatTimeStart)));
             _entryValues[FootPrintEntry.ISDownTimeUQ] = instance.InputStations.Count == 0 ? 0 : StatisticsHelper.GetUpperQuartile(instance.InputStations.Select(s => s.StatDownTime / (instance.Controller.CurrentTime - instance.StatTimeStart)));
@@ -2704,6 +2705,9 @@ namespace RAWSimO.Core.Statistics
         /// The average time queueing of the a bot
         /// </summary>
         public double TimeQueueing;
+        public double TotalTimeQueueing;
+        public double TaskTimeRest;
+        public double DistanceTraveled;
         /// <summary>
         /// Creates a new datapoint.
         /// </summary>
@@ -2713,8 +2717,12 @@ namespace RAWSimO.Core.Statistics
         /// <param name="throughputTime">The throughput time.</param>
         /// <param name="lateness">The lateness.</param>
         /// <param name="timeQueueing">the avg time queueing</param>
-        public OrderHandledDatapoint(double timestamp, int oStation, double turnoverTime, double throughputTime, double lateness, double timeQueueing)
-        { TimeStamp = timestamp; OutputStation = oStation; TurnoverTime = turnoverTime; ThroughputTime = throughputTime; Lateness = lateness; TimeQueueing = timeQueueing; }
+        /// <param name="totalTimeQueueing">total time queueing</param>
+        /// <param name="taskTimeRest">rest time by all bots</param>
+        /// <param name="distanceTraveled">distance travelled accumulated</param>
+ 
+        public OrderHandledDatapoint(double timestamp, int oStation, double turnoverTime, double throughputTime, double lateness, double timeQueueing, double totalTimeQueueing, double taskTimeRest, double distanceTravled)
+        { TimeStamp = timestamp; OutputStation = oStation; TurnoverTime = turnoverTime; ThroughputTime = throughputTime; Lateness = lateness; TimeQueueing = timeQueueing; TotalTimeQueueing = totalTimeQueueing; TaskTimeRest = taskTimeRest; DistanceTraveled = distanceTravled; }
         /// <summary>
         /// Creates a new datapoint from a line serialization.
         /// </summary>
@@ -2728,6 +2736,9 @@ namespace RAWSimO.Core.Statistics
             ThroughputTime = double.Parse(values[3], IOConstants.FORMATTER);
             Lateness = double.Parse(values[4], IOConstants.FORMATTER);
             TimeQueueing = double.Parse(values[5], IOConstants.FORMATTER);
+            TotalTimeQueueing = double.Parse(values[6], IOConstants.FORMATTER);
+            TaskTimeRest = double.Parse(values[7], IOConstants.FORMATTER);
+            DistanceTraveled = double.Parse(values[8], IOConstants.FORMATTER);
         }
         /// <summary>
         /// Creates a line serialization of this datapoint.
@@ -2741,7 +2752,10 @@ namespace RAWSimO.Core.Statistics
                 TurnoverTime.ToString(IOConstants.EXPORT_FORMAT_SHORTER, IOConstants.FORMATTER) + IOConstants.DELIMITER_VALUE +
                 ThroughputTime.ToString(IOConstants.EXPORT_FORMAT_SHORTER, IOConstants.FORMATTER) + IOConstants.DELIMITER_VALUE +
                 Lateness.ToString(IOConstants.EXPORT_FORMAT_SHORTER, IOConstants.FORMATTER) + IOConstants.DELIMITER_VALUE +
-                TimeQueueing.ToString(IOConstants.EXPORT_FORMAT_SHORT, IOConstants.FORMATTER);
+                TimeQueueing.ToString(IOConstants.EXPORT_FORMAT_SHORTER, IOConstants.FORMATTER) + IOConstants.DELIMITER_VALUE +
+                TotalTimeQueueing.ToString(IOConstants.EXPORT_FORMAT_SHORTER, IOConstants.FORMATTER) + IOConstants.DELIMITER_VALUE +
+                TaskTimeRest.ToString(IOConstants.EXPORT_FORMAT_SHORTER, IOConstants.FORMATTER) + IOConstants.DELIMITER_VALUE +
+                DistanceTraveled.ToString(IOConstants.EXPORT_FORMAT_SHORT, IOConstants.FORMATTER);
         }
         /// <summary>
         /// Creates a header for the line serializations.
@@ -2755,7 +2769,10 @@ namespace RAWSimO.Core.Statistics
                 nameof(TurnoverTime) + IOConstants.DELIMITER_VALUE +
                 nameof(ThroughputTime) + IOConstants.DELIMITER_VALUE +
                 nameof(Lateness) + IOConstants.DELIMITER_VALUE +
-                nameof(TimeQueueing);
+                nameof(TimeQueueing) + IOConstants.DELIMITER_VALUE +
+                nameof(TotalTimeQueueing) + IOConstants.DELIMITER_VALUE +
+                nameof(TaskTimeRest) + IOConstants.DELIMITER_VALUE +
+                nameof(DistanceTraveled);
         }
     }
 
@@ -2863,11 +2880,22 @@ namespace RAWSimO.Core.Statistics
         /// </summary>
         public double DistanceTraveled;
         /// <summary>
+        /// total queuing time
+        /// </summary>
+        //public double TotalTimeQueueing;
+        /// <summary>
+        /// robot rest time
+        /// </summary>
+        //public double TaskTimeRest;
+        /// <summary>
         /// Creates a new datapoint.
         /// </summary>
         /// <param name="timestamp">The timestamp.</param>
         /// <param name="distanceTraveled">The distance.</param>
-        public DistanceDatapoint(double timestamp, double distanceTraveled) { TimeStamp = timestamp; DistanceTraveled = distanceTraveled; }
+        ///// <param name="totalTimeQueuing1">queuing time</param>
+        ///// <param name="taskTimeRest1">Bot resting time</param>
+        
+        public DistanceDatapoint(double timestamp, double distanceTraveled) { TimeStamp = timestamp; DistanceTraveled = distanceTraveled; TotalTimeQueueing = totalTimeQueueing1; }
         /// <summary>
         /// Creates a new datapoint from a line serialization.
         /// </summary>
@@ -2877,6 +2905,8 @@ namespace RAWSimO.Core.Statistics
             string[] values = line.Split(IOConstants.DELIMITER_VALUE);
             TimeStamp = double.Parse(values[0], IOConstants.FORMATTER);
             DistanceTraveled = double.Parse(values[1], IOConstants.FORMATTER);
+            TotalTimeQueueing = double.Parse(values[2], IOConstants.FORMATTER);
+            TaskTimeRest = double.Parse(values[3], IOConstants.FORMATTER);
         }
         /// <summary>
         /// Creates a line serialization of this datapoint.
@@ -2886,7 +2916,10 @@ namespace RAWSimO.Core.Statistics
         {
             return
                 TimeStamp.ToString(IOConstants.EXPORT_FORMAT_SHORTER, IOConstants.FORMATTER) + IOConstants.DELIMITER_VALUE +
-                DistanceTraveled.ToString(IOConstants.EXPORT_FORMAT_SHORTER, IOConstants.FORMATTER);
+                DistanceTraveled.ToString(IOConstants.EXPORT_FORMAT_SHORTER, IOConstants.FORMATTER) + IOConstants.DELIMITER_VALUE +
+                TotalTimeQueueing.ToString(IOConstants.EXPORT_FORMAT_SHORTER, IOConstants.FORMATTER) + IOConstants.DELIMITER_VALUE +
+
+                TaskTimeRest.ToString(IOConstants.EXPORT_FORMAT_SHORTER, IOConstants.FORMATTER);
         }
         /// <summary>
         /// Creates a header for the line serializations.
@@ -2896,7 +2929,9 @@ namespace RAWSimO.Core.Statistics
         {
             return
                 nameof(TimeStamp) + IOConstants.DELIMITER_VALUE +
-                nameof(DistanceTraveled);
+                nameof(DistanceTraveled) + IOConstants.DELIMITER_VALUE +
+                nameof(TotalTimeQueueing) + IOConstants.DELIMITER_VALUE +
+                nameof(TaskTimeRest);
         }
     }
 

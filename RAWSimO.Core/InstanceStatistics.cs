@@ -93,7 +93,7 @@ namespace RAWSimO.Core
         /// <summary>
         /// The total time that bots are queuing.
         /// </summary>
-        ///public int StatOverallTotalTimeQueueing { get { return Bots.Sum(b => b.StatTotalTimeQueueing); } }
+        public double StatOverallTotalTimeQueueing { get { return Bots.Sum(b => b.StatTotalTimeQueueing); } }
         /// <summary>
         /// The estimated distance by the bots.
         /// </summary>
@@ -122,6 +122,9 @@ namespace RAWSimO.Core
         /// The average time queuing for all completed orders.
         /// </summary>
         internal List<double> _statOrderTimeQueueing = new List<double>();
+        internal List<double> _statOrderTotalTimeQueueing = new List<double>();
+        internal List<double> _statOrderTaskTimeRest = new List<double>();
+
         /// <summary>
         /// The turnover times for all completed bundles.
         /// </summary>
@@ -350,6 +353,8 @@ namespace RAWSimO.Core
             _statOrderLatenessTimes.Clear();
             _statBundleThroughputTimes.Clear();
             _statBundleTurnoverTimes.Clear();
+            _statOrderTimeQueueing.Clear();
+            _statOrderTaskTimeRest.Clear();
 
             // Reset custom controller info
             StatCustomControllerInfo = new CustomControllerDatapoint();
