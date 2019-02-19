@@ -987,6 +987,8 @@ namespace RAWSimO.Core
             sb.AppendLine("StatOverallCollisions: " + StatOverallCollisions);
             sb.AppendLine("StatAverageTurnoverTime: " + ((_statOrderTurnoverTimes.Count == 0) ? "0" : _statOrderTurnoverTimes.Average().ToString(IOConstants.FORMATTER)));
             sb.AppendLine("StatOverallDistanceTraveled: " + StatOverallDistanceTraveled.ToString(IOConstants.FORMATTER));
+            sb.AppendLine("StatOverallAccumulatedTimeQueuing: " + StatOverallTATotalTimeQueueing.ToString(IOConstants.FORMATTER));
+            sb.AppendLine("StatOverallAccumulatedTaskTimeRest: " + StatOverallTATaskTimeResting.ToString(IOConstants.FORMATTER));
             sb.AppendLine("StatOverallDistanceEstimated: " + StatOverallDistanceEstimated.ToString(IOConstants.FORMATTER));
             sb.AppendLine("StatOverallAssignedTasks: " + StatOverallAssignedTasks);
             sb.AppendLine("StatMaxMemoryUsed: " + StatMaxMemoryUsed);
