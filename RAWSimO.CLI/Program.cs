@@ -160,9 +160,12 @@ namespace RAWSimO.CLI
             }
 
             // Setup instance
+            
             LogLine("Initializing ... ");
             int seed = int.Parse(args[4]);
+            LogLine("Bug is here.");
             Action<string> logAction = (string message) => { LogLine(message); };
+            
             Instance instance = InstanceIO.ReadInstance(args[0], args[1], args[2], logAction: logAction);
             instance.SettingConfig.LogAction = logAction;
             instance.SettingConfig.Seed = seed;

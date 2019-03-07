@@ -340,7 +340,7 @@ namespace RAWSimO.DataPreparation
                             // Get datapoints of time window
                             //IEnumerable<DistanceDatapoint> datapointsOfSection = distanceTraveledDatapoints.TakeWhile(d => d.TimeStamp <= timestamp);
                             // Measure distance traveled within time window
-                            distanceTraveled[timestamp] = datapointsOfSection.Sum(d => d.DistanceTraveled);
+                            //distanceTraveled[timestamp] = datapointsOfSection.Sum(d => d.DistanceTraveled);
                             // Remove measured datapoints
                             //distanceTraveledDatapoints = distanceTraveledDatapoints.Skip(datapointsOfSection.Count()).ToList();
 
@@ -355,10 +355,10 @@ namespace RAWSimO.DataPreparation
                                 // Measure average time QUeueing per bot within time window
                                 timeQueueing[timestamp] = datapointsOfSection.Sum(d => d.TimeQueueing);
                                 previousTimeQueueingValue = timeQueueing[timestamp];
-                                totalTimeQueueing[timestamp] = datapointsOfSection.Sum(d => d.TotalTimeQueueing);
-                                previousTotalTimeQueueingValue = totalTimeQueueing[timestamp];
-                                taskTimeRest[timestamp] = datapointsOfSection.Sum(d => d.TaskTimeRest);
-                                previousTaskTimeRestValue = taskTimeRest[timestamp];
+                               // totalTimeQueueing[timestamp] = datapointsOfSection.Sum(d => d.TotalTimeQueueing);
+                                //previousTotalTimeQueueingValue = totalTimeQueueing[timestamp];
+                                //taskTimeRest[timestamp] = datapointsOfSection.Sum(d => d.TaskTimeRest);
+                                //previousTaskTimeRestValue = taskTimeRest[timestamp];
 
                             }
                             else
@@ -367,8 +367,8 @@ namespace RAWSimO.DataPreparation
                                 orderThroughputTimes[timestamp] = previousThroughputValue;
                                 orderTurnoverTimes[timestamp] = previousTurnoverValue;
                                 timeQueueing[timestamp] = previousTimeQueueingValue;
-                                totalTimeQueueing[timestamp] = previousTotalTimeQueueingValue;
-                                taskTimeRest[timestamp] = previousTaskTimeRestValue;
+                                //totalTimeQueueing[timestamp] = previousTotalTimeQueueingValue;
+                                //taskTimeRest[timestamp] = previousTaskTimeRestValue;
 
                             }
 

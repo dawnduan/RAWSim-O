@@ -1557,7 +1557,7 @@ namespace RAWSimO.Core.Statistics
             _entryValues[FootPrintEntry.DistanceRequestedOptimal] = instance.Bots.Sum(b => b.StatDistanceRequestedOptimal);
             _entryValues[FootPrintEntry.TimeMoving] = instance.Bots.Average(b => b.StatTotalTimeMoving);
             _entryValues[FootPrintEntry.TimeQueueing] = instance.Bots.Average(b => b.StatTotalTimeQueueing);
-            _entryValues[FootPrintEntry.TotalTimeQueueing] = instance.Bots.Sum(b => b.StatTotalTimeQueueing);
+            //_entryValues[FootPrintEntry.TotalTimeQueueing] = instance.Bots.Sum(b => b.StatTotalTimeQueueing);
 
             _entryValues[FootPrintEntry.TripDistance] = instance.StatOverallDistanceTraveled / instance.Waypoints.Sum(w => w.StatOutgoingTrips);
             _entryValues[FootPrintEntry.TripTime] = instance.Waypoints.Sum(w => w.StatOutgoingTripTime) / instance.Waypoints.Sum(w => w.StatOutgoingTrips);
@@ -2713,9 +2713,10 @@ namespace RAWSimO.Core.Statistics
         /// The average time queueing of the a bot
         /// </summary>
         public double TimeQueueing;
-        public double TotalTimeQueueing;
-        public double TaskTimeRest;
-        public double DistanceTraveled;
+
+        //public double TotalTimeQueueing;
+        //public double TaskTimeRest;
+        //public double DistanceTraveled;
         /// <summary>
         /// Creates a new datapoint.
         /// </summary>
@@ -2725,12 +2726,12 @@ namespace RAWSimO.Core.Statistics
         /// <param name="throughputTime">The throughput time.</param>
         /// <param name="lateness">The lateness.</param>
         /// <param name="timeQueueing">the avg time queueing</param>
-        /// <param name="totalTimeQueueing">total time queueing</param>
-        /// <param name="taskTimeRest">rest time by all bots</param>
-        /// <param name="distanceTravled"></param>
-        
-        public OrderHandledDatapoint(double timestamp, int oStation, double turnoverTime, double throughputTime, double lateness, double timeQueueing, double totalTimeQueueing, double taskTimeRest, double distanceTravled)
-        { TimeStamp = timestamp; OutputStation = oStation; TurnoverTime = turnoverTime; ThroughputTime = throughputTime; Lateness = lateness; TimeQueueing = timeQueueing; TotalTimeQueueing = totalTimeQueueing; TaskTimeRest = taskTimeRest; DistanceTraveled = distanceTravled; }
+        // <param name="totalTimeQueueing">total time queueing</param>
+        // <param name="taskTimeRest">rest time by all bots</param>
+        // <param name="distanceTravled"></param>
+
+        public OrderHandledDatapoint(double timestamp, int oStation, double turnoverTime, double throughputTime, double lateness, double timeQueueing)//, double totalTimeQueueing, double taskTimeRest, double distanceTravled)
+        { TimeStamp = timestamp; OutputStation = oStation; TurnoverTime = turnoverTime; ThroughputTime = throughputTime; Lateness = lateness; TimeQueueing = timeQueueing;}// TotalTimeQueueing = totalTimeQueueing; TaskTimeRest = taskTimeRest; DistanceTraveled = distanceTravled; }
         /// <summary>
         /// Creates a new datapoint from a line serialization.
         /// </summary>
@@ -2744,9 +2745,10 @@ namespace RAWSimO.Core.Statistics
             ThroughputTime = double.Parse(values[3], IOConstants.FORMATTER);
             Lateness = double.Parse(values[4], IOConstants.FORMATTER);
             TimeQueueing = double.Parse(values[5], IOConstants.FORMATTER);
-            TotalTimeQueueing = double.Parse(values[6], IOConstants.FORMATTER);
-            TaskTimeRest = double.Parse(values[7], IOConstants.FORMATTER);
-            DistanceTraveled = double.Parse(values[8], IOConstants.FORMATTER);
+
+            //TotalTimeQueueing = double.Parse(values[6], IOConstants.FORMATTER);
+            //TaskTimeRest = double.Parse(values[7], IOConstants.FORMATTER);
+            //DistanceTraveled = double.Parse(values[8], IOConstants.FORMATTER);
         }
         /// <summary>
         /// Creates a line serialization of this datapoint.
@@ -2760,10 +2762,10 @@ namespace RAWSimO.Core.Statistics
                 TurnoverTime.ToString(IOConstants.EXPORT_FORMAT_SHORTER, IOConstants.FORMATTER) + IOConstants.DELIMITER_VALUE +
                 ThroughputTime.ToString(IOConstants.EXPORT_FORMAT_SHORTER, IOConstants.FORMATTER) + IOConstants.DELIMITER_VALUE +
                 Lateness.ToString(IOConstants.EXPORT_FORMAT_SHORTER, IOConstants.FORMATTER) + IOConstants.DELIMITER_VALUE +
-                TimeQueueing.ToString(IOConstants.EXPORT_FORMAT_SHORTER, IOConstants.FORMATTER) + IOConstants.DELIMITER_VALUE +
-                TotalTimeQueueing.ToString(IOConstants.EXPORT_FORMAT_SHORTER, IOConstants.FORMATTER) + IOConstants.DELIMITER_VALUE +
-                TaskTimeRest.ToString(IOConstants.EXPORT_FORMAT_SHORTER, IOConstants.FORMATTER) + IOConstants.DELIMITER_VALUE +
-                DistanceTraveled.ToString(IOConstants.EXPORT_FORMAT_SHORT, IOConstants.FORMATTER);
+                TimeQueueing.ToString(IOConstants.EXPORT_FORMAT_SHORTER, IOConstants.FORMATTER);
+        //        TotalTimeQueueing.ToString(IOConstants.EXPORT_FORMAT_SHORTER, IOConstants.FORMATTER) + IOConstants.DELIMITER_VALUE +
+        //        TaskTimeRest.ToString(IOConstants.EXPORT_FORMAT_SHORTER, IOConstants.FORMATTER) + IOConstants.DELIMITER_VALUE +
+        //        DistanceTraveled.ToString(IOConstants.EXPORT_FORMAT_SHORT, IOConstants.FORMATTER);
         }
         /// <summary>
         /// Creates a header for the line serializations.
@@ -2777,10 +2779,11 @@ namespace RAWSimO.Core.Statistics
                 nameof(TurnoverTime) + IOConstants.DELIMITER_VALUE +
                 nameof(ThroughputTime) + IOConstants.DELIMITER_VALUE +
                 nameof(Lateness) + IOConstants.DELIMITER_VALUE +
-                nameof(TimeQueueing) + IOConstants.DELIMITER_VALUE +
-                nameof(TotalTimeQueueing) + IOConstants.DELIMITER_VALUE +
-                nameof(TaskTimeRest) + IOConstants.DELIMITER_VALUE +
-                nameof(DistanceTraveled);
+                nameof(TimeQueueing);
+                //+ IOConstants.DELIMITER_VALUE +
+                //nameof(TotalTimeQueueing) + IOConstants.DELIMITER_VALUE +
+                //nameof(TaskTimeRest) + IOConstants.DELIMITER_VALUE +
+                //nameof(DistanceTraveled);
         }
     }
 
@@ -2887,14 +2890,7 @@ namespace RAWSimO.Core.Statistics
         /// The distance traveled between this timestamp and the last one.
         /// </summary>
         public double DistanceTraveled;
-        /// <summary>
-        /// total queuing time
-        /// </summary>
-        //public double TotalTimeQueueing;
-        /// <summary>
-        /// robot rest time
-        /// </summary>
-        //public double TaskTimeRest;
+        
         /// <summary>
         /// Creates a new datapoint.
         /// </summary>

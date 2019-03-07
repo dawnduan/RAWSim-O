@@ -166,3 +166,137 @@ Stacktrace:
 InnerException: 
 None
 -----------------------------------------------------------
+-----------------------------------------------------------
+!!! Caught an unhandled exception: Input string was not in a correct format. timestamp: 03/07/2019 14:05:41
+-----------------------------------------------------------
+Time: 3/7/2019 2:05:41 PM
+Instance: 1-1-2-6-0.85.xlayo
+Setting: Letter-Fixed-600.xsett
+ControlConfig: PPFAR-TAShortestDistance-SAConstantRatio-ISEmptiest-PSFixed-RPDummy-OBDefault-RBSamePod-MMNoChange.xconf
+Seed: stats0307
+Tag: <null>
+Stacktrace:
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at RAWSimO.CLI.Program.Main(String[] args) in C:\RAWSim-O\RAWSimO.CLI\Program.cs:line 164
+InnerException: 
+None
+-----------------------------------------------------------
+-----------------------------------------------------------
+!!! Caught an unhandled exception: Input string was not in a correct format. timestamp: 03/07/2019 14:08:07
+-----------------------------------------------------------
+Time: 3/7/2019 2:08:07 PM
+Instance: 1-1-2-6-0.85.xlayo
+Setting: Letter-Fixed-600.xsett
+ControlConfig: PPFAR-TAShortestDistance-SAConstantRatio-ISEmptiest-PSFixed-RPDummy-OBDefault-RBSamePod-MMNoChange.xconf
+Seed: stats0307
+Tag: <null>
+Stacktrace:
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at RAWSimO.CLI.Program.Main(String[] args) in C:\RAWSim-O\RAWSimO.CLI\Program.cs:line 164
+InnerException: 
+None
+-----------------------------------------------------------
+-----------------------------------------------------------
+!!! Caught an unhandled exception: Input string was not in a correct format. timestamp: 03/07/2019 14:41:49
+-----------------------------------------------------------
+Time: 3/7/2019 2:41:49 PM
+Instance: 1-1-2-6-0.85.xlayo
+Setting: Letter-Fixed-600.xsett
+ControlConfig: PPFAR-TAShortestDistance-SAConstantRatio-ISEmptiest-PSFixed-RPDummy-OBDefault-RBSamePod-MMNoChange.xconf
+Seed: stats0307
+Tag: <null>
+Stacktrace:
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at RAWSimO.CLI.Program.Main(String[] args) in C:\RAWSim-O\RAWSimO.CLI\Program.cs:line 164
+InnerException: 
+None
+-----------------------------------------------------------
+-----------------------------------------------------------
+!!! Caught an unhandled exception: Input string was not in a correct format. timestamp: 03/07/2019 14:45:42
+-----------------------------------------------------------
+Time: 3/7/2019 2:45:42 PM
+Instance: 1-1-2-6-0.85.xlayo
+Setting: Letter-Fixed-600.xsett
+ControlConfig: PPFAR-TAShortestDistance-SAConstantRatio-ISEmptiest-PSFixed-RPDummy-OBDefault-RBSamePod-MMNoChange.xconf
+Seed: stats0307
+Tag: <null>
+Stacktrace:
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at RAWSimO.CLI.Program.Main(String[] args) in C:\RAWSim-O\RAWSimO.CLI\Program.cs:line 164
+InnerException: 
+None
+-----------------------------------------------------------
+-----------------------------------------------------------
+!!! Caught an unhandled exception: Input string was not in a correct format. timestamp: 03/07/2019 14:50:18
+-----------------------------------------------------------
+Time: 3/7/2019 2:50:18 PM
+Instance: 1-1-2-6-0.85.xlayo
+Setting: Letter-Fixed-600.xsett
+ControlConfig: PPFAR-TAShortestDistance-SAConstantRatio-ISEmptiest-PSFixed-RPDummy-OBDefault-RBSamePod-MMNoChange.xconf
+Seed: stats0307
+Tag: <null>
+Stacktrace:
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at RAWSimO.CLI.Program.Main(String[] args) in C:\RAWSim-O\RAWSimO.CLI\Program.cs:line 165
+InnerException: 
+None
+-----------------------------------------------------------
+-----------------------------------------------------------
+!!! Caught an unhandled exception: Input string was not in a correct format. timestamp: 03/07/2019 14:51:34
+-----------------------------------------------------------
+Time: 3/7/2019 2:51:34 PM
+Instance: 1-1-2-6-0.85.xlayo
+Setting: Letter-Fixed-600.xsett
+ControlConfig: PPFAR-TAShortestDistance-SAConstantRatio-ISEmptiest-PSFixed-RPDummy-OBDefault-RBSamePod-MMNoChange.xconf
+Seed: stats0307
+Tag: <null>
+Stacktrace:
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at RAWSimO.CLI.Program.Main(String[] args) in C:\RAWSim-O\RAWSimO.CLI\Program.cs:line 165
+InnerException: 
+None
+-----------------------------------------------------------
+-----------------------------------------------------------
+!!! Caught an unhandled exception: Input string was not in a correct format. timestamp: 03/07/2019 14:53:16
+-----------------------------------------------------------
+Time: 3/7/2019 2:53:16 PM
+Instance: 1-1-2-6-0.85.xlayo
+Setting: Letter-Fixed-600.xsett
+ControlConfig: PPFAR-TAShortestDistance-SAConstantRatio-ISEmptiest-PSFixed-RPDummy-OBDefault-RBSamePod-MMNoChange.xconf
+Seed: stats0307
+Tag: <null>
+Stacktrace:
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at RAWSimO.CLI.Program.Main(String[] args) in C:\RAWSim-O\RAWSimO.CLI\Program.cs:line 165
+InnerException: 
+None
+-----------------------------------------------------------
+-----------------------------------------------------------
+!!! Caught an unhandled exception: The given key was not present in the dictionary. timestamp: 03/07/2019 14:54:18
+-----------------------------------------------------------
+Time: 3/7/2019 2:54:18 PM
+Instance: 1-1-2-6-0.85.xlayo
+Setting: Letter-Fixed-600.xsett
+ControlConfig: PPFAR-TAShortestDistance-SAConstantRatio-ISEmptiest-PSFixed-RPDummy-OBDefault-RBSamePod-MMNoChange.xconf
+Seed: 2
+Tag: <null>
+Stacktrace:
+   at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RAWSimO.Core.Statistics.FootprintDatapoint.<GetFootprint>b__11_0(FootPrintEntry e) in C:\RAWSim-O\RAWSimO.Core\Statistics\DataPoint.cs:line 1870
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.String.Join(String separator, IEnumerable`1 values)
+   at RAWSimO.Core.Statistics.FootprintDatapoint.GetFootprint() in C:\RAWSim-O\RAWSimO.Core\Statistics\DataPoint.cs:line 1868
+   at RAWSimO.Core.Instance.WriteStatistics() in C:\RAWSim-O\RAWSimO.Core\InstanceStatistics.cs:line 748
+   at RAWSimO.Core.Control.SimulationExecutor.Execute(Instance instance) in C:\RAWSim-O\RAWSimO.Core\Control\SimulationExecutor.cs:line 37
+   at RAWSimO.CLI.Program.Main(String[] args) in C:\RAWSim-O\RAWSimO.CLI\Program.cs:line 185
+InnerException: 
+None
+-----------------------------------------------------------
