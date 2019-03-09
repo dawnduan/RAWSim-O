@@ -849,11 +849,11 @@ PodHandlingTimeVar: 22.8198087255299
 PodHandlingTimeMin: 10.2929653606034
 PodHandlingTimeMax: 20.3160173196982
 >>> Timings
-StatTimingPathPlanningAverage: 0.000413295939086294
-StatTimingPathPlanningOverall: 0.1628386
+StatTimingPathPlanningAverage: 0.000173777411167513
+StatTimingPathPlanningOverall: 0.0684683
 StatTimingPathPlanningCount: 394
-StatTimingTaskAllocationAverage: 0.000642057553956835
-StatTimingTaskAllocationOverall: 0.089246
+StatTimingTaskAllocationAverage: 0.000725681294964029
+StatTimingTaskAllocationOverall: 0.1008697
 StatTimingTaskAllocationCount: 139
 StatTimingItemStorageAverage: 0
 StatTimingItemStorageOverall: 0
@@ -864,8 +864,8 @@ StatTimingPodStorageCount: 12
 StatTimingReplenishmentBatchingAverage: 0
 StatTimingReplenishmentBatchingOverall: 0
 StatTimingReplenishmentBatchingCount: 3
-StatTimingOrderBatchingAverage: 0
-StatTimingOrderBatchingOverall: 0
+StatTimingOrderBatchingAverage: 0.00226342727272727
+StatTimingOrderBatchingOverall: 0.0248977
 StatTimingOrderBatchingCount: 11
 >>> Overall
 StatOverallBundlesPlaced: 2
@@ -882,8 +882,8 @@ StatAverageTurnoverTime: 97.1281160221991
 StatOverallDistanceTraveled: 2305.13181975125
 StatOverallDistanceEstimated: 2249
 StatOverallAssignedTasks: 133
-StatMaxMemoryUsed: 37.35546875
-StatRealTimeUsed: 0.6562445
+StatMaxMemoryUsed: 37.3359375
+StatRealTimeUsed: 0.6663312
 StatMedianTurnoverTime: 90.9961508505809
 StatLowerQuartileTurnoverTime: 77.0130605553317
 StatUpperQuartileTurnoverTime: 118.205770154538
