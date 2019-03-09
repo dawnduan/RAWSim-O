@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ControlConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>PPFAR-TAShortestDistance-SAConstantRatio-ISEmptiest-PSFixed-RPDummy-OBDefault-RBSamePod-MMNoChange</Name>
+  <Name>PPFAR-TABruteForce-SAConstantRatio-ISEmptiest-PSFixed-RPDummy-OBDefault-RBSamePod-MMNoChange</Name>
   <PathPlanningConfig xsi:type="FARPathPlanningConfiguration">
     <Name />
     <AutoSetParameter>false</AutoSetParameter>
@@ -13,7 +13,7 @@
     <NoBackEvading>true</NoBackEvading>
     <UseDeadlockHandler>true</UseDeadlockHandler>
   </PathPlanningConfig>
-  <TaskAllocationConfig xsi:type="ShortestDistanceTaskAllocationConfiguration">
+  <TaskAllocationConfig xsi:type="BruteForceTaskAllocationConfiguration">
     <Name />
   </TaskAllocationConfig>
   <StationActivationConfig xsi:type="ConstantRatioStationActivationConfiguration">
