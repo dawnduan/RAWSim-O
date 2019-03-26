@@ -41,27 +41,60 @@ namespace RAWSimO.Core.Control.Defaults.TaskAllocation
 
         private bool DoExtractTaskWithPod(Bot bot, Pod pod)
         {
-            // Bring items to the randomly selected first fitting station
-            foreach (var oStation in Instance.OutputStations.OrderBy(s => GetOrderValue(s, bot)))
-            {
-                // Search for requests matching the items of the pod
-                List<ExtractRequest> fittingRequests = GetPossibleRequests(pod, oStation, PodSelectionExtractRequestFilteringMode.AssignedOnly);
-                if (fittingRequests.Any())
-                {
-                    ExtractRequest oldestRequest = fittingRequests.OrderBy(o => o.Order.TimeStamp).First();
-                    // Simply execute the next task with the pod
-                    EnqueueExtract(
-                        bot, // The bot itself
-                        oStation, // The random station
-                        pod, // Keep the pod
-                        new List<ExtractRequest> { oldestRequest }); // The first requests to serve
+            bestExtractTask = null;
+            bestTimestampForExtract = 0.0;
 
-                    // Finished search for next task
-                    return true;
+            
+            foreach (var delivery in Instance.ResourceManager.AvailableAndAssignedExtractRequests)
+            {
+                // If it has the item
+                if (pod.IsContained(delivery.Item))
+                {
+                    timestamp = delivery.Order.Timestamp
+                    // If it's the best, then use it
+                    if (timestamp < bestTimestampForExtract)
+                    {
+                        bestExtractTask = delivery;
+                        bestTimestampForExtract = timestamp;
+                    }
                 }
             }
+        
+
+            
+            // Bring items to the randomly selected first fitting station
+//             foreach (var oStation in Instance.OutputStations.OrderBy(s => GetOrderValue(s, bot)))
+//             {
+//                 // Search for requests matching the items of the pod
+//                 List<ExtractRequest> fittingRequests = GetPossibleRequests(pod, oStation, PodSelectionExtractRequestFilteringMode.AssignedOnly);
+//                 if (fittingRequests.Any())
+//                 {
+//                     ExtractRequest oldestRequest = fittingRequests.OrderBy(o => o.Order.TimeStamp).First();
+//                     // Simply execute the next task with the pod
+//                     EnqueueExtract(
+//                         bot, // The bot itself
+//                         oStation, // The random station
+//                         pod, // Keep the pod
+//                         new List<ExtractRequest> { oldestRequest }); // The first requests to serve
+
+//                     // Finished search for next task
+//                     return true;
+//                 }
+//             }
+            if (bestExtractTask != Null){
+                // Simply execute the next task with the pod
+                EnqueueExtract(
+                    bot, // The bot itself
+                    oStation, // The random station
+                    pod, // Keep the pod
+                    new List<ExtractRequest> { oldestRequest }); // The first requests to serve
+                    
+                    // Finished search for next task
+                    return true;
+            } else{
             // No fitting request
             return false;
+            }
         }
 
         private bool DoStoreTaskWithPod(Bot bot, Pod pod)
