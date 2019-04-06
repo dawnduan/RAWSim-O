@@ -64,6 +64,44 @@ namespace RAWSimO.Core.Control.Defaults.TaskAllocation
             return false;
         }
 
+        private bool DoExtractTaskWithoutPod(Bot bot)
+        {
+            double oldestTime = Double.PositiveInfinity;
+            ExtractRequest bestRequest = null;
+            Pod bestPod = null;
+            OutputStation bestOstation = null;
+            foreach (var pod in Instance.ResourceManager.UnusedPods.OrderBy(b => GetOrderValue(b, bot)))
+            {
+                foreach (var oStation in Instance.OutputStations.OrderBy(s => GetOrderValue(s, bot)))
+                {
+                    List<ExtractRequest> fittingRequests = GetPossibleRequests(pod, oStation, PodSelectionExtractRequestFilteringMode.AssignedOnly);
+                    if (fittingRequests.Any())
+                    {
+                        ExtractRequest oldestRequest = fittingRequests.OrderBy(o => o.Order.TimeStamp).First();
+                        double currTime = oldestRequest.Order.TimeStamp;
+                        if (currTime < oldestTime)
+                        {
+                            bestRequest = oldestRequest;
+                            bestPod = pod;
+                            bestOstation = oStation;
+                        }
+                    }
+                }
+            }
+            if (bestRequest != null)
+            {
+                EnqueueExtract(
+                        bot, // The bot itself
+                        bestOstation, // The random station
+                        bestPod, // Keep the pod
+                        new List<ExtractRequest> { bestRequest }); // The first requests to serve
+                // Finished search for next task
+                return true;
+            }
+            // No fitting request
+            return false;
+        }
+
         private bool DoStoreTaskWithPod(Bot bot, Pod pod)
         {
             // Fetch bundles from the randomly selected first station
@@ -114,14 +152,8 @@ namespace RAWSimO.Core.Control.Defaults.TaskAllocation
                 }
                 else
                 {
-                    // Try to do another store task
-                    if (DoStoreTaskWithPod(bot, bot.Pod))
-                        // Successfully allocated next task
-                        return;
-                    // Try other mode if allowed
-                    if (_config.SwitchModeIfNoWork && DoExtractTaskWithPod(bot, bot.Pod))
-                        // Successfully allocated next task
-                        return;
+                    _extractMode[bot] = true;
+                    return;
                 }
 
                 // No job available for the pod - just put the pod back to inventory
@@ -140,89 +172,13 @@ namespace RAWSimO.Core.Control.Defaults.TaskAllocation
             }
 
             // --> Get a pod which offers a job
-            if (_extractMode[bot])
-            {
-                // Try to do extract job with any pod
-                foreach (var pod in Instance.ResourceManager.UnusedPods.OrderBy(b => GetOrderValue(b, bot)))
-                    // Try to do extract task with this pod
-                    if (DoExtractTaskWithPod(bot, pod))
-                        // Successfully allocated next task
-                        return;
-                // Try other mode if allowed
-                //if (_config.SwitchModeIfNoWork)
-                //    // Try to do store job with any pod
-                //    foreach (var pod in Instance.ResourceManager.UnusedPods.OrderBy(b => GetOrderValue(b, bot)))
-                //        // Try to do another store task
-                //        if (DoStoreTaskWithPod(bot, pod))
-                //            // Successfully allocated next task
-                //            return;
-                GetOutOfTheWay(bot);
-                // Choose resting location
-                //Waypoint restingLocation =
-                //// Check whether the last task was resting too
-                //    lastTask != null && lastTask.Type == BotTaskType.Rest && Instance.ResourceManager.IsRestingLocationAvailable(bot.CurrentWaypoint) ?
-                //// We already rested before and did not move since then - simply stay at the current resting location
-                //    bot.CurrentWaypoint :
-                //// We need to choose a new resting location
-                ////Instance.ResourceManager.UnusedRestingLocations.ElementAt(Instance.Randomizer.NextInt(Instance.ResourceManager.UnusedRestingLocations.Count()));
-                //    getCloestRestPoint(bot);
-                //if (lastTask != null) Console.Write(lastTask.Type.ToString(), Instance.ResourceManager.IsRestingLocationAvailable(bot.CurrentWaypoint));
-                //Console.Write(bot.CurrentWaypoint == restingLocation);
-                //// No job in this mode available right now - chill until mode switch or task gets available
-                //EnqueueRest(bot, restingLocation);
-                if (!_extractMode[bot])
-                {
-                    Console.Write(_extractMode[bot]);
-                }
-            }
-            else
-            {
-                if (!_extractMode[bot])
-                {
-                    Console.Write(_extractMode[bot]);
-                }
-                // Try to do store job with any pod
-                foreach (var pod in Instance.ResourceManager.UnusedPods.OrderBy(b => GetOrderValue(b, bot)))
-                    // Try to do another store task
-                    if (DoStoreTaskWithPod(bot, pod))
-                        // Successfully allocated next task
-                        return;
-                // Try other mode if allowed
-                //if (_config.SwitchModeIfNoWork)
-                //    // Try to do store job with any pod
-                //    foreach (var pod in Instance.ResourceManager.UnusedPods.OrderBy(b => GetOrderValue(b, bot)))
-                //        // Try to do extract task with this pod
-                //        if (DoExtractTaskWithPod(bot, pod))
-                //            // Successfully allocated next task
-                //            return;
-                GetOutOfTheWay(bot);
-                // Choose resting location
-                //Waypoint restingLocation =
-                //    // Check whether the last task was resting too
-                //    lastTask != null && lastTask.Type == BotTaskType.Rest && Instance.ResourceManager.IsRestingLocationAvailable(bot.CurrentWaypoint) ?
-                //    // We already rested before and did not move since then - simply stay at the current resting location
-                //    bot.CurrentWaypoint :
-                //    // We need to choose a new resting location
-                //    //Instance.ResourceManager.UnusedRestingLocations.ElementAt(Instance.Randomizer.NextInt(Instance.ResourceManager.UnusedRestingLocations.Count()));
-                //    getCloestRestPoint(bot);
+            // ignore extraction mode
+            if (DoExtractTaskWithoutPod(bot))
+                // Successfully allocated next task
+                return;
 
-                //// No job in this mode available right now - chill until mode switch or task gets available
-                //EnqueueRest(bot, restingLocation);
-            }
-            //GetOutOfTheWay(bot);
-            // Choose resting location
-            //Waypoint restLocation =
-            //    // Check whether the last task was resting too
-            //    lastTask != null && lastTask.Type == BotTaskType.Rest && Instance.ResourceManager.IsRestingLocationAvailable(bot.CurrentWaypoint) ?
-            //    // We already rested before and did not move since then - simply stay at the current resting location
-            //    bot.CurrentWaypoint :
-            //    // We need to choose a new resting location
-            //    //Instance.ResourceManager.UnusedRestingLocations.ElementAt(Instance.Randomizer.NextInt(Instance.ResourceManager.UnusedRestingLocations.Count()));
-            //    getCloestRestPoint(bot);
-            //if (lastTask != null) Console.Write(lastTask.Type.ToString(), Instance.ResourceManager.IsRestingLocationAvailable(bot.CurrentWaypoint));
-            //Console.Write(bot.CurrentWaypoint == restLocation);
-            //// Absolutely no task available - chill
-            //EnqueueRest(bot, restLocation);
+            GetOutOfTheWay(bot);
+           
         }
         /// <summary>
         /// Finds the best delivery task for the specified pod.

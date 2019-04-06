@@ -1,0 +1,111 @@
+<<< Welcome to the RAWSimO CLI >>>
+The time is: 04/06/2019 21:39:16
+Starting RAWSimO wrapper with the following arguments:
+Instance: 1-1-2-6-0.85.xlayo
+Setting: Letter-Fixed-7200-100.xsett
+ControlConfig: PPFAR-TARandom-SAConstantRatio-ISEmptiest-PSFixed-RPDummy-OBDefault-RBSamePod-MMNoChange.xconf
+StatisticsDir: Random_100
+Seed: 2
+Adding handler for unhandled exceptions ...
+Initializing ... 
+LayoutConfiguration recognized!
+Parsing setting config ...
+Parsing control config ...
+Parsing layout config ...
+Generating instance...
+Info about all directions within the generated instance:
+# # # # e p e e e e e p p p p p p p p p e p p p p p p p p p e p p p p p e e e e e s # # # # 
+# # # # n q w w w w ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + q w w w w d q # # # # 
+# # # # b p e e e e b + + + + v + + + + ^ + + + + v + + + + ^ + + + + v e e e e b s # # # # 
+s w w w d q w w w w d < < < < q < < < < d < < < < q < < < < d < < < < q w w w w d q w w w w 
+p e e s b p e e e e b + + + + v + + + + ^ + + + + v + + + + ^ + + + + v e e e e b p e e e n 
+s w w w d q w w w w ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + q w w w w d q n w w d 
+e e e e b p e e e e b > > > > p > > > > b > > > > p > > > > b > > > > p e e e e b p e e e n 
+# # # # n q w w w w ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + q w w w w d q # # # # 
+# # # # b p e e e e b + + + + v + + + + ^ + + + + v + + + + ^ + + + + v e e e e b s # # # # 
+# # # # n q w w w w d < < < < q < < < < d < < < < q < < < < d < < < < q w w w w d q w w w w 
+# # # # b p e e e e b + + + + v + + + + ^ + + + + v + + + + ^ + + + + v e e e e b p e e e n 
+# # # # n q w w w w ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + q w w w w d q n w w d 
+# # # # b p e e e e b > > > > p > > > > b > > > > p > > > > b > > > > p e e e e b p e e e n 
+# # # # n q w w w w ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + q w w w w d q # # # # 
+# # # # b p e e e e b + + + + v + + + + ^ + + + + v + + + + ^ + + + + v e e e e b s # # # # 
+# # # # n w w w w w d d d d d w d d d d d d d d d w d d d d d d d d d w w w w w d w # # # # 
+
+
+Info about all types within the generated instance:
+# # # # r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r # # # # 
+# # # # r r r r r r r s s s s r s s s s r s s s s r s s s s r s s s s r r r r r r r # # # # 
+# # # # r r r r r r r s s s s r s s s s r s s s s r s s s s r s s s s r r r r r r r # # # # 
+b b b b r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r b b b o 
+b b b b r r r r r r r s s s s r s s s s r s s s s r s s s s r s s s s r r r r r r r b b b b 
+b b b b r r r r r r r s s s s r s s s s r s s s s r s s s s r s s s s r r r r r r r b b b b 
+i b b b r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r b b b b 
+# # # # r r r r r r r s s s s r s s s s r s s s s r s s s s r s s s s r r r r r r r # # # # 
+# # # # r r r r r r r s s s s r s s s s r s s s s r s s s s r s s s s r r r r r r r # # # # 
+# # # # r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r b b b o 
+# # # # r r r r r r r s s s s r s s s s r s s s s r s s s s r s s s s r r r r r r r b b b b 
+# # # # r r r r r r r s s s s r s s s s r s s s s r s s s s r s s s s r r r r r r r b b b b 
+# # # # r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r b b b b 
+# # # # r r r r r r r s s s s r s s s s r s s s s r s s s s r s s s s r r r r r r r # # # # 
+# # # # r r r r r r r s s s s r s s s s r s s s s r s s s s r s s s s r r r r r r r # # # # 
+# # # # r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r # # # # 
+
+
+StatisticsFolder: 1-1-2-6-0.85-Letter-Fixed-7200-PPFAR-TARandom-SAConstantRatio-ISEmptiest-PSFixed-RPDummy-OBDefault-RBSamePod-MMNoChange-2
+Done!
+Executing ... 
+ 21:39:17 | >>> Warming up ...
+ 00:00:00 | >>> Warmup finished - starting simulation ...
+ Realtime |   ETA    |  Sim.Time  | Progress | #Orders | #Bundles | Inv. | Distance | #Coll. |   Memory    
+ 00:00:00 |   n/a    | 0.00:00:00 |  0.00%   |    0    |    0     | 70%  |    0     |   0    |  36.09MB  
+ 00:00:04 | 00:00:00 | 0.02:00:00 | 100.00%  |   100   |    0     | 68%  |  23536   |   0    |  40.29MB  
+ 00:00:04 | >>> Simulation finished - writing results ...
+ 00:00:04 | >>> Results written
+Simulation finished.
+>>> Timings
+StatTimingPathPlanningAverage: 0.000238365823068309
+StatTimingPathPlanningOverall: 1.0643034
+StatTimingPathPlanningCount: 4465
+StatTimingTaskAllocationAverage: 0.000525925217391305
+StatTimingTaskAllocationOverall: 0.907221
+StatTimingTaskAllocationCount: 1725
+StatTimingItemStorageAverage: 1.56665796344648E-05
+StatTimingItemStorageOverall: 0.0060003
+StatTimingItemStorageCount: 383
+StatTimingPodStorageAverage: 3.1253125E-05
+StatTimingPodStorageOverall: 0.0010001
+StatTimingPodStorageCount: 32
+StatTimingReplenishmentBatchingAverage: 0.000155244444444444
+StatTimingReplenishmentBatchingOverall: 0.006986
+StatTimingReplenishmentBatchingCount: 45
+StatTimingOrderBatchingAverage: 0.0001050765
+StatTimingOrderBatchingOverall: 0.0210153
+StatTimingOrderBatchingCount: 200
+>>> Overall
+StatOverallBundlesPlaced: 34
+StatOverallItemsOrdered: 348
+StatOverallOrdersPlaced: 100
+StatOverallBundlesRejected: 0
+StatOverallOrdersRejected: 0
+StatOverallBundlesHandled: 0
+StatOverallItemsHandled: 348
+StatOverallLinesHandled: 333
+StatOverallOrdersHandled: 100
+StatOverallCollisions: 0
+StatAverageTurnoverTime: 1117.33561553916
+StatOverallDistanceTraveled: 23536.4632034355
+StatOverallDistanceEstimated: 22522
+StatOverallAssignedTasks: 1725
+StatMaxMemoryUsed: 40.80859375
+StatRealTimeUsed: 4.2552672
+StatMedianTurnoverTime: 1140.67991666703
+StatLowerQuartileTurnoverTime: 714.179716394219
+StatUpperQuartileTurnoverTime: 1518.57463185363
+StatAverageThroughputTime: 479.549503728406
+StatMedianThroughputTime: 453.78388888889
+StatLowerQuartileThroughputTime: 282.613333333337
+StatUpperQuartileThroughputTime: 627.914069278791
+StatOverallTotalTimeQueueing: 4823.22083351052
+
+Marked tag finished after 1 tries!
+.Fin. - SUCCESS
