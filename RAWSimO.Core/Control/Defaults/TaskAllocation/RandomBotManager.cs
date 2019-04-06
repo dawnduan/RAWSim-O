@@ -111,10 +111,7 @@ namespace RAWSimO.Core.Control.Defaults.TaskAllocation
                     if (DoExtractTaskWithPod(bot, bot.Pod))
                         // Successfully allocated next task
                         return;
-                    // Try other mode if allowed
-                    //if (_config.SwitchModeIfNoWork && DoStoreTaskWithPod(bot, bot.Pod))
-                    //    // Successfully allocated next task
-                    //    return;
+                    
                 }
                 else
                 {
@@ -181,15 +178,7 @@ namespace RAWSimO.Core.Control.Defaults.TaskAllocation
                     if (DoStoreTaskWithPod(bot, pod))
                         // Successfully allocated next task
                         return;
-                // Try other mode if allowed
-                //if (_config.SwitchModeIfNoWork)
-                //    // Try to do store job with any pod
-                //    foreach (var pod in Instance.ResourceManager.UnusedPods.OrderBy(b => GetOrderValue(b, bot)))
-                //        // Try to do extract task with this pod
-                //        if (DoExtractTaskWithPod(bot, pod))
-                //            // Successfully allocated next task
-                //            return;
-                //GetOutOfTheWay(bot);
+                
                 // Choose resting location
                 Waypoint restingLocation =
                     // Check whether the last task was resting too
