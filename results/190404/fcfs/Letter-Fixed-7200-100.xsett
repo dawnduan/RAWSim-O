@@ -2,7 +2,7 @@
 <SettingConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Letter-Fixed-7200</Name>
   <SimulationWarmupTime>0</SimulationWarmupTime>
-  <SimulationDuration>7200</SimulationDuration>
+  <SimulationDuration>2500</SimulationDuration>
   <Seed>0</Seed>
   <LogLevel>Info</LogLevel>
   <LogFileLevel>All</LogFileLevel>
@@ -20,14 +20,14 @@
     <ItemType>Letter</ItemType>
     <OrderMode>Fixed</OrderMode>
     <SubmitBatches>false</SubmitBatches>
-    <InitialInventory>0.7</InitialInventory>
+    <InitialInventory>1</InitialInventory>
     <IgnoreCapacityForBundleGeneration>false</IgnoreCapacityForBundleGeneration>
     <BufferBundlesUntilInventoryLoad>1.1</BufferBundlesUntilInventoryLoad>
     <WarmupOrderCount>5000</WarmupOrderCount>
     <ItemWeightMin>5</ItemWeightMin>
     <ItemWeightMax>5</ItemWeightMax>
-    <BundleSizeMin>6</BundleSizeMin>
-    <BundleSizeMax>6</BundleSizeMax>
+    <BundleSizeMin>5</BundleSizeMin>
+    <BundleSizeMax>5</BundleSizeMax>
     <ReturnOrderProbability>0</ReturnOrderProbability>
     <PositionCountMean>1</PositionCountMean>
     <PositionCountStdDev>0.3</PositionCountStdDev>

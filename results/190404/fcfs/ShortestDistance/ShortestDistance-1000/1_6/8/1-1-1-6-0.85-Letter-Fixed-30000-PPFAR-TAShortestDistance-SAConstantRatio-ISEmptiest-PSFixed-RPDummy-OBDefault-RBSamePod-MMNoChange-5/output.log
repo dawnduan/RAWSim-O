@@ -1,0 +1,144 @@
+<<< Welcome to the RAWSimO CLI >>>
+The time is: 04/08/2019 09:07:03
+Starting RAWSimO wrapper with the following arguments:
+Instance: 1-1-1-6-0.85-8.xlayo
+Setting: Letter-Fixed-30000-1000.xsett
+ControlConfig: PPFAR-TAShortestDistance-SAConstantRatio-ISEmptiest-PSFixed-RPDummy-OBDefault-RBSamePod-MMNoChange.xconf
+StatisticsDir: ShortestDistance\ShortestDistance-1000\1_6\8
+Seed: 5
+Adding handler for unhandled exceptions ...
+Initializing ... 
+LayoutConfiguration recognized!
+Parsing setting config ...
+Parsing control config ...
+Parsing layout config ...
+Generating instance...
+Info about all directions within the generated instance:
+# # # # e p e e e e e p p p p p p p p p e p p p p p p p p p e p p p p p p p p p e p p p p p p p p p e p p p p p e e e e e s # # # # 
+# # # # n q w w w w ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + q w w w w d q # # # # 
+# # # # b p e e e e b + + + + v + + + + ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + v e e e e b s # # # # 
+# # # # n q w w w w d < < < < q < < < < d < < < < q < < < < d < < < < q < < < < d < < < < q < < < < d < < < < q w w w w d q w w w w 
+# # # # b p e e e e b + + + + v + + + + ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + v e e e e b p e e e n 
+# # # # n q w w w w ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + q w w w w d q n w w d 
+# # # # b p e e e e b > > > > p > > > > b > > > > p > > > > b > > > > p > > > > b > > > > p > > > > b > > > > p e e e e b p e e e n 
+# # # # n q w w w w ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + q w w w w d q # # # # 
+# # # # b p e e e e b + + + + v + + + + ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + v e e e e b s # # # # 
+s w w w d q w w w w d < < < < q < < < < d < < < < q < < < < d < < < < q < < < < d < < < < q < < < < d < < < < q w w w w d q w w w w 
+p e e s b p e e e e b + + + + v + + + + ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + v e e e e b p e e e n 
+s w w w d q w w w w ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + q w w w w d q n w w d 
+e e e e b p e e e e b > > > > p > > > > b > > > > p > > > > b > > > > p > > > > b > > > > p > > > > b > > > > p e e e e b p e e e n 
+# # # # n q w w w w ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + q w w w w d q # # # # 
+# # # # b p e e e e b + + + + v + + + + ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + v e e e e b s # # # # 
+# # # # n q w w w w d < < < < q < < < < d < < < < q < < < < d < < < < q < < < < d < < < < q < < < < d < < < < q w w w w d q # # # # 
+# # # # b p e e e e b + + + + v + + + + ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + v e e e e b s # # # # 
+# # # # n q w w w w ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + q w w w w d q # # # # 
+# # # # b p e e e e b > > > > p > > > > b > > > > p > > > > b > > > > p > > > > b > > > > p > > > > b > > > > p e e e e b s # # # # 
+# # # # n q w w w w ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + q w w w w d q # # # # 
+# # # # b p e e e e b + + + + v + + + + ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + v + + + + ^ + + + + v e e e e b s # # # # 
+# # # # n w w w w w d d d d d w d d d d d d d d d w d d d d d d d d d w d d d d d d d d d w d d d d d d d d d w w w w w d w # # # # 
+
+
+Info about all types within the generated instance:
+# # # # r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r # # # # 
+# # # # r r r r r r r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r r r r r r r # # # # 
+# # # # r r r r r r r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r r r r r r r # # # # 
+# # # # r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r b b b o 
+# # # # r r r r r r r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r r r r r r r b b b b 
+# # # # r r r r r r r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r r r r r r r b b b b 
+# # # # r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r b b b b 
+# # # # r r r r r r r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r r r r r r r # # # # 
+# # # # r r r r r r r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r r r r r r r # # # # 
+b b b b r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r b b b o 
+b b b b r r r r r r r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r r r r r r r b b b b 
+b b b b r r r r r r r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r r r r r r r b b b b 
+i b b b r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r b b b b 
+# # # # r r r r r r r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r r r r r r r # # # # 
+# # # # r r r r r r r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r r r r r r r # # # # 
+# # # # r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r # # # # 
+# # # # r r r r r r r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r r r r r r r # # # # 
+# # # # r r r r r r r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r r r r r r r # # # # 
+# # # # r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r # # # # 
+# # # # r r r r r r r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r r r r r r r # # # # 
+# # # # r r r r r r r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r s s s s r r r r r r r # # # # 
+# # # # r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r # # # # 
+
+
+StatisticsFolder: 1-1-1-6-0.85-Letter-Fixed-30000-PPFAR-TAShortestDistance-SAConstantRatio-ISEmptiest-PSFixed-RPDummy-OBDefault-RBSamePod-MMNoChange-5
+Done!
+Executing ... 
+ 09:07:05 | >>> Warming up ...
+ 00:00:00 | >>> Warmup finished - starting simulation ...
+ Realtime |   ETA    |  Sim.Time  | Progress | #Orders | #Bundles | Inv. | Distance | #Coll. |   Memory    
+ 00:00:00 |   n/a    | 0.00:00:00 |  0.00%   |    0    |    0     | 100% |    0     |   0    |  39.59MB  
+ 00:00:05 | 00:02:33 | 0.00:10:48 |  3.16%   |   13    |    0     | 100% |   329    |   0    |  43.36MB  
+ 00:00:10 | 00:02:40 | 0.00:20:01 |  5.86%   |   41    |    0     | 100% |   498    |   0    |  43.65MB  
+ 00:00:15 | 00:02:31 | 0.00:30:48 |  9.02%   |   74    |    0     | 99%  |   713    |   0    |  43.96MB  
+ 00:00:20 | 00:02:24 | 0.00:41:37 |  12.18%  |   109   |    0     | 99%  |   1079   |   0    |  43.86MB  
+ 00:00:25 | 00:02:13 | 0.00:53:57 |  15.79%  |   139   |    0     | 99%  |   1321   |   0    |  44.01MB  
+ 00:00:30 | 00:02:10 | 0.01:03:53 |  18.70%  |   176   |    0     | 99%  |   1703   |   0    |  44.07MB  
+ 00:00:35 | 00:01:59 | 0.01:17:23 |  22.65%  |   205   |    0     | 98%  |   2371   |   0    |  44.72MB  
+ 00:00:40 | 00:01:55 | 0.01:27:47 |  25.69%  |   241   |    0     | 98%  |   2765   |   0    |  44.39MB  
+ 00:00:45 | 00:01:48 | 0.01:40:09 |  29.31%  |   275   |    0     | 98%  |   3692   |   0    |  44.56MB  
+ 00:00:50 | 00:01:37 | 0.01:55:38 |  33.85%  |   309   |    0     | 97%  |   4320   |   0    |  44.81MB  
+ 00:00:55 | 00:01:24 | 0.02:14:21 |  39.33%  |   346   |    0     | 97%  |   5231   |   0    |  44.88MB  
+ 00:01:00 | 00:01:12 | 0.02:34:55 |  45.34%  |   382   |    0     | 97%  |   5490   |   0    |  45.10MB  
+ 00:01:05 | 00:01:02 | 0.02:54:25 |  51.05%  |   419   |    0     | 97%  |   6576   |   0    |  45.59MB  
+ 00:01:10 | 00:00:52 | 0.03:14:45 |  57.00%  |   465   |    0     | 96%  |   7041   |   0    |  45.66MB  
+ 00:01:15 | 00:00:45 | 0.03:32:55 |  62.32%  |   507   |    0     | 96%  |   7633   |   0    |  45.86MB  
+ 00:01:20 | 00:00:35 | 0.03:55:58 |  69.06%  |   550   |    0     | 96%  |   8715   |   0    |  46.30MB  
+ 00:01:25 | 00:00:27 | 0.04:18:31 |  75.66%  |   598   |    0     | 95%  |   9427   |   0    |  46.53MB  
+ 00:01:30 | 00:00:18 | 0.04:43:58 |  83.11%  |   651   |    0     | 95%  |   9790   |   0    |  46.79MB  
+ 00:01:35 | 00:00:09 | 0.05:10:44 |  90.95%  |   709   |    0     | 94%  |  11317   |   0    |  47.14MB  
+ 00:01:40 | 00:00:01 | 0.05:38:01 |  98.93%  |   768   |    0     | 94%  |  12973   |   0    |  47.55MB  
+ 00:01:40 | 00:00:00 | 0.05:41:40 | 100.00%  |   775   |    0     | 94%  |  13015   |   0    |  47.56MB  
+ 00:01:40 | >>> Simulation finished - writing results ...
+ 00:01:41 | >>> Results written
+Simulation finished.
+>>> Timings
+StatTimingPathPlanningAverage: 0.000259614736612973
+StatTimingPathPlanningOverall: 1.1926701
+StatTimingPathPlanningCount: 4594
+StatTimingTaskAllocationAverage: 0.0312434859463277
+StatTimingTaskAllocationOverall: 88.4815522
+StatTimingTaskAllocationCount: 2832
+StatTimingItemStorageAverage: 0.00226986723375298
+StatTimingItemStorageOverall: 6.6711398
+StatTimingItemStorageCount: 2939
+StatTimingPodStorageAverage: 0
+StatTimingPodStorageOverall: 0
+StatTimingPodStorageCount: 0
+StatTimingReplenishmentBatchingAverage: 3.08477317554241E-05
+StatTimingReplenishmentBatchingOverall: 0.0156398
+StatTimingReplenishmentBatchingCount: 507
+StatTimingOrderBatchingAverage: 0.00040849637599094
+StatTimingOrderBatchingOverall: 0.7214046
+StatTimingOrderBatchingCount: 1766
+>>> Overall
+StatOverallBundlesPlaced: 298
+StatOverallItemsOrdered: 3368
+StatOverallOrdersPlaced: 1000
+StatOverallBundlesRejected: 0
+StatOverallOrdersRejected: 0
+StatOverallBundlesHandled: 0
+StatOverallItemsHandled: 2644
+StatOverallLinesHandled: 2516
+StatOverallOrdersHandled: 775
+StatOverallCollisions: 0
+StatOverallDistanceEstimated: 10150
+StatOverallAssignedTasks: 2832
+StatMaxMemoryUsed: 47.6015625
+StatRealTimeUsed: 100.6624454
+StatMedianTurnoverTime: 9313.7842036913
+StatLowerQuartileTurnoverTime: 4211.51424365573
+StatUpperQuartileTurnoverTime: 14619.332216855
+StatAverageThroughputTime: 590.578220866331
+StatMedianThroughputTime: 344.079999999996
+StatLowerQuartileThroughputTime: 182.055555555557
+StatUpperQuartileThroughputTime: 637.220360779762
+StatOverallTotalTimeQueueing: 83954.7042085162
+StatAverageTurnoverTime: 9568.7673426726
+StatAverageThroughputTime: 590.578220866331
+StatOverallDistanceTraveled: 13014.9999999999
+
+Marked tag finished after 1 tries!
+.Fin. - SUCCESS
