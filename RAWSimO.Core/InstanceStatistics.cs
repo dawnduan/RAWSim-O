@@ -982,8 +982,6 @@ namespace RAWSimO.Core
             sb.AppendLine("StatOverallLinesHandled: " + StatOverallLinesHandled);
             sb.AppendLine("StatOverallOrdersHandled: " + StatOverallOrdersHandled);
             sb.AppendLine("StatOverallCollisions: " + StatOverallCollisions);
-            sb.AppendLine("StatAverageTurnoverTime: " + ((_statOrderTurnoverTimes.Count == 0) ? "0" : _statOrderTurnoverTimes.Average().ToString(IOConstants.FORMATTER)));
-            sb.AppendLine("StatOverallDistanceTraveled: " + StatOverallDistanceTraveled.ToString(IOConstants.FORMATTER));
             sb.AppendLine("StatOverallDistanceEstimated: " + StatOverallDistanceEstimated.ToString(IOConstants.FORMATTER));
             sb.AppendLine("StatOverallAssignedTasks: " + StatOverallAssignedTasks);
             sb.AppendLine("StatMaxMemoryUsed: " + StatMaxMemoryUsed);
@@ -998,7 +996,10 @@ namespace RAWSimO.Core
             sb.AppendLine("StatUpperQuartileThroughputTime: " + ((_statOrderThroughputTimes.Count == 0) ? "0" : StatisticsHelper.GetUpperQuartile(_statOrderThroughputTimes).ToString(IOConstants.FORMATTER)));
             //new added StatOverallTotalTimeQueueing
             sb.AppendLine("StatOverallTotalTimeQueueing: " + StatOverallTotalTimeQueueing.ToString(IOConstants.FORMATTER));
-
+            sb.AppendLine("StatAverageTurnoverTime: " + ((_statOrderTurnoverTimes.Count == 0) ? "0" : _statOrderTurnoverTimes.Average().ToString(IOConstants.FORMATTER)));
+            sb.AppendLine("StatAverageThroughputTime: " + ((_statOrderThroughputTimes.Count == 0) ? "0" : _statOrderThroughputTimes.Average().ToString(IOConstants.FORMATTER)));
+            sb.AppendLine("StatOverallDistanceTraveled: " + StatOverallDistanceTraveled.ToString(IOConstants.FORMATTER));
+            
             // Write output
             writer(sb.ToString());
         }

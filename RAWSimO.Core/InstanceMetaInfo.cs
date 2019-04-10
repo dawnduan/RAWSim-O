@@ -162,6 +162,8 @@ namespace RAWSimO.Core
         {
             string delimiter = "-";
             return Compound.Tiers.Count + delimiter + InputStations.Count + delimiter + OutputStations.Count + delimiter + Bots.Count + delimiter + Pods.Count;
+            //return OutputStations.Count + delimiter + Bots.Count + Compound.Tiers.Count + delimiter + InputStations.Count + delimiter + delimiter + Pods.Count;
+
         }
 
         #region Logging

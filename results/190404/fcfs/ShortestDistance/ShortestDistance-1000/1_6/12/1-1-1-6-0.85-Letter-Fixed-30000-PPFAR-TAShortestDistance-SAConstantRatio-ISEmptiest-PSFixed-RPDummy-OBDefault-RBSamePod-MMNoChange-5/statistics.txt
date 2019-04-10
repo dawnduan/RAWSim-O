@@ -1,0 +1,1440 @@
+>>> Bots
+Bot0:
+DistanceTraveled: 2162.99999999998
+DistanceEstimated: 1835
+NumberOfPickups: 36
+NumberOfSetdowns: 35
+NumCollisions: 0
+TotalTimeMoving: 2393.2007328007
+None: 0.42
+ParkPod: 771.391774843856
+RepositionPod: 0
+Insert: 0
+Extract: 19586.2697013457
+Rest: 12.4380018619997
+PickupPod: 76.0883333333626
+SetdownPod: 78.4109235282704
+GetItems: 0
+PutItems: 3327.31252148909
+Rest: 154.628712192943
+Move: 16734.0789875079
+Evade: 0
+UseElevator: 0
+Bot1:
+DistanceTraveled: 2259.99999999998
+DistanceEstimated: 1845
+NumberOfPickups: 33
+NumberOfSetdowns: 32
+NumCollisions: 0
+TotalTimeMoving: 2474.12590303049
+None: 0.42
+ParkPod: 728.075750331226
+RepositionPod: 0
+Insert: 0
+Extract: 19626.7147453942
+Rest: 7.81622976428654
+PickupPod: 70.1130874643385
+SetdownPod: 71.6407431383932
+GetItems: 0
+PutItems: 4084.62678203633
+Rest: 184.723471925493
+Move: 15951.9226409251
+Evade: 0
+UseElevator: 0
+Bot2:
+DistanceTraveled: 2380.77527058492
+DistanceEstimated: 1956
+NumberOfPickups: 37
+NumberOfSetdowns: 36
+NumCollisions: 0
+TotalTimeMoving: 2609.33018042036
+None: 0.42
+ParkPod: 873.133708498995
+RepositionPod: 0
+Insert: 0
+Extract: 19473.6856288627
+Rest: 7.81622976428654
+PickupPod: 79.0069862277831
+SetdownPod: 80.5802741813
+GetItems: 0
+PutItems: 4716.17839999321
+Rest: 196.318401635923
+Move: 15282.9715050878
+Evade: 0
+UseElevator: 0
+Bot3:
+DistanceTraveled: 2365.13184497809
+DistanceEstimated: 1848
+NumberOfPickups: 34
+NumberOfSetdowns: 33
+NumCollisions: 0
+TotalTimeMoving: 2594.45579573824
+None: 0.42
+ParkPod: 843.765007193002
+RepositionPod: 0
+Insert: 0
+Extract: 19502.1786983586
+Rest: 9.54287156919064
+PickupPod: 73.122121237895
+SetdownPod: 73.8656493469284
+GetItems: 0
+PutItems: 5061.28036579078
+Rest: 224.023209395366
+Move: 14923.6152313498
+Evade: 0
+UseElevator: 0
+Bot4:
+DistanceTraveled: 2286.13596323114
+DistanceEstimated: 1814
+NumberOfPickups: 30
+NumberOfSetdowns: 29
+NumCollisions: 0
+TotalTimeMoving: 2503.07719235754
+None: 0.42
+ParkPod: 664.645829736882
+RepositionPod: 0
+Insert: 0
+Extract: 19693.0166846184
+Rest: 11.9587735712129
+PickupPod: 64.1157411088289
+SetdownPod: 64.9060173196995
+GetItems: 0
+PutItems: 4249.25635319463
+Rest: 193.008662583404
+Move: 15798.75451372
+Evade: 0
+UseElevator: 0
+Bot5:
+DistanceTraveled: 2351.69982728594
+DistanceEstimated: 1860
+NumberOfPickups: 34
+NumberOfSetdowns: 33
+NumCollisions: 0
+TotalTimeMoving: 2597.56180588111
+None: 0.42
+ParkPod: 891.508989873183
+RepositionPod: 0
+Insert: 0
+Extract: 19445.6144873504
+Rest: 12.4380018619997
+PickupPod: 73.7144444444311
+SetdownPod: 73.9683333333264
+GetItems: 0
+PutItems: 4304.47081761204
+Rest: 185.692351396045
+Move: 15712.1355322997
+Evade: 0
+UseElevator: 0
+>>> Pods
+Pod0(1.00%1.00%):
+LetterDescription-(8/u/Red) LetterDescription-(17/s/Red) LetterDescription-(11/a/Red) LetterDescription-(14/m/Red) LetterDescription-(9/a/Blue) LetterDescription-(16/s/Green) LetterDescription-(3/i/Blue) LetterDescription-(13/m/Green) LetterDescription-(7/u/Green) LetterDescription-(4/i/Green) LetterDescription-(5/i/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod1(1.00%1.00%):
+LetterDescription-(14/m/Red) LetterDescription-(3/i/Blue) LetterDescription-(13/m/Green) LetterDescription-(8/u/Red) LetterDescription-(4/i/Green) LetterDescription-(17/s/Red) LetterDescription-(9/a/Blue) LetterDescription-(0/r/Blue) LetterDescription-(16/s/Green) LetterDescription-(11/a/Red) LetterDescription-(7/u/Green) LetterDescription-(15/s/Blue) LetterDescription-(6/u/Blue) LetterDescription-(5/i/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod2(0.36%0.95%):
+LetterDescription-(8/u/Red) LetterDescription-(13/m/Green) LetterDescription-(0/r/Blue) LetterDescription-(1/r/Green) LetterDescription-(3/i/Blue) LetterDescription-(4/i/Green) 
+StatItemsHandledAtOutputStations: 64
+StatBundlesHandledAtInputStations: 0
+Pod3(0.64%1.00%):
+LetterDescription-(4/i/Green) LetterDescription-(0/r/Blue) LetterDescription-(14/m/Red) LetterDescription-(9/a/Blue) LetterDescription-(13/m/Green) LetterDescription-(1/r/Green) LetterDescription-(17/s/Red) LetterDescription-(12/m/Blue) LetterDescription-(16/s/Green) 
+StatItemsHandledAtOutputStations: 36
+StatBundlesHandledAtInputStations: 0
+Pod4(1.00%1.00%):
+LetterDescription-(17/s/Red) LetterDescription-(2/r/Red) LetterDescription-(14/m/Red) LetterDescription-(8/u/Red) LetterDescription-(7/u/Green) LetterDescription-(3/i/Blue) LetterDescription-(9/a/Blue) LetterDescription-(1/r/Green) LetterDescription-(0/r/Blue) LetterDescription-(13/m/Green) LetterDescription-(5/i/Red) LetterDescription-(4/i/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod5(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(12/m/Blue) LetterDescription-(17/s/Red) LetterDescription-(14/m/Red) LetterDescription-(8/u/Red) LetterDescription-(9/a/Blue) LetterDescription-(6/u/Blue) LetterDescription-(2/r/Red) LetterDescription-(13/m/Green) LetterDescription-(4/i/Green) LetterDescription-(15/s/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod6(1.00%1.00%):
+LetterDescription-(8/u/Red) LetterDescription-(0/r/Blue) LetterDescription-(1/r/Green) LetterDescription-(9/a/Blue) LetterDescription-(15/s/Blue) LetterDescription-(6/u/Blue) LetterDescription-(4/i/Green) LetterDescription-(10/a/Green) LetterDescription-(2/r/Red) LetterDescription-(13/m/Green) LetterDescription-(14/m/Red) LetterDescription-(3/i/Blue) LetterDescription-(16/s/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod7(0.33%0.95%):
+LetterDescription-(6/u/Blue) LetterDescription-(12/m/Blue) LetterDescription-(3/i/Blue) LetterDescription-(13/m/Green) LetterDescription-(15/s/Blue) 
+StatItemsHandledAtOutputStations: 67
+StatBundlesHandledAtInputStations: 0
+Pod8(1.00%1.00%):
+LetterDescription-(9/a/Blue) LetterDescription-(7/u/Green) LetterDescription-(14/m/Red) LetterDescription-(1/r/Green) LetterDescription-(2/r/Red) LetterDescription-(0/r/Blue) LetterDescription-(17/s/Red) LetterDescription-(5/i/Red) LetterDescription-(15/s/Blue) LetterDescription-(16/s/Green) LetterDescription-(12/m/Blue) LetterDescription-(11/a/Red) LetterDescription-(8/u/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod9(0.34%0.96%):
+LetterDescription-(7/u/Green) LetterDescription-(17/s/Red) LetterDescription-(6/u/Blue) LetterDescription-(4/i/Green) LetterDescription-(3/i/Blue) LetterDescription-(1/r/Green) LetterDescription-(12/m/Blue) LetterDescription-(13/m/Green) 
+StatItemsHandledAtOutputStations: 66
+StatBundlesHandledAtInputStations: 0
+Pod10(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(13/m/Green) LetterDescription-(4/i/Green) LetterDescription-(10/a/Green) LetterDescription-(15/s/Blue) LetterDescription-(1/r/Green) LetterDescription-(5/i/Red) LetterDescription-(7/u/Green) LetterDescription-(12/m/Blue) LetterDescription-(0/r/Blue) LetterDescription-(14/m/Red) LetterDescription-(8/u/Red) LetterDescription-(9/a/Blue) LetterDescription-(2/r/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod11(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(13/m/Green) LetterDescription-(16/s/Green) LetterDescription-(0/r/Blue) LetterDescription-(10/a/Green) LetterDescription-(8/u/Red) LetterDescription-(2/r/Red) LetterDescription-(4/i/Green) LetterDescription-(6/u/Blue) LetterDescription-(15/s/Blue) LetterDescription-(17/s/Red) LetterDescription-(12/m/Blue) LetterDescription-(1/r/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod12(1.00%1.00%):
+LetterDescription-(14/m/Red) LetterDescription-(4/i/Green) LetterDescription-(17/s/Red) LetterDescription-(11/a/Red) LetterDescription-(5/i/Red) LetterDescription-(3/i/Blue) LetterDescription-(7/u/Green) LetterDescription-(9/a/Blue) LetterDescription-(16/s/Green) LetterDescription-(10/a/Green) LetterDescription-(8/u/Red) LetterDescription-(0/r/Blue) LetterDescription-(15/s/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod13(1.00%1.00%):
+LetterDescription-(3/i/Blue) LetterDescription-(16/s/Green) LetterDescription-(7/u/Green) LetterDescription-(11/a/Red) LetterDescription-(13/m/Green) LetterDescription-(10/a/Green) LetterDescription-(4/i/Green) LetterDescription-(2/r/Red) LetterDescription-(17/s/Red) LetterDescription-(8/u/Red) LetterDescription-(1/r/Green) LetterDescription-(15/s/Blue) LetterDescription-(5/i/Red) LetterDescription-(9/a/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod14(1.00%1.00%):
+LetterDescription-(5/i/Red) LetterDescription-(13/m/Green) LetterDescription-(4/i/Green) LetterDescription-(11/a/Red) LetterDescription-(12/m/Blue) LetterDescription-(15/s/Blue) LetterDescription-(9/a/Blue) LetterDescription-(16/s/Green) LetterDescription-(17/s/Red) LetterDescription-(8/u/Red) LetterDescription-(1/r/Green) LetterDescription-(2/r/Red) LetterDescription-(6/u/Blue) LetterDescription-(0/r/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod15(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(16/s/Green) LetterDescription-(6/u/Blue) LetterDescription-(13/m/Green) LetterDescription-(14/m/Red) LetterDescription-(8/u/Red) LetterDescription-(10/a/Green) LetterDescription-(2/r/Red) LetterDescription-(3/i/Blue) LetterDescription-(9/a/Blue) LetterDescription-(12/m/Blue) LetterDescription-(7/u/Green) LetterDescription-(15/s/Blue) LetterDescription-(1/r/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod16(1.00%1.00%):
+LetterDescription-(2/r/Red) LetterDescription-(11/a/Red) LetterDescription-(4/i/Green) LetterDescription-(12/m/Blue) LetterDescription-(13/m/Green) LetterDescription-(7/u/Green) LetterDescription-(9/a/Blue) LetterDescription-(15/s/Blue) LetterDescription-(5/i/Red) LetterDescription-(3/i/Blue) LetterDescription-(14/m/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod17(1.00%1.00%):
+LetterDescription-(9/a/Blue) LetterDescription-(3/i/Blue) LetterDescription-(8/u/Red) LetterDescription-(16/s/Green) LetterDescription-(0/r/Blue) LetterDescription-(5/i/Red) LetterDescription-(6/u/Blue) LetterDescription-(17/s/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod18(1.00%1.00%):
+LetterDescription-(1/r/Green) LetterDescription-(17/s/Red) LetterDescription-(11/a/Red) LetterDescription-(5/i/Red) LetterDescription-(10/a/Green) LetterDescription-(0/r/Blue) LetterDescription-(7/u/Green) LetterDescription-(3/i/Blue) LetterDescription-(6/u/Blue) LetterDescription-(2/r/Red) LetterDescription-(14/m/Red) LetterDescription-(15/s/Blue) LetterDescription-(13/m/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod19(1.00%1.00%):
+LetterDescription-(7/u/Green) LetterDescription-(10/a/Green) LetterDescription-(15/s/Blue) LetterDescription-(13/m/Green) LetterDescription-(14/m/Red) LetterDescription-(6/u/Blue) LetterDescription-(12/m/Blue) LetterDescription-(5/i/Red) LetterDescription-(11/a/Red) LetterDescription-(8/u/Red) LetterDescription-(2/r/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod20(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(13/m/Green) LetterDescription-(5/i/Red) LetterDescription-(10/a/Green) LetterDescription-(16/s/Green) LetterDescription-(12/m/Blue) LetterDescription-(4/i/Green) LetterDescription-(1/r/Green) LetterDescription-(15/s/Blue) LetterDescription-(9/a/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod21(1.00%1.00%):
+LetterDescription-(17/s/Red) LetterDescription-(10/a/Green) LetterDescription-(1/r/Green) LetterDescription-(13/m/Green) LetterDescription-(0/r/Blue) LetterDescription-(6/u/Blue) LetterDescription-(7/u/Green) LetterDescription-(15/s/Blue) LetterDescription-(12/m/Blue) LetterDescription-(16/s/Green) LetterDescription-(5/i/Red) LetterDescription-(3/i/Blue) LetterDescription-(2/r/Red) LetterDescription-(11/a/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod22(1.00%1.00%):
+LetterDescription-(12/m/Blue) LetterDescription-(15/s/Blue) LetterDescription-(1/r/Green) LetterDescription-(5/i/Red) LetterDescription-(10/a/Green) LetterDescription-(13/m/Green) LetterDescription-(11/a/Red) LetterDescription-(8/u/Red) LetterDescription-(9/a/Blue) LetterDescription-(3/i/Blue) LetterDescription-(4/i/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod23(1.00%1.00%):
+LetterDescription-(3/i/Blue) LetterDescription-(14/m/Red) LetterDescription-(11/a/Red) LetterDescription-(5/i/Red) LetterDescription-(13/m/Green) LetterDescription-(10/a/Green) LetterDescription-(17/s/Red) LetterDescription-(6/u/Blue) LetterDescription-(7/u/Green) LetterDescription-(2/r/Red) LetterDescription-(4/i/Green) LetterDescription-(12/m/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod24(1.00%1.00%):
+LetterDescription-(9/a/Blue) LetterDescription-(5/i/Red) LetterDescription-(13/m/Green) LetterDescription-(16/s/Green) LetterDescription-(10/a/Green) LetterDescription-(7/u/Green) LetterDescription-(1/r/Green) LetterDescription-(14/m/Red) LetterDescription-(12/m/Blue) LetterDescription-(8/u/Red) LetterDescription-(6/u/Blue) LetterDescription-(15/s/Blue) LetterDescription-(2/r/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod25(1.00%1.00%):
+LetterDescription-(17/s/Red) LetterDescription-(8/u/Red) LetterDescription-(9/a/Blue) LetterDescription-(13/m/Green) LetterDescription-(14/m/Red) LetterDescription-(6/u/Blue) LetterDescription-(5/i/Red) LetterDescription-(4/i/Green) LetterDescription-(7/u/Green) LetterDescription-(11/a/Red) LetterDescription-(3/i/Blue) LetterDescription-(16/s/Green) LetterDescription-(1/r/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod26(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(14/m/Red) LetterDescription-(0/r/Blue) LetterDescription-(6/u/Blue) LetterDescription-(5/i/Red) LetterDescription-(10/a/Green) LetterDescription-(1/r/Green) LetterDescription-(8/u/Red) LetterDescription-(3/i/Blue) LetterDescription-(12/m/Blue) LetterDescription-(2/r/Red) LetterDescription-(9/a/Blue) LetterDescription-(17/s/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod27(1.00%1.00%):
+LetterDescription-(2/r/Red) LetterDescription-(11/a/Red) LetterDescription-(14/m/Red) LetterDescription-(16/s/Green) LetterDescription-(8/u/Red) LetterDescription-(1/r/Green) LetterDescription-(15/s/Blue) LetterDescription-(17/s/Red) LetterDescription-(9/a/Blue) LetterDescription-(13/m/Green) LetterDescription-(7/u/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod28(1.00%1.00%):
+LetterDescription-(1/r/Green) LetterDescription-(2/r/Red) LetterDescription-(9/a/Blue) LetterDescription-(17/s/Red) LetterDescription-(0/r/Blue) LetterDescription-(11/a/Red) LetterDescription-(7/u/Green) LetterDescription-(15/s/Blue) LetterDescription-(16/s/Green) LetterDescription-(3/i/Blue) LetterDescription-(13/m/Green) LetterDescription-(8/u/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod29(1.00%1.00%):
+LetterDescription-(15/s/Blue) LetterDescription-(12/m/Blue) LetterDescription-(3/i/Blue) LetterDescription-(4/i/Green) LetterDescription-(1/r/Green) LetterDescription-(7/u/Green) LetterDescription-(6/u/Blue) LetterDescription-(11/a/Red) LetterDescription-(17/s/Red) LetterDescription-(5/i/Red) LetterDescription-(13/m/Green) LetterDescription-(10/a/Green) LetterDescription-(0/r/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod30(1.00%1.00%):
+LetterDescription-(8/u/Red) LetterDescription-(10/a/Green) LetterDescription-(14/m/Red) LetterDescription-(3/i/Blue) LetterDescription-(13/m/Green) LetterDescription-(17/s/Red) LetterDescription-(0/r/Blue) LetterDescription-(1/r/Green) LetterDescription-(15/s/Blue) LetterDescription-(7/u/Green) LetterDescription-(2/r/Red) LetterDescription-(11/a/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod31(0.37%0.89%):
+LetterDescription-(10/a/Green) LetterDescription-(16/s/Green) LetterDescription-(14/m/Red) LetterDescription-(13/m/Green) LetterDescription-(7/u/Green) LetterDescription-(6/u/Blue) LetterDescription-(5/i/Red) 
+StatItemsHandledAtOutputStations: 63
+StatBundlesHandledAtInputStations: 0
+Pod32(1.00%1.00%):
+LetterDescription-(10/a/Green) LetterDescription-(17/s/Red) LetterDescription-(15/s/Blue) LetterDescription-(11/a/Red) LetterDescription-(0/r/Blue) LetterDescription-(12/m/Blue) LetterDescription-(9/a/Blue) LetterDescription-(3/i/Blue) LetterDescription-(2/r/Red) LetterDescription-(5/i/Red) LetterDescription-(14/m/Red) LetterDescription-(6/u/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod33(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(6/u/Blue) LetterDescription-(7/u/Green) LetterDescription-(5/i/Red) LetterDescription-(4/i/Green) LetterDescription-(0/r/Blue) LetterDescription-(16/s/Green) LetterDescription-(14/m/Red) LetterDescription-(17/s/Red) LetterDescription-(8/u/Red) LetterDescription-(13/m/Green) LetterDescription-(15/s/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod34(1.00%1.00%):
+LetterDescription-(7/u/Green) LetterDescription-(14/m/Red) LetterDescription-(17/s/Red) LetterDescription-(5/i/Red) LetterDescription-(2/r/Red) LetterDescription-(8/u/Red) LetterDescription-(12/m/Blue) LetterDescription-(16/s/Green) LetterDescription-(1/r/Green) LetterDescription-(6/u/Blue) LetterDescription-(13/m/Green) LetterDescription-(3/i/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod35(1.00%1.00%):
+LetterDescription-(5/i/Red) LetterDescription-(1/r/Green) LetterDescription-(11/a/Red) LetterDescription-(4/i/Green) LetterDescription-(15/s/Blue) LetterDescription-(10/a/Green) LetterDescription-(7/u/Green) LetterDescription-(3/i/Blue) LetterDescription-(17/s/Red) LetterDescription-(13/m/Green) LetterDescription-(14/m/Red) LetterDescription-(0/r/Blue) LetterDescription-(2/r/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod36(1.00%1.00%):
+LetterDescription-(2/r/Red) LetterDescription-(8/u/Red) LetterDescription-(1/r/Green) LetterDescription-(11/a/Red) LetterDescription-(5/i/Red) LetterDescription-(10/a/Green) LetterDescription-(9/a/Blue) LetterDescription-(3/i/Blue) LetterDescription-(12/m/Blue) LetterDescription-(16/s/Green) LetterDescription-(15/s/Blue) LetterDescription-(7/u/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod37(1.00%1.00%):
+LetterDescription-(5/i/Red) LetterDescription-(10/a/Green) LetterDescription-(3/i/Blue) LetterDescription-(12/m/Blue) LetterDescription-(7/u/Green) LetterDescription-(14/m/Red) LetterDescription-(4/i/Green) LetterDescription-(2/r/Red) LetterDescription-(9/a/Blue) LetterDescription-(17/s/Red) LetterDescription-(16/s/Green) LetterDescription-(8/u/Red) LetterDescription-(15/s/Blue) LetterDescription-(13/m/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod38(1.00%1.00%):
+LetterDescription-(8/u/Red) LetterDescription-(10/a/Green) LetterDescription-(13/m/Green) LetterDescription-(5/i/Red) LetterDescription-(16/s/Green) LetterDescription-(0/r/Blue) LetterDescription-(1/r/Green) LetterDescription-(9/a/Blue) LetterDescription-(17/s/Red) LetterDescription-(14/m/Red) LetterDescription-(3/i/Blue) LetterDescription-(6/u/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod39(1.00%1.00%):
+LetterDescription-(15/s/Blue) LetterDescription-(14/m/Red) LetterDescription-(10/a/Green) LetterDescription-(1/r/Green) LetterDescription-(9/a/Blue) LetterDescription-(8/u/Red) LetterDescription-(7/u/Green) LetterDescription-(4/i/Green) LetterDescription-(0/r/Blue) LetterDescription-(13/m/Green) LetterDescription-(3/i/Blue) LetterDescription-(12/m/Blue) LetterDescription-(16/s/Green) LetterDescription-(11/a/Red) LetterDescription-(5/i/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod40(0.41%0.88%):
+LetterDescription-(5/i/Red) LetterDescription-(1/r/Green) LetterDescription-(12/m/Blue) LetterDescription-(16/s/Green) LetterDescription-(15/s/Blue) LetterDescription-(6/u/Blue) LetterDescription-(3/i/Blue) 
+StatItemsHandledAtOutputStations: 59
+StatBundlesHandledAtInputStations: 0
+Pod41(1.00%1.00%):
+LetterDescription-(15/s/Blue) LetterDescription-(1/r/Green) LetterDescription-(3/i/Blue) LetterDescription-(8/u/Red) LetterDescription-(2/r/Red) LetterDescription-(14/m/Red) LetterDescription-(6/u/Blue) LetterDescription-(10/a/Green) LetterDescription-(0/r/Blue) LetterDescription-(16/s/Green) LetterDescription-(12/m/Blue) LetterDescription-(5/i/Red) LetterDescription-(7/u/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod42(0.55%0.96%):
+LetterDescription-(1/r/Green) LetterDescription-(0/r/Blue) LetterDescription-(14/m/Red) LetterDescription-(9/a/Blue) LetterDescription-(12/m/Blue) LetterDescription-(15/s/Blue) LetterDescription-(7/u/Green) 
+StatItemsHandledAtOutputStations: 45
+StatBundlesHandledAtInputStations: 0
+Pod43(1.00%1.00%):
+LetterDescription-(5/i/Red) LetterDescription-(17/s/Red) LetterDescription-(16/s/Green) LetterDescription-(0/r/Blue) LetterDescription-(14/m/Red) LetterDescription-(8/u/Red) LetterDescription-(4/i/Green) LetterDescription-(11/a/Red) LetterDescription-(12/m/Blue) LetterDescription-(9/a/Blue) LetterDescription-(10/a/Green) LetterDescription-(13/m/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod44(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(4/i/Green) LetterDescription-(2/r/Red) LetterDescription-(5/i/Red) LetterDescription-(1/r/Green) LetterDescription-(12/m/Blue) LetterDescription-(0/r/Blue) LetterDescription-(15/s/Blue) LetterDescription-(14/m/Red) LetterDescription-(6/u/Blue) LetterDescription-(10/a/Green) LetterDescription-(8/u/Red) LetterDescription-(7/u/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod45(1.00%1.00%):
+LetterDescription-(4/i/Green) LetterDescription-(6/u/Blue) LetterDescription-(2/r/Red) LetterDescription-(7/u/Green) LetterDescription-(13/m/Green) LetterDescription-(12/m/Blue) LetterDescription-(8/u/Red) LetterDescription-(10/a/Green) LetterDescription-(1/r/Green) LetterDescription-(16/s/Green) LetterDescription-(11/a/Red) LetterDescription-(15/s/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod46(0.50%0.98%):
+LetterDescription-(16/s/Green) LetterDescription-(10/a/Green) LetterDescription-(13/m/Green) LetterDescription-(1/r/Green) LetterDescription-(15/s/Blue) LetterDescription-(3/i/Blue) LetterDescription-(7/u/Green) LetterDescription-(14/m/Red) LetterDescription-(17/s/Red) 
+StatItemsHandledAtOutputStations: 50
+StatBundlesHandledAtInputStations: 0
+Pod47(1.00%1.00%):
+LetterDescription-(8/u/Red) LetterDescription-(12/m/Blue) LetterDescription-(3/i/Blue) LetterDescription-(11/a/Red) LetterDescription-(16/s/Green) LetterDescription-(4/i/Green) LetterDescription-(6/u/Blue) LetterDescription-(17/s/Red) LetterDescription-(1/r/Green) LetterDescription-(0/r/Blue) LetterDescription-(14/m/Red) LetterDescription-(10/a/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod48(1.00%1.00%):
+LetterDescription-(17/s/Red) LetterDescription-(0/r/Blue) LetterDescription-(2/r/Red) LetterDescription-(11/a/Red) LetterDescription-(5/i/Red) LetterDescription-(12/m/Blue) LetterDescription-(13/m/Green) LetterDescription-(1/r/Green) LetterDescription-(6/u/Blue) LetterDescription-(7/u/Green) LetterDescription-(9/a/Blue) LetterDescription-(15/s/Blue) LetterDescription-(14/m/Red) LetterDescription-(10/a/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod49(1.00%1.00%):
+LetterDescription-(17/s/Red) LetterDescription-(0/r/Blue) LetterDescription-(12/m/Blue) LetterDescription-(16/s/Green) LetterDescription-(6/u/Blue) LetterDescription-(3/i/Blue) LetterDescription-(15/s/Blue) LetterDescription-(4/i/Green) LetterDescription-(5/i/Red) LetterDescription-(14/m/Red) LetterDescription-(7/u/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod50(1.00%1.00%):
+LetterDescription-(0/r/Blue) LetterDescription-(5/i/Red) LetterDescription-(12/m/Blue) LetterDescription-(11/a/Red) LetterDescription-(4/i/Green) LetterDescription-(9/a/Blue) LetterDescription-(13/m/Green) LetterDescription-(17/s/Red) LetterDescription-(7/u/Green) LetterDescription-(15/s/Blue) LetterDescription-(16/s/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod51(0.95%0.95%):
+LetterDescription-(0/r/Blue) LetterDescription-(10/a/Green) LetterDescription-(14/m/Red) LetterDescription-(9/a/Blue) LetterDescription-(1/r/Green) LetterDescription-(4/i/Green) LetterDescription-(12/m/Blue) LetterDescription-(16/s/Green) LetterDescription-(15/s/Blue) LetterDescription-(3/i/Blue) 
+StatItemsHandledAtOutputStations: 5
+StatBundlesHandledAtInputStations: 0
+Pod52(0.50%0.97%):
+LetterDescription-(9/a/Blue) LetterDescription-(4/i/Green) LetterDescription-(16/s/Green) LetterDescription-(1/r/Green) LetterDescription-(12/m/Blue) LetterDescription-(7/u/Green) LetterDescription-(3/i/Blue) LetterDescription-(15/s/Blue) LetterDescription-(6/u/Blue) 
+StatItemsHandledAtOutputStations: 50
+StatBundlesHandledAtInputStations: 0
+Pod53(1.00%1.00%):
+LetterDescription-(2/r/Red) LetterDescription-(11/a/Red) LetterDescription-(6/u/Blue) LetterDescription-(9/a/Blue) LetterDescription-(8/u/Red) LetterDescription-(14/m/Red) LetterDescription-(10/a/Green) LetterDescription-(0/r/Blue) LetterDescription-(7/u/Green) LetterDescription-(17/s/Red) LetterDescription-(5/i/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod54(1.00%1.00%):
+LetterDescription-(1/r/Green) LetterDescription-(2/r/Red) LetterDescription-(4/i/Green) LetterDescription-(16/s/Green) LetterDescription-(8/u/Red) LetterDescription-(10/a/Green) LetterDescription-(15/s/Blue) LetterDescription-(13/m/Green) LetterDescription-(11/a/Red) LetterDescription-(5/i/Red) LetterDescription-(7/u/Green) LetterDescription-(0/r/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod55(1.00%1.00%):
+LetterDescription-(2/r/Red) LetterDescription-(16/s/Green) LetterDescription-(1/r/Green) LetterDescription-(6/u/Blue) LetterDescription-(7/u/Green) LetterDescription-(4/i/Green) LetterDescription-(10/a/Green) LetterDescription-(9/a/Blue) LetterDescription-(0/r/Blue) LetterDescription-(14/m/Red) LetterDescription-(11/a/Red) LetterDescription-(3/i/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod56(1.00%1.00%):
+LetterDescription-(6/u/Blue) LetterDescription-(12/m/Blue) LetterDescription-(9/a/Blue) LetterDescription-(17/s/Red) LetterDescription-(11/a/Red) LetterDescription-(15/s/Blue) LetterDescription-(1/r/Green) LetterDescription-(16/s/Green) LetterDescription-(2/r/Red) LetterDescription-(14/m/Red) LetterDescription-(5/i/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod57(1.00%1.00%):
+LetterDescription-(17/s/Red) LetterDescription-(12/m/Blue) LetterDescription-(10/a/Green) LetterDescription-(1/r/Green) LetterDescription-(14/m/Red) LetterDescription-(15/s/Blue) LetterDescription-(16/s/Green) LetterDescription-(8/u/Red) LetterDescription-(0/r/Blue) LetterDescription-(9/a/Blue) LetterDescription-(11/a/Red) LetterDescription-(5/i/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod58(0.39%0.90%):
+LetterDescription-(5/i/Red) LetterDescription-(4/i/Green) LetterDescription-(14/m/Red) LetterDescription-(15/s/Blue) LetterDescription-(13/m/Green) LetterDescription-(1/r/Green) LetterDescription-(12/m/Blue) 
+StatItemsHandledAtOutputStations: 61
+StatBundlesHandledAtInputStations: 0
+Pod59(0.55%0.99%):
+LetterDescription-(3/i/Blue) LetterDescription-(12/m/Blue) LetterDescription-(15/s/Blue) LetterDescription-(1/r/Green) LetterDescription-(16/s/Green) LetterDescription-(17/s/Red) LetterDescription-(0/r/Blue) 
+StatItemsHandledAtOutputStations: 45
+StatBundlesHandledAtInputStations: 0
+Pod60(0.36%1.00%):
+LetterDescription-(1/r/Green) LetterDescription-(9/a/Blue) LetterDescription-(15/s/Blue) LetterDescription-(12/m/Blue) LetterDescription-(6/u/Blue) LetterDescription-(10/a/Green) LetterDescription-(17/s/Red) 
+StatItemsHandledAtOutputStations: 64
+StatBundlesHandledAtInputStations: 0
+Pod61(1.00%1.00%):
+LetterDescription-(8/u/Red) LetterDescription-(11/a/Red) LetterDescription-(15/s/Blue) LetterDescription-(16/s/Green) LetterDescription-(14/m/Red) LetterDescription-(1/r/Green) LetterDescription-(7/u/Green) LetterDescription-(0/r/Blue) LetterDescription-(9/a/Blue) LetterDescription-(5/i/Red) LetterDescription-(10/a/Green) LetterDescription-(6/u/Blue) LetterDescription-(13/m/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod62(0.77%0.89%):
+LetterDescription-(9/a/Blue) LetterDescription-(10/a/Green) LetterDescription-(14/m/Red) LetterDescription-(5/i/Red) LetterDescription-(13/m/Green) LetterDescription-(7/u/Green) LetterDescription-(0/r/Blue) LetterDescription-(16/s/Green) LetterDescription-(6/u/Blue) LetterDescription-(15/s/Blue) 
+StatItemsHandledAtOutputStations: 23
+StatBundlesHandledAtInputStations: 0
+Pod63(1.00%1.00%):
+LetterDescription-(14/m/Red) LetterDescription-(1/r/Green) LetterDescription-(16/s/Green) LetterDescription-(10/a/Green) LetterDescription-(11/a/Red) LetterDescription-(4/i/Green) LetterDescription-(9/a/Blue) LetterDescription-(7/u/Green) LetterDescription-(12/m/Blue) LetterDescription-(13/m/Green) LetterDescription-(2/r/Red) LetterDescription-(17/s/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod64(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(12/m/Blue) LetterDescription-(17/s/Red) LetterDescription-(5/i/Red) LetterDescription-(7/u/Green) LetterDescription-(13/m/Green) LetterDescription-(16/s/Green) LetterDescription-(4/i/Green) LetterDescription-(9/a/Blue) LetterDescription-(8/u/Red) LetterDescription-(3/i/Blue) LetterDescription-(15/s/Blue) LetterDescription-(10/a/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod65(0.44%1.00%):
+LetterDescription-(14/m/Red) LetterDescription-(3/i/Blue) LetterDescription-(4/i/Green) LetterDescription-(1/r/Green) LetterDescription-(9/a/Blue) LetterDescription-(12/m/Blue) LetterDescription-(6/u/Blue) 
+StatItemsHandledAtOutputStations: 56
+StatBundlesHandledAtInputStations: 0
+Pod66(0.48%0.92%):
+LetterDescription-(13/m/Green) LetterDescription-(14/m/Red) LetterDescription-(5/i/Red) LetterDescription-(6/u/Blue) LetterDescription-(4/i/Green) LetterDescription-(15/s/Blue) LetterDescription-(12/m/Blue) 
+StatItemsHandledAtOutputStations: 52
+StatBundlesHandledAtInputStations: 0
+Pod67(1.00%1.00%):
+LetterDescription-(8/u/Red) LetterDescription-(5/i/Red) LetterDescription-(4/i/Green) LetterDescription-(15/s/Blue) LetterDescription-(1/r/Green) LetterDescription-(17/s/Red) LetterDescription-(10/a/Green) LetterDescription-(16/s/Green) LetterDescription-(7/u/Green) LetterDescription-(14/m/Red) LetterDescription-(2/r/Red) LetterDescription-(6/u/Blue) LetterDescription-(9/a/Blue) LetterDescription-(13/m/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod68(1.00%1.00%):
+LetterDescription-(2/r/Red) LetterDescription-(10/a/Green) LetterDescription-(11/a/Red) LetterDescription-(7/u/Green) LetterDescription-(4/i/Green) LetterDescription-(6/u/Blue) LetterDescription-(16/s/Green) LetterDescription-(14/m/Red) LetterDescription-(1/r/Green) LetterDescription-(9/a/Blue) LetterDescription-(8/u/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod69(1.00%1.00%):
+LetterDescription-(10/a/Green) LetterDescription-(14/m/Red) LetterDescription-(16/s/Green) LetterDescription-(9/a/Blue) LetterDescription-(4/i/Green) LetterDescription-(13/m/Green) LetterDescription-(15/s/Blue) LetterDescription-(6/u/Blue) LetterDescription-(8/u/Red) LetterDescription-(3/i/Blue) LetterDescription-(17/s/Red) LetterDescription-(0/r/Blue) LetterDescription-(1/r/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod70(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(14/m/Red) LetterDescription-(8/u/Red) LetterDescription-(0/r/Blue) LetterDescription-(2/r/Red) LetterDescription-(1/r/Green) LetterDescription-(15/s/Blue) LetterDescription-(13/m/Green) LetterDescription-(3/i/Blue) LetterDescription-(10/a/Green) LetterDescription-(5/i/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod71(1.00%1.00%):
+LetterDescription-(17/s/Red) LetterDescription-(5/i/Red) LetterDescription-(8/u/Red) LetterDescription-(6/u/Blue) LetterDescription-(16/s/Green) LetterDescription-(9/a/Blue) LetterDescription-(15/s/Blue) LetterDescription-(11/a/Red) LetterDescription-(0/r/Blue) LetterDescription-(2/r/Red) LetterDescription-(12/m/Blue) LetterDescription-(7/u/Green) LetterDescription-(13/m/Green) LetterDescription-(10/a/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod72(1.00%1.00%):
+LetterDescription-(2/r/Red) LetterDescription-(5/i/Red) LetterDescription-(17/s/Red) LetterDescription-(12/m/Blue) LetterDescription-(4/i/Green) LetterDescription-(6/u/Blue) LetterDescription-(8/u/Red) LetterDescription-(7/u/Green) LetterDescription-(3/i/Blue) LetterDescription-(11/a/Red) LetterDescription-(0/r/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod73(1.00%1.00%):
+LetterDescription-(6/u/Blue) LetterDescription-(7/u/Green) LetterDescription-(16/s/Green) LetterDescription-(0/r/Blue) LetterDescription-(12/m/Blue) LetterDescription-(11/a/Red) LetterDescription-(13/m/Green) LetterDescription-(8/u/Red) LetterDescription-(14/m/Red) LetterDescription-(3/i/Blue) LetterDescription-(15/s/Blue) LetterDescription-(2/r/Red) LetterDescription-(9/a/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod74(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(4/i/Green) LetterDescription-(12/m/Blue) LetterDescription-(3/i/Blue) LetterDescription-(0/r/Blue) LetterDescription-(6/u/Blue) LetterDescription-(7/u/Green) LetterDescription-(17/s/Red) LetterDescription-(15/s/Blue) LetterDescription-(9/a/Blue) LetterDescription-(2/r/Red) LetterDescription-(8/u/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod75(1.00%1.00%):
+LetterDescription-(2/r/Red) LetterDescription-(8/u/Red) LetterDescription-(12/m/Blue) LetterDescription-(10/a/Green) LetterDescription-(0/r/Blue) LetterDescription-(7/u/Green) LetterDescription-(17/s/Red) LetterDescription-(16/s/Green) LetterDescription-(13/m/Green) LetterDescription-(4/i/Green) LetterDescription-(3/i/Blue) LetterDescription-(15/s/Blue) LetterDescription-(11/a/Red) LetterDescription-(9/a/Blue) LetterDescription-(6/u/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod76(0.34%0.92%):
+LetterDescription-(8/u/Red) LetterDescription-(6/u/Blue) LetterDescription-(16/s/Green) LetterDescription-(4/i/Green) LetterDescription-(12/m/Blue) LetterDescription-(14/m/Red) LetterDescription-(15/s/Blue) 
+StatItemsHandledAtOutputStations: 66
+StatBundlesHandledAtInputStations: 0
+Pod77(1.00%1.00%):
+LetterDescription-(8/u/Red) LetterDescription-(5/i/Red) LetterDescription-(1/r/Green) LetterDescription-(16/s/Green) LetterDescription-(9/a/Blue) LetterDescription-(2/r/Red) LetterDescription-(4/i/Green) LetterDescription-(10/a/Green) LetterDescription-(6/u/Blue) LetterDescription-(15/s/Blue) LetterDescription-(0/r/Blue) LetterDescription-(12/m/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod78(1.00%1.00%):
+LetterDescription-(2/r/Red) LetterDescription-(9/a/Blue) LetterDescription-(13/m/Green) LetterDescription-(12/m/Blue) LetterDescription-(15/s/Blue) LetterDescription-(6/u/Blue) LetterDescription-(0/r/Blue) LetterDescription-(10/a/Green) LetterDescription-(5/i/Red) LetterDescription-(4/i/Green) LetterDescription-(14/m/Red) LetterDescription-(11/a/Red) LetterDescription-(3/i/Blue) LetterDescription-(7/u/Green) LetterDescription-(8/u/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod79(1.00%1.00%):
+LetterDescription-(8/u/Red) LetterDescription-(2/r/Red) LetterDescription-(3/i/Blue) LetterDescription-(15/s/Blue) LetterDescription-(11/a/Red) LetterDescription-(16/s/Green) LetterDescription-(4/i/Green) LetterDescription-(5/i/Red) LetterDescription-(7/u/Green) LetterDescription-(6/u/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod80(1.00%1.00%):
+LetterDescription-(6/u/Blue) LetterDescription-(15/s/Blue) LetterDescription-(3/i/Blue) LetterDescription-(8/u/Red) LetterDescription-(14/m/Red) LetterDescription-(11/a/Red) LetterDescription-(4/i/Green) LetterDescription-(0/r/Blue) LetterDescription-(5/i/Red) LetterDescription-(17/s/Red) LetterDescription-(2/r/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod81(1.00%1.00%):
+LetterDescription-(8/u/Red) LetterDescription-(10/a/Green) LetterDescription-(7/u/Green) LetterDescription-(14/m/Red) LetterDescription-(9/a/Blue) LetterDescription-(17/s/Red) LetterDescription-(0/r/Blue) LetterDescription-(2/r/Red) LetterDescription-(1/r/Green) LetterDescription-(16/s/Green) LetterDescription-(3/i/Blue) LetterDescription-(5/i/Red) LetterDescription-(12/m/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod82(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(7/u/Green) LetterDescription-(14/m/Red) LetterDescription-(0/r/Blue) LetterDescription-(9/a/Blue) LetterDescription-(3/i/Blue) LetterDescription-(13/m/Green) LetterDescription-(4/i/Green) LetterDescription-(6/u/Blue) LetterDescription-(16/s/Green) LetterDescription-(2/r/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod83(1.00%1.00%):
+LetterDescription-(9/a/Blue) LetterDescription-(10/a/Green) LetterDescription-(13/m/Green) LetterDescription-(12/m/Blue) LetterDescription-(2/r/Red) LetterDescription-(8/u/Red) LetterDescription-(7/u/Green) LetterDescription-(15/s/Blue) LetterDescription-(1/r/Green) LetterDescription-(16/s/Green) LetterDescription-(0/r/Blue) LetterDescription-(5/i/Red) LetterDescription-(3/i/Blue) LetterDescription-(14/m/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod84(1.00%1.00%):
+LetterDescription-(16/s/Green) LetterDescription-(6/u/Blue) LetterDescription-(17/s/Red) LetterDescription-(2/r/Red) LetterDescription-(14/m/Red) LetterDescription-(1/r/Green) LetterDescription-(0/r/Blue) LetterDescription-(15/s/Blue) LetterDescription-(8/u/Red) LetterDescription-(5/i/Red) LetterDescription-(3/i/Blue) LetterDescription-(10/a/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod85(0.72%0.99%):
+LetterDescription-(17/s/Red) LetterDescription-(10/a/Green) LetterDescription-(3/i/Blue) LetterDescription-(4/i/Green) LetterDescription-(13/m/Green) LetterDescription-(15/s/Blue) LetterDescription-(5/i/Red) LetterDescription-(1/r/Green) LetterDescription-(0/r/Blue) LetterDescription-(6/u/Blue) LetterDescription-(7/u/Green) 
+StatItemsHandledAtOutputStations: 28
+StatBundlesHandledAtInputStations: 0
+Pod86(0.79%0.93%):
+LetterDescription-(5/i/Red) LetterDescription-(3/i/Blue) LetterDescription-(0/r/Blue) LetterDescription-(17/s/Red) LetterDescription-(13/m/Green) LetterDescription-(4/i/Green) LetterDescription-(7/u/Green) LetterDescription-(6/u/Blue) LetterDescription-(12/m/Blue) LetterDescription-(15/s/Blue) LetterDescription-(14/m/Red) 
+StatItemsHandledAtOutputStations: 21
+StatBundlesHandledAtInputStations: 0
+Pod87(1.00%1.00%):
+LetterDescription-(8/u/Red) LetterDescription-(0/r/Blue) LetterDescription-(5/i/Red) LetterDescription-(14/m/Red) LetterDescription-(15/s/Blue) LetterDescription-(16/s/Green) LetterDescription-(3/i/Blue) LetterDescription-(6/u/Blue) LetterDescription-(13/m/Green) LetterDescription-(11/a/Red) LetterDescription-(2/r/Red) LetterDescription-(12/m/Blue) LetterDescription-(9/a/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod88(0.45%0.96%):
+LetterDescription-(1/r/Green) LetterDescription-(10/a/Green) LetterDescription-(16/s/Green) LetterDescription-(9/a/Blue) LetterDescription-(17/s/Red) LetterDescription-(4/i/Green) 
+StatItemsHandledAtOutputStations: 55
+StatBundlesHandledAtInputStations: 0
+Pod89(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(6/u/Blue) LetterDescription-(14/m/Red) LetterDescription-(0/r/Blue) LetterDescription-(16/s/Green) LetterDescription-(10/a/Green) LetterDescription-(4/i/Green) LetterDescription-(5/i/Red) LetterDescription-(8/u/Red) LetterDescription-(9/a/Blue) LetterDescription-(15/s/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod90(1.00%1.00%):
+LetterDescription-(2/r/Red) LetterDescription-(10/a/Green) LetterDescription-(12/m/Blue) LetterDescription-(6/u/Blue) LetterDescription-(8/u/Red) LetterDescription-(7/u/Green) LetterDescription-(5/i/Red) LetterDescription-(0/r/Blue) LetterDescription-(17/s/Red) LetterDescription-(14/m/Red) LetterDescription-(16/s/Green) LetterDescription-(13/m/Green) LetterDescription-(11/a/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod91(0.43%0.91%):
+LetterDescription-(1/r/Green) LetterDescription-(10/a/Green) LetterDescription-(5/i/Red) LetterDescription-(7/u/Green) LetterDescription-(16/s/Green) LetterDescription-(4/i/Green) LetterDescription-(0/r/Blue) LetterDescription-(3/i/Blue) LetterDescription-(15/s/Blue) LetterDescription-(12/m/Blue) 
+StatItemsHandledAtOutputStations: 57
+StatBundlesHandledAtInputStations: 0
+Pod92(0.65%0.91%):
+LetterDescription-(5/i/Red) LetterDescription-(14/m/Red) LetterDescription-(15/s/Blue) LetterDescription-(1/r/Green) LetterDescription-(13/m/Green) LetterDescription-(10/a/Green) LetterDescription-(12/m/Blue) LetterDescription-(3/i/Blue) LetterDescription-(16/s/Green) LetterDescription-(9/a/Blue) LetterDescription-(17/s/Red) LetterDescription-(6/u/Blue) 
+StatItemsHandledAtOutputStations: 35
+StatBundlesHandledAtInputStations: 0
+Pod93(1.00%1.00%):
+LetterDescription-(10/a/Green) LetterDescription-(8/u/Red) LetterDescription-(14/m/Red) LetterDescription-(15/s/Blue) LetterDescription-(16/s/Green) LetterDescription-(4/i/Green) LetterDescription-(11/a/Red) LetterDescription-(5/i/Red) LetterDescription-(0/r/Blue) LetterDescription-(6/u/Blue) LetterDescription-(2/r/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod94(1.00%1.00%):
+LetterDescription-(17/s/Red) LetterDescription-(9/a/Blue) LetterDescription-(4/i/Green) LetterDescription-(11/a/Red) LetterDescription-(6/u/Blue) LetterDescription-(0/r/Blue) LetterDescription-(1/r/Green) LetterDescription-(5/i/Red) LetterDescription-(2/r/Red) LetterDescription-(16/s/Green) LetterDescription-(8/u/Red) LetterDescription-(7/u/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod95(1.00%1.00%):
+LetterDescription-(2/r/Red) LetterDescription-(10/a/Green) LetterDescription-(17/s/Red) LetterDescription-(1/r/Green) LetterDescription-(6/u/Blue) LetterDescription-(11/a/Red) LetterDescription-(12/m/Blue) LetterDescription-(16/s/Green) LetterDescription-(14/m/Red) LetterDescription-(5/i/Red) LetterDescription-(3/i/Blue) LetterDescription-(7/u/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod96(1.00%1.00%):
+LetterDescription-(9/a/Blue) LetterDescription-(5/i/Red) LetterDescription-(14/m/Red) LetterDescription-(17/s/Red) LetterDescription-(1/r/Green) LetterDescription-(8/u/Red) LetterDescription-(15/s/Blue) LetterDescription-(10/a/Green) LetterDescription-(7/u/Green) LetterDescription-(16/s/Green) LetterDescription-(13/m/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod97(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(9/a/Blue) LetterDescription-(0/r/Blue) LetterDescription-(13/m/Green) LetterDescription-(3/i/Blue) LetterDescription-(2/r/Red) LetterDescription-(14/m/Red) LetterDescription-(10/a/Green) LetterDescription-(1/r/Green) LetterDescription-(8/u/Red) LetterDescription-(6/u/Blue) LetterDescription-(7/u/Green) LetterDescription-(4/i/Green) LetterDescription-(15/s/Blue) LetterDescription-(16/s/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod98(0.31%0.91%):
+LetterDescription-(17/s/Red) LetterDescription-(15/s/Blue) LetterDescription-(14/m/Red) LetterDescription-(0/r/Blue) LetterDescription-(10/a/Green) 
+StatItemsHandledAtOutputStations: 69
+StatBundlesHandledAtInputStations: 0
+Pod99(1.00%1.00%):
+LetterDescription-(17/s/Red) LetterDescription-(10/a/Green) LetterDescription-(12/m/Blue) LetterDescription-(9/a/Blue) LetterDescription-(15/s/Blue) LetterDescription-(5/i/Red) LetterDescription-(1/r/Green) LetterDescription-(11/a/Red) LetterDescription-(4/i/Green) LetterDescription-(0/r/Blue) LetterDescription-(7/u/Green) LetterDescription-(14/m/Red) LetterDescription-(16/s/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod100(1.00%1.00%):
+LetterDescription-(14/m/Red) LetterDescription-(8/u/Red) LetterDescription-(7/u/Green) LetterDescription-(17/s/Red) LetterDescription-(2/r/Red) LetterDescription-(11/a/Red) LetterDescription-(15/s/Blue) LetterDescription-(1/r/Green) LetterDescription-(4/i/Green) LetterDescription-(16/s/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod101(0.52%0.89%):
+LetterDescription-(3/i/Blue) LetterDescription-(0/r/Blue) LetterDescription-(14/m/Red) LetterDescription-(4/i/Green) LetterDescription-(7/u/Green) LetterDescription-(17/s/Red) LetterDescription-(9/a/Blue) LetterDescription-(12/m/Blue) 
+StatItemsHandledAtOutputStations: 48
+StatBundlesHandledAtInputStations: 0
+Pod102(1.00%1.00%):
+LetterDescription-(1/r/Green) LetterDescription-(6/u/Blue) LetterDescription-(13/m/Green) LetterDescription-(9/a/Blue) LetterDescription-(14/m/Red) LetterDescription-(10/a/Green) LetterDescription-(8/u/Red) LetterDescription-(2/r/Red) LetterDescription-(16/s/Green) LetterDescription-(17/s/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod103(1.00%1.00%):
+LetterDescription-(2/r/Red) LetterDescription-(13/m/Green) LetterDescription-(0/r/Blue) LetterDescription-(5/i/Red) LetterDescription-(7/u/Green) LetterDescription-(12/m/Blue) LetterDescription-(15/s/Blue) LetterDescription-(3/i/Blue) LetterDescription-(16/s/Green) LetterDescription-(8/u/Red) LetterDescription-(9/a/Blue) LetterDescription-(6/u/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod104(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(4/i/Green) LetterDescription-(8/u/Red) LetterDescription-(9/a/Blue) LetterDescription-(13/m/Green) LetterDescription-(5/i/Red) LetterDescription-(2/r/Red) LetterDescription-(14/m/Red) LetterDescription-(17/s/Red) LetterDescription-(7/u/Green) LetterDescription-(6/u/Blue) LetterDescription-(15/s/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod105(1.00%1.00%):
+LetterDescription-(9/a/Blue) LetterDescription-(16/s/Green) LetterDescription-(13/m/Green) LetterDescription-(6/u/Blue) LetterDescription-(10/a/Green) LetterDescription-(2/r/Red) LetterDescription-(4/i/Green) LetterDescription-(5/i/Red) LetterDescription-(3/i/Blue) LetterDescription-(11/a/Red) LetterDescription-(0/r/Blue) LetterDescription-(7/u/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod106(0.45%0.87%):
+LetterDescription-(3/i/Blue) LetterDescription-(9/a/Blue) LetterDescription-(15/s/Blue) LetterDescription-(7/u/Green) LetterDescription-(12/m/Blue) LetterDescription-(1/r/Green) LetterDescription-(0/r/Blue) 
+StatItemsHandledAtOutputStations: 55
+StatBundlesHandledAtInputStations: 0
+Pod107(0.35%0.97%):
+LetterDescription-(3/i/Blue) LetterDescription-(6/u/Blue) LetterDescription-(4/i/Green) LetterDescription-(10/a/Green) LetterDescription-(9/a/Blue) LetterDescription-(13/m/Green) 
+StatItemsHandledAtOutputStations: 65
+StatBundlesHandledAtInputStations: 0
+Pod108(1.00%1.00%):
+LetterDescription-(9/a/Blue) LetterDescription-(1/r/Green) LetterDescription-(12/m/Blue) LetterDescription-(7/u/Green) LetterDescription-(17/s/Red) LetterDescription-(3/i/Blue) LetterDescription-(16/s/Green) LetterDescription-(2/r/Red) LetterDescription-(8/u/Red) LetterDescription-(11/a/Red) LetterDescription-(13/m/Green) LetterDescription-(14/m/Red) LetterDescription-(0/r/Blue) LetterDescription-(5/i/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod109(1.00%1.00%):
+LetterDescription-(6/u/Blue) LetterDescription-(11/a/Red) LetterDescription-(16/s/Green) LetterDescription-(7/u/Green) LetterDescription-(10/a/Green) LetterDescription-(8/u/Red) LetterDescription-(15/s/Blue) LetterDescription-(14/m/Red) LetterDescription-(3/i/Blue) LetterDescription-(2/r/Red) LetterDescription-(0/r/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod110(1.00%1.00%):
+LetterDescription-(17/s/Red) LetterDescription-(9/a/Blue) LetterDescription-(11/a/Red) LetterDescription-(15/s/Blue) LetterDescription-(8/u/Red) LetterDescription-(16/s/Green) LetterDescription-(4/i/Green) LetterDescription-(1/r/Green) LetterDescription-(10/a/Green) LetterDescription-(5/i/Red) LetterDescription-(0/r/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod111(1.00%1.00%):
+LetterDescription-(5/i/Red) LetterDescription-(8/u/Red) LetterDescription-(13/m/Green) LetterDescription-(0/r/Blue) LetterDescription-(10/a/Green) LetterDescription-(9/a/Blue) LetterDescription-(2/r/Red) LetterDescription-(3/i/Blue) LetterDescription-(7/u/Green) LetterDescription-(1/r/Green) LetterDescription-(4/i/Green) LetterDescription-(11/a/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod112(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(7/u/Green) LetterDescription-(14/m/Red) LetterDescription-(16/s/Green) LetterDescription-(9/a/Blue) LetterDescription-(5/i/Red) LetterDescription-(17/s/Red) LetterDescription-(3/i/Blue) LetterDescription-(12/m/Blue) LetterDescription-(10/a/Green) LetterDescription-(13/m/Green) LetterDescription-(15/s/Blue) LetterDescription-(4/i/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod113(1.00%1.00%):
+LetterDescription-(16/s/Green) LetterDescription-(8/u/Red) LetterDescription-(17/s/Red) LetterDescription-(7/u/Green) LetterDescription-(15/s/Blue) LetterDescription-(4/i/Green) LetterDescription-(14/m/Red) LetterDescription-(10/a/Green) LetterDescription-(0/r/Blue) LetterDescription-(1/r/Green) LetterDescription-(9/a/Blue) LetterDescription-(5/i/Red) LetterDescription-(6/u/Blue) LetterDescription-(11/a/Red) LetterDescription-(3/i/Blue) LetterDescription-(12/m/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod114(1.00%1.00%):
+LetterDescription-(9/a/Blue) LetterDescription-(3/i/Blue) LetterDescription-(14/m/Red) LetterDescription-(11/a/Red) LetterDescription-(4/i/Green) LetterDescription-(12/m/Blue) LetterDescription-(10/a/Green) LetterDescription-(15/s/Blue) LetterDescription-(8/u/Red) LetterDescription-(0/r/Blue) LetterDescription-(2/r/Red) LetterDescription-(13/m/Green) LetterDescription-(17/s/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod115(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(0/r/Blue) LetterDescription-(1/r/Green) LetterDescription-(15/s/Blue) LetterDescription-(5/i/Red) LetterDescription-(16/s/Green) LetterDescription-(8/u/Red) LetterDescription-(3/i/Blue) LetterDescription-(17/s/Red) LetterDescription-(13/m/Green) LetterDescription-(14/m/Red) LetterDescription-(9/a/Blue) LetterDescription-(2/r/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod116(1.00%1.00%):
+LetterDescription-(15/s/Blue) LetterDescription-(8/u/Red) LetterDescription-(10/a/Green) LetterDescription-(9/a/Blue) LetterDescription-(2/r/Red) LetterDescription-(12/m/Blue) LetterDescription-(4/i/Green) LetterDescription-(14/m/Red) LetterDescription-(16/s/Green) LetterDescription-(0/r/Blue) LetterDescription-(3/i/Blue) LetterDescription-(13/m/Green) LetterDescription-(1/r/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod117(1.00%1.00%):
+LetterDescription-(6/u/Blue) LetterDescription-(12/m/Blue) LetterDescription-(8/u/Red) LetterDescription-(15/s/Blue) LetterDescription-(14/m/Red) LetterDescription-(13/m/Green) LetterDescription-(3/i/Blue) LetterDescription-(7/u/Green) LetterDescription-(0/r/Blue) LetterDescription-(2/r/Red) LetterDescription-(4/i/Green) LetterDescription-(16/s/Green) LetterDescription-(10/a/Green) LetterDescription-(5/i/Red) LetterDescription-(9/a/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod118(1.00%1.00%):
+LetterDescription-(2/r/Red) LetterDescription-(4/i/Green) LetterDescription-(7/u/Green) LetterDescription-(11/a/Red) LetterDescription-(5/i/Red) LetterDescription-(14/m/Red) LetterDescription-(0/r/Blue) LetterDescription-(12/m/Blue) LetterDescription-(1/r/Green) LetterDescription-(15/s/Blue) LetterDescription-(17/s/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod119(1.00%1.00%):
+LetterDescription-(2/r/Red) LetterDescription-(6/u/Blue) LetterDescription-(3/i/Blue) LetterDescription-(14/m/Red) LetterDescription-(10/a/Green) LetterDescription-(11/a/Red) LetterDescription-(1/r/Green) LetterDescription-(17/s/Red) LetterDescription-(16/s/Green) LetterDescription-(13/m/Green) LetterDescription-(12/m/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod120(1.00%1.00%):
+LetterDescription-(2/r/Red) LetterDescription-(12/m/Blue) LetterDescription-(14/m/Red) LetterDescription-(6/u/Blue) LetterDescription-(3/i/Blue) LetterDescription-(0/r/Blue) LetterDescription-(10/a/Green) LetterDescription-(13/m/Green) LetterDescription-(1/r/Green) LetterDescription-(7/u/Green) LetterDescription-(8/u/Red) LetterDescription-(16/s/Green) LetterDescription-(15/s/Blue) LetterDescription-(9/a/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod121(1.00%1.00%):
+LetterDescription-(4/i/Green) LetterDescription-(15/s/Blue) LetterDescription-(2/r/Red) LetterDescription-(1/r/Green) LetterDescription-(17/s/Red) LetterDescription-(7/u/Green) LetterDescription-(6/u/Blue) LetterDescription-(11/a/Red) LetterDescription-(16/s/Green) LetterDescription-(0/r/Blue) LetterDescription-(12/m/Blue) LetterDescription-(8/u/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod122(1.00%1.00%):
+LetterDescription-(8/u/Red) LetterDescription-(4/i/Green) LetterDescription-(12/m/Blue) LetterDescription-(16/s/Green) LetterDescription-(2/r/Red) LetterDescription-(6/u/Blue) LetterDescription-(3/i/Blue) LetterDescription-(17/s/Red) LetterDescription-(11/a/Red) LetterDescription-(15/s/Blue) LetterDescription-(9/a/Blue) LetterDescription-(13/m/Green) LetterDescription-(14/m/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod123(0.85%0.99%):
+LetterDescription-(9/a/Blue) LetterDescription-(4/i/Green) LetterDescription-(15/s/Blue) LetterDescription-(3/i/Blue) LetterDescription-(13/m/Green) LetterDescription-(5/i/Red) LetterDescription-(12/m/Blue) LetterDescription-(1/r/Green) LetterDescription-(6/u/Blue) LetterDescription-(7/u/Green) LetterDescription-(8/u/Red) LetterDescription-(17/s/Red) LetterDescription-(16/s/Green) 
+StatItemsHandledAtOutputStations: 15
+StatBundlesHandledAtInputStations: 0
+Pod124(0.17%1.00%):
+LetterDescription-(12/m/Blue) LetterDescription-(16/s/Green) LetterDescription-(3/i/Blue) LetterDescription-(7/u/Green) LetterDescription-(13/m/Green) 
+StatItemsHandledAtOutputStations: 83
+StatBundlesHandledAtInputStations: 0
+Pod125(1.00%1.00%):
+LetterDescription-(8/u/Red) LetterDescription-(3/i/Blue) LetterDescription-(13/m/Green) LetterDescription-(6/u/Blue) LetterDescription-(14/m/Red) LetterDescription-(16/s/Green) LetterDescription-(4/i/Green) LetterDescription-(5/i/Red) LetterDescription-(10/a/Green) LetterDescription-(12/m/Blue) LetterDescription-(2/r/Red) LetterDescription-(1/r/Green) LetterDescription-(15/s/Blue) LetterDescription-(17/s/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod126(1.00%1.00%):
+LetterDescription-(16/s/Green) LetterDescription-(13/m/Green) LetterDescription-(0/r/Blue) LetterDescription-(14/m/Red) LetterDescription-(2/r/Red) LetterDescription-(4/i/Green) LetterDescription-(1/r/Green) LetterDescription-(7/u/Green) LetterDescription-(6/u/Blue) LetterDescription-(8/u/Red) LetterDescription-(17/s/Red) LetterDescription-(12/m/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod127(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(15/s/Blue) LetterDescription-(10/a/Green) LetterDescription-(4/i/Green) LetterDescription-(2/r/Red) LetterDescription-(9/a/Blue) LetterDescription-(6/u/Blue) LetterDescription-(13/m/Green) LetterDescription-(16/s/Green) LetterDescription-(3/i/Blue) LetterDescription-(0/r/Blue) LetterDescription-(7/u/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod128(1.00%1.00%):
+LetterDescription-(8/u/Red) LetterDescription-(17/s/Red) LetterDescription-(4/i/Green) LetterDescription-(16/s/Green) LetterDescription-(12/m/Blue) LetterDescription-(15/s/Blue) LetterDescription-(14/m/Red) LetterDescription-(0/r/Blue) LetterDescription-(13/m/Green) LetterDescription-(2/r/Red) LetterDescription-(5/i/Red) LetterDescription-(11/a/Red) LetterDescription-(10/a/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod129(1.00%1.00%):
+LetterDescription-(15/s/Blue) LetterDescription-(0/r/Blue) LetterDescription-(4/i/Green) LetterDescription-(9/a/Blue) LetterDescription-(12/m/Blue) LetterDescription-(1/r/Green) LetterDescription-(14/m/Red) LetterDescription-(3/i/Blue) LetterDescription-(2/r/Red) LetterDescription-(17/s/Red) LetterDescription-(8/u/Red) LetterDescription-(7/u/Green) LetterDescription-(10/a/Green) LetterDescription-(5/i/Red) LetterDescription-(16/s/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod130(0.31%0.98%):
+LetterDescription-(1/r/Green) LetterDescription-(5/i/Red) LetterDescription-(7/u/Green) LetterDescription-(13/m/Green) LetterDescription-(16/s/Green) LetterDescription-(12/m/Blue) LetterDescription-(15/s/Blue) 
+StatItemsHandledAtOutputStations: 69
+StatBundlesHandledAtInputStations: 0
+Pod131(1.00%1.00%):
+LetterDescription-(17/s/Red) LetterDescription-(16/s/Green) LetterDescription-(9/a/Blue) LetterDescription-(12/m/Blue) LetterDescription-(13/m/Green) LetterDescription-(7/u/Green) LetterDescription-(5/i/Red) LetterDescription-(15/s/Blue) LetterDescription-(1/r/Green) LetterDescription-(10/a/Green) LetterDescription-(4/i/Green) LetterDescription-(0/r/Blue) LetterDescription-(2/r/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod132(1.00%1.00%):
+LetterDescription-(13/m/Green) LetterDescription-(6/u/Blue) LetterDescription-(17/s/Red) LetterDescription-(10/a/Green) LetterDescription-(8/u/Red) LetterDescription-(0/r/Blue) LetterDescription-(14/m/Red) LetterDescription-(15/s/Blue) LetterDescription-(2/r/Red) LetterDescription-(7/u/Green) LetterDescription-(9/a/Blue) LetterDescription-(16/s/Green) LetterDescription-(1/r/Green) LetterDescription-(4/i/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod133(0.72%1.00%):
+LetterDescription-(0/r/Blue) LetterDescription-(1/r/Green) LetterDescription-(14/m/Red) LetterDescription-(17/s/Red) LetterDescription-(3/i/Blue) LetterDescription-(9/a/Blue) LetterDescription-(7/u/Green) LetterDescription-(16/s/Green) LetterDescription-(5/i/Red) LetterDescription-(4/i/Green) 
+StatItemsHandledAtOutputStations: 28
+StatBundlesHandledAtInputStations: 0
+Pod134(0.49%0.98%):
+LetterDescription-(0/r/Blue) LetterDescription-(4/i/Green) LetterDescription-(10/a/Green) LetterDescription-(14/m/Red) LetterDescription-(9/a/Blue) LetterDescription-(7/u/Green) LetterDescription-(16/s/Green) LetterDescription-(1/r/Green) LetterDescription-(3/i/Blue) LetterDescription-(6/u/Blue) LetterDescription-(12/m/Blue) 
+StatItemsHandledAtOutputStations: 51
+StatBundlesHandledAtInputStations: 0
+Pod135(1.00%1.00%):
+LetterDescription-(6/u/Blue) LetterDescription-(14/m/Red) LetterDescription-(12/m/Blue) LetterDescription-(3/i/Blue) LetterDescription-(4/i/Green) LetterDescription-(15/s/Blue) LetterDescription-(11/a/Red) LetterDescription-(9/a/Blue) LetterDescription-(2/r/Red) LetterDescription-(5/i/Red) LetterDescription-(7/u/Green) LetterDescription-(13/m/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod136(0.13%0.91%):
+LetterDescription-(9/a/Blue) LetterDescription-(15/s/Blue) LetterDescription-(16/s/Green) LetterDescription-(13/m/Green) LetterDescription-(3/i/Blue) 
+StatItemsHandledAtOutputStations: 87
+StatBundlesHandledAtInputStations: 0
+Pod137(1.00%1.00%):
+LetterDescription-(17/s/Red) LetterDescription-(14/m/Red) LetterDescription-(16/s/Green) LetterDescription-(11/a/Red) LetterDescription-(5/i/Red) LetterDescription-(9/a/Blue) LetterDescription-(15/s/Blue) LetterDescription-(13/m/Green) LetterDescription-(7/u/Green) LetterDescription-(0/r/Blue) LetterDescription-(2/r/Red) LetterDescription-(10/a/Green) LetterDescription-(1/r/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod138(0.54%0.96%):
+LetterDescription-(16/s/Green) LetterDescription-(6/u/Blue) LetterDescription-(13/m/Green) LetterDescription-(4/i/Green) LetterDescription-(9/a/Blue) LetterDescription-(1/r/Green) LetterDescription-(10/a/Green) LetterDescription-(7/u/Green) 
+StatItemsHandledAtOutputStations: 46
+StatBundlesHandledAtInputStations: 0
+Pod139(1.00%1.00%):
+LetterDescription-(7/u/Green) LetterDescription-(0/r/Blue) LetterDescription-(4/i/Green) LetterDescription-(16/s/Green) LetterDescription-(12/m/Blue) LetterDescription-(1/r/Green) LetterDescription-(14/m/Red) LetterDescription-(15/s/Blue) LetterDescription-(13/m/Green) LetterDescription-(5/i/Red) LetterDescription-(2/r/Red) LetterDescription-(3/i/Blue) LetterDescription-(6/u/Blue) LetterDescription-(17/s/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod140(0.74%0.87%):
+LetterDescription-(14/m/Red) LetterDescription-(5/i/Red) LetterDescription-(9/a/Blue) LetterDescription-(3/i/Blue) LetterDescription-(4/i/Green) LetterDescription-(13/m/Green) LetterDescription-(17/s/Red) LetterDescription-(0/r/Blue) LetterDescription-(15/s/Blue) LetterDescription-(12/m/Blue) 
+StatItemsHandledAtOutputStations: 26
+StatBundlesHandledAtInputStations: 0
+Pod141(1.00%1.00%):
+LetterDescription-(5/i/Red) LetterDescription-(7/u/Green) LetterDescription-(2/r/Red) LetterDescription-(17/s/Red) LetterDescription-(13/m/Green) LetterDescription-(14/m/Red) LetterDescription-(3/i/Blue) LetterDescription-(6/u/Blue) LetterDescription-(10/a/Green) LetterDescription-(15/s/Blue) LetterDescription-(1/r/Green) LetterDescription-(4/i/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod142(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(0/r/Blue) LetterDescription-(6/u/Blue) LetterDescription-(3/i/Blue) LetterDescription-(4/i/Green) LetterDescription-(13/m/Green) LetterDescription-(9/a/Blue) LetterDescription-(17/s/Red) LetterDescription-(7/u/Green) LetterDescription-(2/r/Red) LetterDescription-(15/s/Blue) LetterDescription-(16/s/Green) LetterDescription-(5/i/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod143(1.00%1.00%):
+LetterDescription-(8/u/Red) LetterDescription-(2/r/Red) LetterDescription-(5/i/Red) LetterDescription-(3/i/Blue) LetterDescription-(13/m/Green) LetterDescription-(11/a/Red) LetterDescription-(4/i/Green) LetterDescription-(10/a/Green) LetterDescription-(16/s/Green) LetterDescription-(0/r/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod144(1.00%1.00%):
+LetterDescription-(8/u/Red) LetterDescription-(1/r/Green) LetterDescription-(17/s/Red) LetterDescription-(2/r/Red) LetterDescription-(15/s/Blue) LetterDescription-(6/u/Blue) LetterDescription-(16/s/Green) LetterDescription-(12/m/Blue) LetterDescription-(13/m/Green) LetterDescription-(9/a/Blue) LetterDescription-(4/i/Green) LetterDescription-(3/i/Blue) LetterDescription-(11/a/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod145(1.00%1.00%):
+LetterDescription-(1/r/Green) LetterDescription-(4/i/Green) LetterDescription-(17/s/Red) LetterDescription-(15/s/Blue) LetterDescription-(12/m/Blue) LetterDescription-(7/u/Green) LetterDescription-(8/u/Red) LetterDescription-(11/a/Red) LetterDescription-(16/s/Green) LetterDescription-(13/m/Green) LetterDescription-(9/a/Blue) LetterDescription-(10/a/Green) LetterDescription-(0/r/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod146(0.38%0.95%):
+LetterDescription-(6/u/Blue) LetterDescription-(4/i/Green) LetterDescription-(16/s/Green) LetterDescription-(13/m/Green) LetterDescription-(14/m/Red) LetterDescription-(9/a/Blue) LetterDescription-(1/r/Green) 
+StatItemsHandledAtOutputStations: 62
+StatBundlesHandledAtInputStations: 0
+Pod147(1.00%1.00%):
+LetterDescription-(10/a/Green) LetterDescription-(8/u/Red) LetterDescription-(7/u/Green) LetterDescription-(9/a/Blue) LetterDescription-(15/s/Blue) LetterDescription-(1/r/Green) LetterDescription-(11/a/Red) LetterDescription-(16/s/Green) LetterDescription-(17/s/Red) LetterDescription-(0/r/Blue) LetterDescription-(3/i/Blue) LetterDescription-(5/i/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod148(0.41%0.90%):
+LetterDescription-(1/r/Green) LetterDescription-(17/s/Red) LetterDescription-(9/a/Blue) LetterDescription-(3/i/Blue) LetterDescription-(4/i/Green) LetterDescription-(16/s/Green) LetterDescription-(13/m/Green) LetterDescription-(15/s/Blue) LetterDescription-(0/r/Blue) 
+StatItemsHandledAtOutputStations: 59
+StatBundlesHandledAtInputStations: 0
+Pod149(1.00%1.00%):
+LetterDescription-(10/a/Green) LetterDescription-(1/r/Green) LetterDescription-(0/r/Blue) LetterDescription-(13/m/Green) LetterDescription-(17/s/Red) LetterDescription-(2/r/Red) LetterDescription-(6/u/Blue) LetterDescription-(9/a/Blue) LetterDescription-(3/i/Blue) LetterDescription-(12/m/Blue) LetterDescription-(7/u/Green) LetterDescription-(5/i/Red) LetterDescription-(8/u/Red) LetterDescription-(16/s/Green) LetterDescription-(11/a/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod150(1.00%1.00%):
+LetterDescription-(2/r/Red) LetterDescription-(1/r/Green) LetterDescription-(3/i/Blue) LetterDescription-(8/u/Red) LetterDescription-(16/s/Green) LetterDescription-(14/m/Red) LetterDescription-(11/a/Red) LetterDescription-(4/i/Green) LetterDescription-(10/a/Green) LetterDescription-(9/a/Blue) LetterDescription-(15/s/Blue) LetterDescription-(7/u/Green) LetterDescription-(5/i/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod151(1.00%1.00%):
+LetterDescription-(9/a/Blue) LetterDescription-(7/u/Green) LetterDescription-(10/a/Green) LetterDescription-(4/i/Green) LetterDescription-(13/m/Green) LetterDescription-(15/s/Blue) LetterDescription-(0/r/Blue) LetterDescription-(8/u/Red) LetterDescription-(1/r/Green) LetterDescription-(5/i/Red) LetterDescription-(3/i/Blue) LetterDescription-(17/s/Red) LetterDescription-(14/m/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod152(1.00%1.00%):
+LetterDescription-(2/r/Red) LetterDescription-(3/i/Blue) LetterDescription-(13/m/Green) LetterDescription-(12/m/Blue) LetterDescription-(8/u/Red) LetterDescription-(14/m/Red) LetterDescription-(15/s/Blue) LetterDescription-(1/r/Green) LetterDescription-(11/a/Red) LetterDescription-(16/s/Green) LetterDescription-(6/u/Blue) LetterDescription-(10/a/Green) LetterDescription-(7/u/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod153(1.00%1.00%):
+LetterDescription-(4/i/Green) LetterDescription-(16/s/Green) LetterDescription-(17/s/Red) LetterDescription-(15/s/Blue) LetterDescription-(9/a/Blue) LetterDescription-(1/r/Green) LetterDescription-(10/a/Green) LetterDescription-(14/m/Red) LetterDescription-(0/r/Blue) LetterDescription-(2/r/Red) LetterDescription-(3/i/Blue) LetterDescription-(12/m/Blue) LetterDescription-(11/a/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod154(1.00%1.00%):
+LetterDescription-(1/r/Green) LetterDescription-(10/a/Green) LetterDescription-(8/u/Red) LetterDescription-(3/i/Blue) LetterDescription-(2/r/Red) LetterDescription-(7/u/Green) LetterDescription-(5/i/Red) LetterDescription-(4/i/Green) LetterDescription-(6/u/Blue) LetterDescription-(16/s/Green) LetterDescription-(13/m/Green) LetterDescription-(9/a/Blue) LetterDescription-(17/s/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod155(1.00%1.00%):
+LetterDescription-(2/r/Red) LetterDescription-(9/a/Blue) LetterDescription-(3/i/Blue) LetterDescription-(17/s/Red) LetterDescription-(6/u/Blue) LetterDescription-(11/a/Red) LetterDescription-(7/u/Green) LetterDescription-(8/u/Red) LetterDescription-(16/s/Green) LetterDescription-(0/r/Blue) LetterDescription-(13/m/Green) LetterDescription-(10/a/Green) LetterDescription-(12/m/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod156(0.38%0.98%):
+LetterDescription-(13/m/Green) LetterDescription-(15/s/Blue) LetterDescription-(3/i/Blue) LetterDescription-(6/u/Blue) LetterDescription-(4/i/Green) LetterDescription-(16/s/Green) LetterDescription-(14/m/Red) 
+StatItemsHandledAtOutputStations: 62
+StatBundlesHandledAtInputStations: 0
+Pod157(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(8/u/Red) LetterDescription-(1/r/Green) LetterDescription-(7/u/Green) LetterDescription-(5/i/Red) LetterDescription-(6/u/Blue) LetterDescription-(17/s/Red) LetterDescription-(9/a/Blue) LetterDescription-(13/m/Green) LetterDescription-(16/s/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod158(1.00%1.00%):
+LetterDescription-(2/r/Red) LetterDescription-(14/m/Red) LetterDescription-(17/s/Red) LetterDescription-(9/a/Blue) LetterDescription-(5/i/Red) LetterDescription-(16/s/Green) LetterDescription-(7/u/Green) LetterDescription-(6/u/Blue) LetterDescription-(15/s/Blue) LetterDescription-(11/a/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod159(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(15/s/Blue) LetterDescription-(13/m/Green) LetterDescription-(0/r/Blue) LetterDescription-(3/i/Blue) LetterDescription-(1/r/Green) LetterDescription-(14/m/Red) LetterDescription-(8/u/Red) LetterDescription-(17/s/Red) LetterDescription-(5/i/Red) LetterDescription-(4/i/Green) LetterDescription-(9/a/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod160(1.00%1.00%):
+LetterDescription-(5/i/Red) LetterDescription-(10/a/Green) LetterDescription-(14/m/Red) LetterDescription-(0/r/Blue) LetterDescription-(4/i/Green) LetterDescription-(2/r/Red) LetterDescription-(7/u/Green) LetterDescription-(1/r/Green) LetterDescription-(8/u/Red) LetterDescription-(11/a/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod161(1.00%1.00%):
+LetterDescription-(7/u/Green) LetterDescription-(16/s/Green) LetterDescription-(4/i/Green) LetterDescription-(9/a/Blue) LetterDescription-(10/a/Green) LetterDescription-(14/m/Red) LetterDescription-(12/m/Blue) LetterDescription-(17/s/Red) LetterDescription-(6/u/Blue) LetterDescription-(15/s/Blue) LetterDescription-(2/r/Red) LetterDescription-(11/a/Red) LetterDescription-(3/i/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod162(1.00%1.00%):
+LetterDescription-(3/i/Blue) LetterDescription-(2/r/Red) LetterDescription-(0/r/Blue) LetterDescription-(10/a/Green) LetterDescription-(13/m/Green) LetterDescription-(15/s/Blue) LetterDescription-(4/i/Green) LetterDescription-(5/i/Red) LetterDescription-(6/u/Blue) LetterDescription-(14/m/Red) LetterDescription-(12/m/Blue) LetterDescription-(16/s/Green) LetterDescription-(1/r/Green) LetterDescription-(7/u/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod163(1.00%1.00%):
+LetterDescription-(2/r/Red) LetterDescription-(7/u/Green) LetterDescription-(5/i/Red) LetterDescription-(13/m/Green) LetterDescription-(4/i/Green) LetterDescription-(0/r/Blue) LetterDescription-(12/m/Blue) LetterDescription-(11/a/Red) LetterDescription-(10/a/Green) LetterDescription-(16/s/Green) LetterDescription-(14/m/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod164(1.00%1.00%):
+LetterDescription-(8/u/Red) LetterDescription-(13/m/Green) LetterDescription-(6/u/Blue) LetterDescription-(11/a/Red) LetterDescription-(14/m/Red) LetterDescription-(16/s/Green) LetterDescription-(4/i/Green) LetterDescription-(2/r/Red) LetterDescription-(0/r/Blue) LetterDescription-(7/u/Green) LetterDescription-(3/i/Blue) LetterDescription-(15/s/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod165(0.80%0.93%):
+LetterDescription-(17/s/Red) LetterDescription-(5/i/Red) LetterDescription-(13/m/Green) LetterDescription-(14/m/Red) LetterDescription-(4/i/Green) LetterDescription-(16/s/Green) LetterDescription-(10/a/Green) LetterDescription-(15/s/Blue) LetterDescription-(12/m/Blue) LetterDescription-(3/i/Blue) LetterDescription-(9/a/Blue) 
+StatItemsHandledAtOutputStations: 20
+StatBundlesHandledAtInputStations: 0
+Pod166(1.00%1.00%):
+LetterDescription-(6/u/Blue) LetterDescription-(15/s/Blue) LetterDescription-(1/r/Green) LetterDescription-(4/i/Green) LetterDescription-(12/m/Blue) LetterDescription-(9/a/Blue) LetterDescription-(17/s/Red) LetterDescription-(10/a/Green) LetterDescription-(16/s/Green) LetterDescription-(5/i/Red) LetterDescription-(13/m/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod167(1.00%1.00%):
+LetterDescription-(8/u/Red) LetterDescription-(2/r/Red) LetterDescription-(12/m/Blue) LetterDescription-(0/r/Blue) LetterDescription-(4/i/Green) LetterDescription-(10/a/Green) LetterDescription-(6/u/Blue) LetterDescription-(14/m/Red) LetterDescription-(1/r/Green) LetterDescription-(9/a/Blue) LetterDescription-(11/a/Red) LetterDescription-(5/i/Red) LetterDescription-(13/m/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod168(0.56%0.97%):
+LetterDescription-(4/i/Green) LetterDescription-(13/m/Green) LetterDescription-(14/m/Red) LetterDescription-(9/a/Blue) LetterDescription-(17/s/Red) LetterDescription-(5/i/Red) LetterDescription-(1/r/Green) LetterDescription-(3/i/Blue) LetterDescription-(16/s/Green) 
+StatItemsHandledAtOutputStations: 44
+StatBundlesHandledAtInputStations: 0
+Pod169(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(8/u/Red) LetterDescription-(7/u/Green) LetterDescription-(5/i/Red) LetterDescription-(14/m/Red) LetterDescription-(16/s/Green) LetterDescription-(13/m/Green) LetterDescription-(2/r/Red) LetterDescription-(12/m/Blue) LetterDescription-(0/r/Blue) LetterDescription-(3/i/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod170(1.00%1.00%):
+LetterDescription-(10/a/Green) LetterDescription-(17/s/Red) LetterDescription-(7/u/Green) LetterDescription-(5/i/Red) LetterDescription-(4/i/Green) LetterDescription-(11/a/Red) LetterDescription-(14/m/Red) LetterDescription-(8/u/Red) LetterDescription-(2/r/Red) LetterDescription-(13/m/Green) LetterDescription-(9/a/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod171(0.65%0.93%):
+LetterDescription-(4/i/Green) LetterDescription-(16/s/Green) LetterDescription-(9/a/Blue) LetterDescription-(7/u/Green) LetterDescription-(3/i/Blue) LetterDescription-(17/s/Red) LetterDescription-(15/s/Blue) LetterDescription-(0/r/Blue) LetterDescription-(1/r/Green) 
+StatItemsHandledAtOutputStations: 35
+StatBundlesHandledAtInputStations: 0
+Pod172(1.00%1.00%):
+LetterDescription-(0/r/Blue) LetterDescription-(3/i/Blue) LetterDescription-(11/a/Red) LetterDescription-(15/s/Blue) LetterDescription-(6/u/Blue) LetterDescription-(16/s/Green) LetterDescription-(12/m/Blue) LetterDescription-(14/m/Red) LetterDescription-(7/u/Green) LetterDescription-(13/m/Green) LetterDescription-(2/r/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod173(1.00%1.00%):
+LetterDescription-(1/r/Green) LetterDescription-(10/a/Green) LetterDescription-(0/r/Blue) LetterDescription-(12/m/Blue) LetterDescription-(6/u/Blue) LetterDescription-(4/i/Green) LetterDescription-(5/i/Red) LetterDescription-(3/i/Blue) LetterDescription-(7/u/Green) LetterDescription-(13/m/Green) LetterDescription-(14/m/Red) LetterDescription-(8/u/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod174(0.76%0.88%):
+LetterDescription-(1/r/Green) LetterDescription-(15/s/Blue) LetterDescription-(0/r/Blue) LetterDescription-(17/s/Red) LetterDescription-(7/u/Green) LetterDescription-(3/i/Blue) LetterDescription-(6/u/Blue) LetterDescription-(16/s/Green) LetterDescription-(4/i/Green) LetterDescription-(13/m/Green) 
+StatItemsHandledAtOutputStations: 24
+StatBundlesHandledAtInputStations: 0
+Pod175(1.00%1.00%):
+LetterDescription-(1/r/Green) LetterDescription-(0/r/Blue) LetterDescription-(10/a/Green) LetterDescription-(12/m/Blue) LetterDescription-(7/u/Green) LetterDescription-(17/s/Red) LetterDescription-(13/m/Green) LetterDescription-(16/s/Green) LetterDescription-(6/u/Blue) LetterDescription-(3/i/Blue) LetterDescription-(8/u/Red) LetterDescription-(11/a/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod176(1.00%1.00%):
+LetterDescription-(10/a/Green) LetterDescription-(3/i/Blue) LetterDescription-(4/i/Green) LetterDescription-(0/r/Blue) LetterDescription-(15/s/Blue) LetterDescription-(6/u/Blue) LetterDescription-(13/m/Green) LetterDescription-(5/i/Red) LetterDescription-(2/r/Red) LetterDescription-(9/a/Blue) LetterDescription-(1/r/Green) LetterDescription-(8/u/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod177(1.00%1.00%):
+LetterDescription-(5/i/Red) LetterDescription-(11/a/Red) LetterDescription-(3/i/Blue) LetterDescription-(0/r/Blue) LetterDescription-(15/s/Blue) LetterDescription-(6/u/Blue) LetterDescription-(12/m/Blue) LetterDescription-(13/m/Green) LetterDescription-(1/r/Green) LetterDescription-(4/i/Green) LetterDescription-(10/a/Green) LetterDescription-(7/u/Green) LetterDescription-(17/s/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod178(1.00%1.00%):
+LetterDescription-(4/i/Green) LetterDescription-(0/r/Blue) LetterDescription-(5/i/Red) LetterDescription-(9/a/Blue) LetterDescription-(11/a/Red) LetterDescription-(8/u/Red) LetterDescription-(13/m/Green) LetterDescription-(16/s/Green) LetterDescription-(6/u/Blue) LetterDescription-(12/m/Blue) LetterDescription-(1/r/Green) LetterDescription-(15/s/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod179(1.00%1.00%):
+LetterDescription-(8/u/Red) LetterDescription-(5/i/Red) LetterDescription-(0/r/Blue) LetterDescription-(10/a/Green) LetterDescription-(13/m/Green) LetterDescription-(6/u/Blue) LetterDescription-(1/r/Green) LetterDescription-(12/m/Blue) LetterDescription-(3/i/Blue) LetterDescription-(7/u/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod180(0.40%1.00%):
+LetterDescription-(6/u/Blue) LetterDescription-(0/r/Blue) LetterDescription-(15/s/Blue) LetterDescription-(9/a/Blue) LetterDescription-(4/i/Green) LetterDescription-(13/m/Green) LetterDescription-(3/i/Blue) LetterDescription-(14/m/Red) 
+StatItemsHandledAtOutputStations: 60
+StatBundlesHandledAtInputStations: 0
+Pod181(1.00%1.00%):
+LetterDescription-(2/r/Red) LetterDescription-(12/m/Blue) LetterDescription-(11/a/Red) LetterDescription-(6/u/Blue) LetterDescription-(17/s/Red) LetterDescription-(10/a/Green) LetterDescription-(15/s/Blue) LetterDescription-(1/r/Green) LetterDescription-(5/i/Red) LetterDescription-(8/u/Red) LetterDescription-(13/m/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod182(1.00%1.00%):
+LetterDescription-(1/r/Green) LetterDescription-(10/a/Green) LetterDescription-(7/u/Green) LetterDescription-(11/a/Red) LetterDescription-(17/s/Red) LetterDescription-(16/s/Green) LetterDescription-(4/i/Green) LetterDescription-(3/i/Blue) LetterDescription-(15/s/Blue) LetterDescription-(12/m/Blue) LetterDescription-(2/r/Red) LetterDescription-(0/r/Blue) LetterDescription-(14/m/Red) LetterDescription-(13/m/Green) LetterDescription-(6/u/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod183(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(10/a/Green) LetterDescription-(14/m/Red) LetterDescription-(12/m/Blue) LetterDescription-(0/r/Blue) LetterDescription-(7/u/Green) LetterDescription-(2/r/Red) LetterDescription-(17/s/Red) LetterDescription-(5/i/Red) LetterDescription-(13/m/Green) LetterDescription-(6/u/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod184(1.00%1.00%):
+LetterDescription-(2/r/Red) LetterDescription-(5/i/Red) LetterDescription-(11/a/Red) LetterDescription-(7/u/Green) LetterDescription-(9/a/Blue) LetterDescription-(0/r/Blue) LetterDescription-(4/i/Green) LetterDescription-(3/i/Blue) LetterDescription-(6/u/Blue) LetterDescription-(8/u/Red) LetterDescription-(10/a/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod185(1.00%1.00%):
+LetterDescription-(5/i/Red) LetterDescription-(11/a/Red) LetterDescription-(2/r/Red) LetterDescription-(16/s/Green) LetterDescription-(1/r/Green) LetterDescription-(10/a/Green) LetterDescription-(8/u/Red) LetterDescription-(13/m/Green) LetterDescription-(6/u/Blue) LetterDescription-(14/m/Red) LetterDescription-(3/i/Blue) LetterDescription-(12/m/Blue) LetterDescription-(0/r/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod186(1.00%1.00%):
+LetterDescription-(6/u/Blue) LetterDescription-(0/r/Blue) LetterDescription-(12/m/Blue) LetterDescription-(8/u/Red) LetterDescription-(17/s/Red) LetterDescription-(5/i/Red) LetterDescription-(10/a/Green) LetterDescription-(7/u/Green) LetterDescription-(2/r/Red) LetterDescription-(9/a/Blue) LetterDescription-(4/i/Green) LetterDescription-(11/a/Red) LetterDescription-(13/m/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod187(1.00%1.00%):
+LetterDescription-(2/r/Red) LetterDescription-(4/i/Green) LetterDescription-(14/m/Red) LetterDescription-(7/u/Green) LetterDescription-(16/s/Green) LetterDescription-(11/a/Red) LetterDescription-(17/s/Red) LetterDescription-(6/u/Blue) LetterDescription-(5/i/Red) LetterDescription-(8/u/Red) LetterDescription-(15/s/Blue) LetterDescription-(10/a/Green) LetterDescription-(3/i/Blue) LetterDescription-(1/r/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod188(1.00%1.00%):
+LetterDescription-(1/r/Green) LetterDescription-(17/s/Red) LetterDescription-(15/s/Blue) LetterDescription-(12/m/Blue) LetterDescription-(7/u/Green) LetterDescription-(9/a/Blue) LetterDescription-(0/r/Blue) LetterDescription-(2/r/Red) LetterDescription-(10/a/Green) LetterDescription-(6/u/Blue) LetterDescription-(8/u/Red) LetterDescription-(13/m/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod189(1.00%1.00%):
+LetterDescription-(5/i/Red) LetterDescription-(12/m/Blue) LetterDescription-(7/u/Green) LetterDescription-(11/a/Red) LetterDescription-(3/i/Blue) LetterDescription-(9/a/Blue) LetterDescription-(8/u/Red) LetterDescription-(16/s/Green) LetterDescription-(17/s/Red) LetterDescription-(15/s/Blue) LetterDescription-(0/r/Blue) LetterDescription-(2/r/Red) LetterDescription-(13/m/Green) LetterDescription-(10/a/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod190(1.00%1.00%):
+LetterDescription-(0/r/Blue) LetterDescription-(7/u/Green) LetterDescription-(1/r/Green) LetterDescription-(16/s/Green) LetterDescription-(8/u/Red) LetterDescription-(9/a/Blue) LetterDescription-(2/r/Red) LetterDescription-(10/a/Green) LetterDescription-(15/s/Blue) LetterDescription-(12/m/Blue) LetterDescription-(14/m/Red) LetterDescription-(3/i/Blue) LetterDescription-(11/a/Red) LetterDescription-(5/i/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod191(1.00%1.00%):
+LetterDescription-(16/s/Green) LetterDescription-(7/u/Green) LetterDescription-(13/m/Green) LetterDescription-(9/a/Blue) LetterDescription-(4/i/Green) LetterDescription-(5/i/Red) LetterDescription-(11/a/Red) LetterDescription-(12/m/Blue) LetterDescription-(15/s/Blue) LetterDescription-(3/i/Blue) LetterDescription-(8/u/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod192(1.00%1.00%):
+LetterDescription-(2/r/Red) LetterDescription-(9/a/Blue) LetterDescription-(1/r/Green) LetterDescription-(16/s/Green) LetterDescription-(7/u/Green) LetterDescription-(17/s/Red) LetterDescription-(13/m/Green) LetterDescription-(3/i/Blue) LetterDescription-(5/i/Red) LetterDescription-(8/u/Red) LetterDescription-(6/u/Blue) LetterDescription-(4/i/Green) LetterDescription-(12/m/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod193(1.00%1.00%):
+LetterDescription-(7/u/Green) LetterDescription-(15/s/Blue) LetterDescription-(6/u/Blue) LetterDescription-(12/m/Blue) LetterDescription-(1/r/Green) LetterDescription-(4/i/Green) LetterDescription-(3/i/Blue) LetterDescription-(8/u/Red) LetterDescription-(16/s/Green) LetterDescription-(17/s/Red) LetterDescription-(14/m/Red) LetterDescription-(0/r/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod194(1.00%1.00%):
+LetterDescription-(3/i/Blue) LetterDescription-(4/i/Green) LetterDescription-(14/m/Red) LetterDescription-(17/s/Red) LetterDescription-(12/m/Blue) LetterDescription-(8/u/Red) LetterDescription-(13/m/Green) LetterDescription-(5/i/Red) LetterDescription-(6/u/Blue) LetterDescription-(10/a/Green) LetterDescription-(9/a/Blue) LetterDescription-(15/s/Blue) LetterDescription-(2/r/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod195(0.66%0.94%):
+LetterDescription-(17/s/Red) LetterDescription-(7/u/Green) LetterDescription-(13/m/Green) LetterDescription-(3/i/Blue) LetterDescription-(1/r/Green) LetterDescription-(16/s/Green) LetterDescription-(6/u/Blue) LetterDescription-(0/r/Blue) LetterDescription-(12/m/Blue) 
+StatItemsHandledAtOutputStations: 34
+StatBundlesHandledAtInputStations: 0
+Pod196(0.61%0.88%):
+LetterDescription-(17/s/Red) LetterDescription-(4/i/Green) LetterDescription-(3/i/Blue) LetterDescription-(10/a/Green) LetterDescription-(6/u/Blue) LetterDescription-(1/r/Green) LetterDescription-(14/m/Red) LetterDescription-(12/m/Blue) 
+StatItemsHandledAtOutputStations: 39
+StatBundlesHandledAtInputStations: 0
+Pod197(1.00%1.00%):
+LetterDescription-(10/a/Green) LetterDescription-(1/r/Green) LetterDescription-(6/u/Blue) LetterDescription-(12/m/Blue) LetterDescription-(15/s/Blue) LetterDescription-(14/m/Red) LetterDescription-(13/m/Green) LetterDescription-(7/u/Green) LetterDescription-(8/u/Red) LetterDescription-(3/i/Blue) LetterDescription-(5/i/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod198(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(0/r/Blue) LetterDescription-(9/a/Blue) LetterDescription-(12/m/Blue) LetterDescription-(1/r/Green) LetterDescription-(6/u/Blue) LetterDescription-(14/m/Red) LetterDescription-(13/m/Green) LetterDescription-(7/u/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod199(0.72%1.00%):
+LetterDescription-(7/u/Green) LetterDescription-(17/s/Red) LetterDescription-(3/i/Blue) LetterDescription-(4/i/Green) LetterDescription-(6/u/Blue) LetterDescription-(1/r/Green) LetterDescription-(9/a/Blue) 
+StatItemsHandledAtOutputStations: 28
+StatBundlesHandledAtInputStations: 0
+Pod200(1.00%1.00%):
+LetterDescription-(5/i/Red) LetterDescription-(6/u/Blue) LetterDescription-(14/m/Red) LetterDescription-(16/s/Green) LetterDescription-(1/r/Green) LetterDescription-(7/u/Green) LetterDescription-(13/m/Green) LetterDescription-(9/a/Blue) LetterDescription-(0/r/Blue) LetterDescription-(8/u/Red) LetterDescription-(11/a/Red) LetterDescription-(17/s/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod201(1.00%1.00%):
+LetterDescription-(1/r/Green) LetterDescription-(11/a/Red) LetterDescription-(3/i/Blue) LetterDescription-(2/r/Red) LetterDescription-(4/i/Green) LetterDescription-(0/r/Blue) LetterDescription-(15/s/Blue) LetterDescription-(13/m/Green) LetterDescription-(14/m/Red) LetterDescription-(17/s/Red) LetterDescription-(7/u/Green) LetterDescription-(10/a/Green) LetterDescription-(6/u/Blue) LetterDescription-(8/u/Red) LetterDescription-(12/m/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod202(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(5/i/Red) LetterDescription-(0/r/Blue) LetterDescription-(8/u/Red) LetterDescription-(7/u/Green) LetterDescription-(15/s/Blue) LetterDescription-(6/u/Blue) LetterDescription-(4/i/Green) LetterDescription-(16/s/Green) LetterDescription-(10/a/Green) LetterDescription-(12/m/Blue) LetterDescription-(1/r/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod203(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(10/a/Green) LetterDescription-(4/i/Green) LetterDescription-(2/r/Red) LetterDescription-(17/s/Red) LetterDescription-(7/u/Green) LetterDescription-(3/i/Blue) LetterDescription-(9/a/Blue) LetterDescription-(15/s/Blue) LetterDescription-(1/r/Green) LetterDescription-(13/m/Green) LetterDescription-(16/s/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod204(1.00%1.00%):
+LetterDescription-(0/r/Blue) LetterDescription-(14/m/Red) LetterDescription-(5/i/Red) LetterDescription-(2/r/Red) LetterDescription-(12/m/Blue) LetterDescription-(9/a/Blue) LetterDescription-(6/u/Blue) LetterDescription-(8/u/Red) LetterDescription-(11/a/Red) LetterDescription-(3/i/Blue) LetterDescription-(4/i/Green) LetterDescription-(15/s/Blue) LetterDescription-(1/r/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod205(1.00%1.00%):
+LetterDescription-(7/u/Green) LetterDescription-(10/a/Green) LetterDescription-(6/u/Blue) LetterDescription-(0/r/Blue) LetterDescription-(16/s/Green) LetterDescription-(12/m/Blue) LetterDescription-(4/i/Green) LetterDescription-(2/r/Red) LetterDescription-(8/u/Red) LetterDescription-(14/m/Red) LetterDescription-(11/a/Red) LetterDescription-(3/i/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod206(1.00%1.00%):
+LetterDescription-(14/m/Red) LetterDescription-(8/u/Red) LetterDescription-(16/s/Green) LetterDescription-(6/u/Blue) LetterDescription-(1/r/Green) LetterDescription-(2/r/Red) LetterDescription-(0/r/Blue) LetterDescription-(9/a/Blue) LetterDescription-(3/i/Blue) LetterDescription-(13/m/Green) LetterDescription-(11/a/Red) LetterDescription-(12/m/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod207(1.00%1.00%):
+LetterDescription-(10/a/Green) LetterDescription-(9/a/Blue) LetterDescription-(1/r/Green) LetterDescription-(3/i/Blue) LetterDescription-(4/i/Green) LetterDescription-(15/s/Blue) LetterDescription-(2/r/Red) LetterDescription-(6/u/Blue) LetterDescription-(0/r/Blue) LetterDescription-(7/u/Green) LetterDescription-(12/m/Blue) LetterDescription-(16/s/Green) LetterDescription-(8/u/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod208(1.00%1.00%):
+LetterDescription-(7/u/Green) LetterDescription-(16/s/Green) LetterDescription-(0/r/Blue) LetterDescription-(1/r/Green) LetterDescription-(17/s/Red) LetterDescription-(6/u/Blue) LetterDescription-(14/m/Red) LetterDescription-(2/r/Red) LetterDescription-(11/a/Red) LetterDescription-(15/s/Blue) LetterDescription-(12/m/Blue) LetterDescription-(5/i/Red) LetterDescription-(4/i/Green) LetterDescription-(8/u/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod209(1.00%1.00%):
+LetterDescription-(2/r/Red) LetterDescription-(8/u/Red) LetterDescription-(6/u/Blue) LetterDescription-(5/i/Red) LetterDescription-(4/i/Green) LetterDescription-(7/u/Green) LetterDescription-(12/m/Blue) LetterDescription-(16/s/Green) LetterDescription-(11/a/Red) LetterDescription-(10/a/Green) LetterDescription-(1/r/Green) LetterDescription-(0/r/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod210(1.00%1.00%):
+LetterDescription-(0/r/Blue) LetterDescription-(7/u/Green) LetterDescription-(16/s/Green) LetterDescription-(1/r/Green) LetterDescription-(10/a/Green) LetterDescription-(5/i/Red) LetterDescription-(8/u/Red) LetterDescription-(9/a/Blue) LetterDescription-(6/u/Blue) LetterDescription-(12/m/Blue) LetterDescription-(3/i/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod211(1.00%1.00%):
+LetterDescription-(4/i/Green) LetterDescription-(11/a/Red) LetterDescription-(8/u/Red) LetterDescription-(5/i/Red) LetterDescription-(16/s/Green) LetterDescription-(12/m/Blue) LetterDescription-(10/a/Green) LetterDescription-(14/m/Red) LetterDescription-(17/s/Red) LetterDescription-(0/r/Blue) LetterDescription-(13/m/Green) LetterDescription-(15/s/Blue) LetterDescription-(3/i/Blue) LetterDescription-(1/r/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod212(1.00%1.00%):
+LetterDescription-(4/i/Green) LetterDescription-(0/r/Blue) LetterDescription-(7/u/Green) LetterDescription-(1/r/Green) LetterDescription-(10/a/Green) LetterDescription-(9/a/Blue) LetterDescription-(8/u/Red) LetterDescription-(17/s/Red) LetterDescription-(5/i/Red) LetterDescription-(6/u/Blue) LetterDescription-(13/m/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod213(1.00%1.00%):
+LetterDescription-(15/s/Blue) LetterDescription-(1/r/Green) LetterDescription-(10/a/Green) LetterDescription-(17/s/Red) LetterDescription-(16/s/Green) LetterDescription-(5/i/Red) LetterDescription-(0/r/Blue) LetterDescription-(9/a/Blue) LetterDescription-(14/m/Red) LetterDescription-(4/i/Green) LetterDescription-(6/u/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod214(0.58%0.93%):
+LetterDescription-(7/u/Green) LetterDescription-(12/m/Blue) LetterDescription-(6/u/Blue) LetterDescription-(15/s/Blue) LetterDescription-(14/m/Red) LetterDescription-(17/s/Red) LetterDescription-(13/m/Green) 
+StatItemsHandledAtOutputStations: 42
+StatBundlesHandledAtInputStations: 0
+Pod215(0.39%0.87%):
+LetterDescription-(6/u/Blue) LetterDescription-(0/r/Blue) LetterDescription-(12/m/Blue) LetterDescription-(7/u/Green) LetterDescription-(15/s/Blue) LetterDescription-(14/m/Red) LetterDescription-(3/i/Blue) 
+StatItemsHandledAtOutputStations: 61
+StatBundlesHandledAtInputStations: 0
+Pod216(1.00%1.00%):
+LetterDescription-(17/s/Red) LetterDescription-(15/s/Blue) LetterDescription-(9/a/Blue) LetterDescription-(16/s/Green) LetterDescription-(0/r/Blue) LetterDescription-(14/m/Red) LetterDescription-(5/i/Red) LetterDescription-(2/r/Red) LetterDescription-(11/a/Red) LetterDescription-(10/a/Green) LetterDescription-(12/m/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod217(1.00%1.00%):
+LetterDescription-(10/a/Green) LetterDescription-(2/r/Red) LetterDescription-(8/u/Red) LetterDescription-(6/u/Blue) LetterDescription-(15/s/Blue) LetterDescription-(9/a/Blue) LetterDescription-(13/m/Green) LetterDescription-(7/u/Green) LetterDescription-(14/m/Red) LetterDescription-(1/r/Green) LetterDescription-(3/i/Blue) LetterDescription-(17/s/Red) LetterDescription-(5/i/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod218(1.00%1.00%):
+LetterDescription-(8/u/Red) LetterDescription-(4/i/Green) LetterDescription-(9/a/Blue) LetterDescription-(16/s/Green) LetterDescription-(17/s/Red) LetterDescription-(15/s/Blue) LetterDescription-(3/i/Blue) LetterDescription-(7/u/Green) LetterDescription-(12/m/Blue) LetterDescription-(14/m/Red) LetterDescription-(13/m/Green) LetterDescription-(0/r/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod219(1.00%1.00%):
+LetterDescription-(10/a/Green) LetterDescription-(9/a/Blue) LetterDescription-(6/u/Blue) LetterDescription-(14/m/Red) LetterDescription-(3/i/Blue) LetterDescription-(8/u/Red) LetterDescription-(2/r/Red) LetterDescription-(7/u/Green) LetterDescription-(12/m/Blue) LetterDescription-(4/i/Green) LetterDescription-(13/m/Green) LetterDescription-(15/s/Blue) LetterDescription-(11/a/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod220(1.00%1.00%):
+LetterDescription-(4/i/Green) LetterDescription-(7/u/Green) LetterDescription-(15/s/Blue) LetterDescription-(16/s/Green) LetterDescription-(14/m/Red) LetterDescription-(3/i/Blue) LetterDescription-(2/r/Red) LetterDescription-(0/r/Blue) LetterDescription-(11/a/Red) LetterDescription-(8/u/Red) LetterDescription-(12/m/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod221(1.00%1.00%):
+LetterDescription-(5/i/Red) LetterDescription-(15/s/Blue) LetterDescription-(8/u/Red) LetterDescription-(9/a/Blue) LetterDescription-(7/u/Green) LetterDescription-(11/a/Red) LetterDescription-(16/s/Green) LetterDescription-(3/i/Blue) LetterDescription-(6/u/Blue) LetterDescription-(2/r/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod222(0.50%0.92%):
+LetterDescription-(10/a/Green) LetterDescription-(7/u/Green) LetterDescription-(6/u/Blue) LetterDescription-(1/r/Green) LetterDescription-(12/m/Blue) LetterDescription-(0/r/Blue) LetterDescription-(13/m/Green) LetterDescription-(3/i/Blue) LetterDescription-(16/s/Green) 
+StatItemsHandledAtOutputStations: 50
+StatBundlesHandledAtInputStations: 0
+Pod223(1.00%1.00%):
+LetterDescription-(2/r/Red) LetterDescription-(13/m/Green) LetterDescription-(12/m/Blue) LetterDescription-(5/i/Red) LetterDescription-(17/s/Red) LetterDescription-(11/a/Red) LetterDescription-(16/s/Green) LetterDescription-(8/u/Red) LetterDescription-(7/u/Green) LetterDescription-(3/i/Blue) LetterDescription-(0/r/Blue) LetterDescription-(10/a/Green) LetterDescription-(1/r/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod224(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(6/u/Blue) LetterDescription-(5/i/Red) LetterDescription-(8/u/Red) LetterDescription-(12/m/Blue) LetterDescription-(7/u/Green) LetterDescription-(16/s/Green) LetterDescription-(0/r/Blue) LetterDescription-(13/m/Green) LetterDescription-(15/s/Blue) LetterDescription-(1/r/Green) LetterDescription-(3/i/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod225(1.00%1.00%):
+LetterDescription-(10/a/Green) LetterDescription-(9/a/Blue) LetterDescription-(11/a/Red) LetterDescription-(13/m/Green) LetterDescription-(15/s/Blue) LetterDescription-(2/r/Red) LetterDescription-(3/i/Blue) LetterDescription-(12/m/Blue) LetterDescription-(8/u/Red) LetterDescription-(1/r/Green) LetterDescription-(5/i/Red) LetterDescription-(0/r/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod226(1.00%1.00%):
+LetterDescription-(4/i/Green) LetterDescription-(1/r/Green) LetterDescription-(16/s/Green) LetterDescription-(5/i/Red) LetterDescription-(8/u/Red) LetterDescription-(12/m/Blue) LetterDescription-(2/r/Red) LetterDescription-(13/m/Green) LetterDescription-(9/a/Blue) LetterDescription-(15/s/Blue) LetterDescription-(3/i/Blue) LetterDescription-(0/r/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod227(1.00%1.00%):
+LetterDescription-(9/a/Blue) LetterDescription-(5/i/Red) LetterDescription-(8/u/Red) LetterDescription-(17/s/Red) LetterDescription-(0/r/Blue) LetterDescription-(14/m/Red) LetterDescription-(16/s/Green) LetterDescription-(2/r/Red) LetterDescription-(6/u/Blue) LetterDescription-(11/a/Red) LetterDescription-(13/m/Green) LetterDescription-(3/i/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod228(1.00%1.00%):
+LetterDescription-(8/u/Red) LetterDescription-(1/r/Green) LetterDescription-(13/m/Green) LetterDescription-(0/r/Blue) LetterDescription-(3/i/Blue) LetterDescription-(4/i/Green) LetterDescription-(6/u/Blue) LetterDescription-(10/a/Green) LetterDescription-(7/u/Green) LetterDescription-(9/a/Blue) LetterDescription-(17/s/Red) LetterDescription-(5/i/Red) LetterDescription-(16/s/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod229(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(17/s/Red) LetterDescription-(10/a/Green) LetterDescription-(12/m/Blue) LetterDescription-(1/r/Green) LetterDescription-(13/m/Green) LetterDescription-(4/i/Green) LetterDescription-(7/u/Green) LetterDescription-(6/u/Blue) LetterDescription-(8/u/Red) LetterDescription-(2/r/Red) LetterDescription-(16/s/Green) LetterDescription-(15/s/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod230(1.00%1.00%):
+LetterDescription-(4/i/Green) LetterDescription-(1/r/Green) LetterDescription-(16/s/Green) LetterDescription-(11/a/Red) LetterDescription-(6/u/Blue) LetterDescription-(13/m/Green) LetterDescription-(5/i/Red) LetterDescription-(10/a/Green) LetterDescription-(7/u/Green) LetterDescription-(9/a/Blue) LetterDescription-(17/s/Red) LetterDescription-(3/i/Blue) LetterDescription-(0/r/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod231(1.00%1.00%):
+LetterDescription-(2/r/Red) LetterDescription-(15/s/Blue) LetterDescription-(8/u/Red) LetterDescription-(9/a/Blue) LetterDescription-(7/u/Green) LetterDescription-(0/r/Blue) LetterDescription-(13/m/Green) LetterDescription-(6/u/Blue) LetterDescription-(17/s/Red) LetterDescription-(11/a/Red) LetterDescription-(10/a/Green) LetterDescription-(1/r/Green) LetterDescription-(4/i/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod232(1.00%1.00%):
+LetterDescription-(2/r/Red) LetterDescription-(11/a/Red) LetterDescription-(5/i/Red) LetterDescription-(6/u/Blue) LetterDescription-(15/s/Blue) LetterDescription-(10/a/Green) LetterDescription-(7/u/Green) LetterDescription-(12/m/Blue) LetterDescription-(0/r/Blue) LetterDescription-(17/s/Red) LetterDescription-(13/m/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod233(1.00%1.00%):
+LetterDescription-(0/r/Blue) LetterDescription-(12/m/Blue) LetterDescription-(10/a/Green) LetterDescription-(16/s/Green) LetterDescription-(5/i/Red) LetterDescription-(13/m/Green) LetterDescription-(9/a/Blue) LetterDescription-(15/s/Blue) LetterDescription-(4/i/Green) LetterDescription-(1/r/Green) LetterDescription-(17/s/Red) LetterDescription-(11/a/Red) LetterDescription-(7/u/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod234(1.00%1.00%):
+LetterDescription-(2/r/Red) LetterDescription-(1/r/Green) LetterDescription-(5/i/Red) LetterDescription-(8/u/Red) LetterDescription-(7/u/Green) LetterDescription-(10/a/Green) LetterDescription-(15/s/Blue) LetterDescription-(12/m/Blue) LetterDescription-(9/a/Blue) LetterDescription-(17/s/Red) LetterDescription-(16/s/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod235(1.00%1.00%):
+LetterDescription-(5/i/Red) LetterDescription-(0/r/Blue) LetterDescription-(14/m/Red) LetterDescription-(17/s/Red) LetterDescription-(3/i/Blue) LetterDescription-(11/a/Red) LetterDescription-(12/m/Blue) LetterDescription-(8/u/Red) LetterDescription-(9/a/Blue) LetterDescription-(7/u/Green) LetterDescription-(6/u/Blue) LetterDescription-(13/m/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod236(1.00%1.00%):
+LetterDescription-(17/s/Red) LetterDescription-(14/m/Red) LetterDescription-(2/r/Red) LetterDescription-(10/a/Green) LetterDescription-(3/i/Blue) LetterDescription-(11/a/Red) LetterDescription-(5/i/Red) LetterDescription-(7/u/Green) LetterDescription-(6/u/Blue) LetterDescription-(15/s/Blue) LetterDescription-(9/a/Blue) LetterDescription-(1/r/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod237(1.00%1.00%):
+LetterDescription-(0/r/Blue) LetterDescription-(12/m/Blue) LetterDescription-(9/a/Blue) LetterDescription-(15/s/Blue) LetterDescription-(10/a/Green) LetterDescription-(14/m/Red) LetterDescription-(2/r/Red) LetterDescription-(8/u/Red) LetterDescription-(11/a/Red) LetterDescription-(1/r/Green) LetterDescription-(6/u/Blue) LetterDescription-(16/s/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod238(0.47%0.97%):
+LetterDescription-(10/a/Green) LetterDescription-(14/m/Red) LetterDescription-(3/i/Blue) LetterDescription-(7/u/Green) LetterDescription-(0/r/Blue) LetterDescription-(13/m/Green) LetterDescription-(15/s/Blue) 
+StatItemsHandledAtOutputStations: 53
+StatBundlesHandledAtInputStations: 0
+Pod239(1.00%1.00%):
+LetterDescription-(7/u/Green) LetterDescription-(16/s/Green) LetterDescription-(10/a/Green) LetterDescription-(3/i/Blue) LetterDescription-(9/a/Blue) LetterDescription-(0/r/Blue) LetterDescription-(11/a/Red) LetterDescription-(4/i/Green) LetterDescription-(5/i/Red) LetterDescription-(12/m/Blue) LetterDescription-(2/r/Red) LetterDescription-(15/s/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod240(1.00%1.00%):
+LetterDescription-(10/a/Green) LetterDescription-(11/a/Red) LetterDescription-(16/s/Green) LetterDescription-(0/r/Blue) LetterDescription-(13/m/Green) LetterDescription-(2/r/Red) LetterDescription-(6/u/Blue) LetterDescription-(17/s/Red) LetterDescription-(8/u/Red) LetterDescription-(9/a/Blue) LetterDescription-(7/u/Green) LetterDescription-(4/i/Green) LetterDescription-(1/r/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod241(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(17/s/Red) LetterDescription-(6/u/Blue) LetterDescription-(2/r/Red) LetterDescription-(3/i/Blue) LetterDescription-(12/m/Blue) LetterDescription-(10/a/Green) LetterDescription-(14/m/Red) LetterDescription-(7/u/Green) LetterDescription-(13/m/Green) LetterDescription-(8/u/Red) LetterDescription-(0/r/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod242(1.00%1.00%):
+LetterDescription-(7/u/Green) LetterDescription-(13/m/Green) LetterDescription-(4/i/Green) LetterDescription-(5/i/Red) LetterDescription-(14/m/Red) LetterDescription-(6/u/Blue) LetterDescription-(3/i/Blue) LetterDescription-(12/m/Blue) LetterDescription-(0/r/Blue) LetterDescription-(2/r/Red) LetterDescription-(16/s/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod243(1.00%1.00%):
+LetterDescription-(16/s/Green) LetterDescription-(10/a/Green) LetterDescription-(0/r/Blue) LetterDescription-(13/m/Green) LetterDescription-(4/i/Green) LetterDescription-(5/i/Red) LetterDescription-(9/a/Blue) LetterDescription-(12/m/Blue) LetterDescription-(8/u/Red) LetterDescription-(17/s/Red) LetterDescription-(6/u/Blue) LetterDescription-(2/r/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod244(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(2/r/Red) LetterDescription-(6/u/Blue) LetterDescription-(3/i/Blue) LetterDescription-(17/s/Red) LetterDescription-(16/s/Green) LetterDescription-(4/i/Green) LetterDescription-(12/m/Blue) LetterDescription-(10/a/Green) LetterDescription-(13/m/Green) LetterDescription-(9/a/Blue) LetterDescription-(0/r/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod245(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(17/s/Red) LetterDescription-(1/r/Green) LetterDescription-(3/i/Blue) LetterDescription-(10/a/Green) LetterDescription-(13/m/Green) LetterDescription-(9/a/Blue) LetterDescription-(12/m/Blue) LetterDescription-(15/s/Blue) LetterDescription-(8/u/Red) LetterDescription-(0/r/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod246(1.00%1.00%):
+LetterDescription-(2/r/Red) LetterDescription-(5/i/Red) LetterDescription-(8/u/Red) LetterDescription-(16/s/Green) LetterDescription-(3/i/Blue) LetterDescription-(12/m/Blue) LetterDescription-(10/a/Green) LetterDescription-(6/u/Blue) LetterDescription-(13/m/Green) LetterDescription-(9/a/Blue) LetterDescription-(17/s/Red) LetterDescription-(11/a/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod247(1.00%1.00%):
+LetterDescription-(2/r/Red) LetterDescription-(11/a/Red) LetterDescription-(7/u/Green) LetterDescription-(9/a/Blue) LetterDescription-(12/m/Blue) LetterDescription-(4/i/Green) LetterDescription-(15/s/Blue) LetterDescription-(10/a/Green) LetterDescription-(0/r/Blue) LetterDescription-(8/u/Red) LetterDescription-(16/s/Green) LetterDescription-(1/r/Green) LetterDescription-(14/m/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod248(1.00%1.00%):
+LetterDescription-(2/r/Red) LetterDescription-(12/m/Blue) LetterDescription-(1/r/Green) LetterDescription-(11/a/Red) LetterDescription-(14/m/Red) LetterDescription-(7/u/Green) LetterDescription-(5/i/Red) LetterDescription-(0/r/Blue) LetterDescription-(16/s/Green) LetterDescription-(9/a/Blue) LetterDescription-(3/i/Blue) LetterDescription-(8/u/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod249(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(6/u/Blue) LetterDescription-(0/r/Blue) LetterDescription-(16/s/Green) LetterDescription-(8/u/Red) LetterDescription-(14/m/Red) LetterDescription-(15/s/Blue) LetterDescription-(2/r/Red) LetterDescription-(5/i/Red) LetterDescription-(12/m/Blue) LetterDescription-(4/i/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod250(1.00%1.00%):
+LetterDescription-(14/m/Red) LetterDescription-(17/s/Red) LetterDescription-(13/m/Green) LetterDescription-(8/u/Red) LetterDescription-(12/m/Blue) LetterDescription-(10/a/Green) LetterDescription-(15/s/Blue) LetterDescription-(9/a/Blue) LetterDescription-(4/i/Green) LetterDescription-(11/a/Red) LetterDescription-(6/u/Blue) LetterDescription-(0/r/Blue) LetterDescription-(2/r/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod251(0.55%1.00%):
+LetterDescription-(5/i/Red) LetterDescription-(4/i/Green) LetterDescription-(9/a/Blue) LetterDescription-(14/m/Red) LetterDescription-(0/r/Blue) LetterDescription-(7/u/Green) LetterDescription-(13/m/Green) LetterDescription-(12/m/Blue) LetterDescription-(2/r/Red) 
+StatItemsHandledAtOutputStations: 45
+StatBundlesHandledAtInputStations: 0
+Pod252(1.00%1.00%):
+LetterDescription-(8/u/Red) LetterDescription-(2/r/Red) LetterDescription-(9/a/Blue) LetterDescription-(14/m/Red) LetterDescription-(6/u/Blue) LetterDescription-(12/m/Blue) LetterDescription-(3/i/Blue) LetterDescription-(16/s/Green) LetterDescription-(10/a/Green) LetterDescription-(11/a/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod253(0.60%0.88%):
+LetterDescription-(7/u/Green) LetterDescription-(0/r/Blue) LetterDescription-(9/a/Blue) LetterDescription-(1/r/Green) LetterDescription-(16/s/Green) LetterDescription-(12/m/Blue) LetterDescription-(13/m/Green) LetterDescription-(6/u/Blue) LetterDescription-(10/a/Green) 
+StatItemsHandledAtOutputStations: 40
+StatBundlesHandledAtInputStations: 0
+Pod254(1.00%1.00%):
+LetterDescription-(2/r/Red) LetterDescription-(5/i/Red) LetterDescription-(8/u/Red) LetterDescription-(14/m/Red) LetterDescription-(6/u/Blue) LetterDescription-(1/r/Green) LetterDescription-(11/a/Red) LetterDescription-(12/m/Blue) LetterDescription-(15/s/Blue) LetterDescription-(3/i/Blue) LetterDescription-(17/s/Red) LetterDescription-(16/s/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod255(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(16/s/Green) LetterDescription-(6/u/Blue) LetterDescription-(15/s/Blue) LetterDescription-(9/a/Blue) LetterDescription-(1/r/Green) LetterDescription-(4/i/Green) LetterDescription-(2/r/Red) LetterDescription-(0/r/Blue) LetterDescription-(3/i/Blue) LetterDescription-(7/u/Green) LetterDescription-(10/a/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod256(0.58%0.96%):
+LetterDescription-(14/m/Red) LetterDescription-(16/s/Green) LetterDescription-(15/s/Blue) LetterDescription-(12/m/Blue) LetterDescription-(3/i/Blue) LetterDescription-(4/i/Green) LetterDescription-(10/a/Green) LetterDescription-(6/u/Blue) 
+StatItemsHandledAtOutputStations: 42
+StatBundlesHandledAtInputStations: 0
+Pod257(1.00%1.00%):
+LetterDescription-(8/u/Red) LetterDescription-(10/a/Green) LetterDescription-(11/a/Red) LetterDescription-(0/r/Blue) LetterDescription-(16/s/Green) LetterDescription-(17/s/Red) LetterDescription-(2/r/Red) LetterDescription-(1/r/Green) LetterDescription-(12/m/Blue) LetterDescription-(9/a/Blue) LetterDescription-(7/u/Green) LetterDescription-(6/u/Blue) LetterDescription-(13/m/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod258(1.00%1.00%):
+LetterDescription-(7/u/Green) LetterDescription-(5/i/Red) LetterDescription-(12/m/Blue) LetterDescription-(15/s/Blue) LetterDescription-(1/r/Green) LetterDescription-(10/a/Green) LetterDescription-(13/m/Green) LetterDescription-(17/s/Red) LetterDescription-(3/i/Blue) LetterDescription-(2/r/Red) LetterDescription-(0/r/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod259(0.58%0.97%):
+LetterDescription-(5/i/Red) LetterDescription-(9/a/Blue) LetterDescription-(16/s/Green) LetterDescription-(0/r/Blue) LetterDescription-(15/s/Blue) LetterDescription-(10/a/Green) LetterDescription-(1/r/Green) LetterDescription-(4/i/Green) LetterDescription-(13/m/Green) 
+StatItemsHandledAtOutputStations: 42
+StatBundlesHandledAtInputStations: 0
+Pod260(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(10/a/Green) LetterDescription-(3/i/Blue) LetterDescription-(13/m/Green) LetterDescription-(6/u/Blue) LetterDescription-(17/s/Red) LetterDescription-(9/a/Blue) LetterDescription-(7/u/Green) LetterDescription-(2/r/Red) LetterDescription-(4/i/Green) LetterDescription-(15/s/Blue) LetterDescription-(14/m/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod261(0.56%0.99%):
+LetterDescription-(14/m/Red) LetterDescription-(6/u/Blue) LetterDescription-(3/i/Blue) LetterDescription-(1/r/Green) LetterDescription-(15/s/Blue) LetterDescription-(5/i/Red) LetterDescription-(16/s/Green) LetterDescription-(13/m/Green) LetterDescription-(0/r/Blue) 
+StatItemsHandledAtOutputStations: 44
+StatBundlesHandledAtInputStations: 0
+Pod262(1.00%1.00%):
+LetterDescription-(5/i/Red) LetterDescription-(10/a/Green) LetterDescription-(13/m/Green) LetterDescription-(17/s/Red) LetterDescription-(6/u/Blue) LetterDescription-(12/m/Blue) LetterDescription-(2/r/Red) LetterDescription-(14/m/Red) LetterDescription-(9/a/Blue) LetterDescription-(15/s/Blue) LetterDescription-(8/u/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod263(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(8/u/Red) LetterDescription-(2/r/Red) LetterDescription-(17/s/Red) LetterDescription-(14/m/Red) LetterDescription-(4/i/Green) LetterDescription-(7/u/Green) LetterDescription-(10/a/Green) LetterDescription-(9/a/Blue) LetterDescription-(15/s/Blue) LetterDescription-(12/m/Blue) LetterDescription-(5/i/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod264(1.00%1.00%):
+LetterDescription-(2/r/Red) LetterDescription-(14/m/Red) LetterDescription-(0/r/Blue) LetterDescription-(12/m/Blue) LetterDescription-(7/u/Green) LetterDescription-(6/u/Blue) LetterDescription-(17/s/Red) LetterDescription-(1/r/Green) LetterDescription-(9/a/Blue) LetterDescription-(11/a/Red) LetterDescription-(10/a/Green) LetterDescription-(3/i/Blue) LetterDescription-(4/i/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod265(1.00%1.00%):
+LetterDescription-(17/s/Red) LetterDescription-(10/a/Green) LetterDescription-(14/m/Red) LetterDescription-(2/r/Red) LetterDescription-(16/s/Green) LetterDescription-(1/r/Green) LetterDescription-(8/u/Red) LetterDescription-(7/u/Green) LetterDescription-(4/i/Green) LetterDescription-(3/i/Blue) LetterDescription-(6/u/Blue) LetterDescription-(12/m/Blue) LetterDescription-(13/m/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod266(1.00%1.00%):
+LetterDescription-(8/u/Red) LetterDescription-(1/r/Green) LetterDescription-(7/u/Green) LetterDescription-(5/i/Red) LetterDescription-(14/m/Red) LetterDescription-(2/r/Red) LetterDescription-(4/i/Green) LetterDescription-(16/s/Green) LetterDescription-(11/a/Red) LetterDescription-(13/m/Green) LetterDescription-(12/m/Blue) LetterDescription-(10/a/Green) LetterDescription-(0/r/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod267(0.57%0.93%):
+LetterDescription-(0/r/Blue) LetterDescription-(9/a/Blue) LetterDescription-(6/u/Blue) LetterDescription-(15/s/Blue) LetterDescription-(12/m/Blue) LetterDescription-(17/s/Red) LetterDescription-(3/i/Blue) LetterDescription-(4/i/Green) LetterDescription-(16/s/Green) 
+StatItemsHandledAtOutputStations: 43
+StatBundlesHandledAtInputStations: 0
+Pod268(1.00%1.00%):
+LetterDescription-(8/u/Red) LetterDescription-(1/r/Green) LetterDescription-(2/r/Red) LetterDescription-(0/r/Blue) LetterDescription-(14/m/Red) LetterDescription-(12/m/Blue) LetterDescription-(17/s/Red) LetterDescription-(10/a/Green) LetterDescription-(5/i/Red) LetterDescription-(9/a/Blue) LetterDescription-(13/m/Green) LetterDescription-(15/s/Blue) LetterDescription-(11/a/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod269(1.00%1.00%):
+LetterDescription-(2/r/Red) LetterDescription-(3/i/Blue) LetterDescription-(5/i/Red) LetterDescription-(12/m/Blue) LetterDescription-(15/s/Blue) LetterDescription-(0/r/Blue) LetterDescription-(4/i/Green) LetterDescription-(13/m/Green) LetterDescription-(8/u/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod270(1.00%1.00%):
+LetterDescription-(5/i/Red) LetterDescription-(4/i/Green) LetterDescription-(6/u/Blue) LetterDescription-(12/m/Blue) LetterDescription-(1/r/Green) LetterDescription-(9/a/Blue) LetterDescription-(7/u/Green) LetterDescription-(15/s/Blue) LetterDescription-(0/r/Blue) LetterDescription-(16/s/Green) LetterDescription-(13/m/Green) LetterDescription-(2/r/Red) LetterDescription-(3/i/Blue) LetterDescription-(11/a/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod271(1.00%1.00%):
+LetterDescription-(7/u/Green) LetterDescription-(2/r/Red) LetterDescription-(3/i/Blue) LetterDescription-(17/s/Red) LetterDescription-(13/m/Green) LetterDescription-(12/m/Blue) LetterDescription-(11/a/Red) LetterDescription-(0/r/Blue) LetterDescription-(9/a/Blue) LetterDescription-(8/u/Red) LetterDescription-(14/m/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod272(1.00%1.00%):
+LetterDescription-(15/s/Blue) LetterDescription-(9/a/Blue) LetterDescription-(3/i/Blue) LetterDescription-(0/r/Blue) LetterDescription-(8/u/Red) LetterDescription-(10/a/Green) LetterDescription-(1/r/Green) LetterDescription-(4/i/Green) LetterDescription-(13/m/Green) LetterDescription-(2/r/Red) LetterDescription-(7/u/Green) LetterDescription-(17/s/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod273(1.00%1.00%):
+LetterDescription-(16/s/Green) LetterDescription-(11/a/Red) LetterDescription-(4/i/Green) LetterDescription-(2/r/Red) LetterDescription-(9/a/Blue) LetterDescription-(12/m/Blue) LetterDescription-(7/u/Green) LetterDescription-(15/s/Blue) LetterDescription-(14/m/Red) LetterDescription-(5/i/Red) LetterDescription-(3/i/Blue) LetterDescription-(13/m/Green) LetterDescription-(0/r/Blue) LetterDescription-(1/r/Green) LetterDescription-(10/a/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod274(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(17/s/Red) LetterDescription-(10/a/Green) LetterDescription-(8/u/Red) LetterDescription-(3/i/Blue) LetterDescription-(4/i/Green) LetterDescription-(6/u/Blue) LetterDescription-(12/m/Blue) LetterDescription-(7/u/Green) LetterDescription-(9/a/Blue) LetterDescription-(5/i/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod275(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(1/r/Green) LetterDescription-(7/u/Green) LetterDescription-(6/u/Blue) LetterDescription-(14/m/Red) LetterDescription-(15/s/Blue) LetterDescription-(9/a/Blue) LetterDescription-(0/r/Blue) LetterDescription-(5/i/Red) LetterDescription-(17/s/Red) LetterDescription-(13/m/Green) LetterDescription-(2/r/Red) LetterDescription-(8/u/Red) LetterDescription-(12/m/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod276(1.00%1.00%):
+LetterDescription-(6/u/Blue) LetterDescription-(1/r/Green) LetterDescription-(9/a/Blue) LetterDescription-(0/r/Blue) LetterDescription-(7/u/Green) LetterDescription-(14/m/Red) LetterDescription-(11/a/Red) LetterDescription-(16/s/Green) LetterDescription-(8/u/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod277(1.00%1.00%):
+LetterDescription-(2/r/Red) LetterDescription-(8/u/Red) LetterDescription-(5/i/Red) LetterDescription-(3/i/Blue) LetterDescription-(9/a/Blue) LetterDescription-(12/m/Blue) LetterDescription-(15/s/Blue) LetterDescription-(4/i/Green) LetterDescription-(14/m/Red) LetterDescription-(0/r/Blue) LetterDescription-(11/a/Red) LetterDescription-(17/s/Red) LetterDescription-(16/s/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod278(1.00%1.00%):
+LetterDescription-(8/u/Red) LetterDescription-(11/a/Red) LetterDescription-(17/s/Red) LetterDescription-(16/s/Green) LetterDescription-(13/m/Green) LetterDescription-(2/r/Red) LetterDescription-(14/m/Red) LetterDescription-(6/u/Blue) LetterDescription-(15/s/Blue) LetterDescription-(10/a/Green) LetterDescription-(7/u/Green) LetterDescription-(9/a/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod279(1.00%1.00%):
+LetterDescription-(8/u/Red) LetterDescription-(1/r/Green) LetterDescription-(9/a/Blue) LetterDescription-(12/m/Blue) LetterDescription-(7/u/Green) LetterDescription-(17/s/Red) LetterDescription-(16/s/Green) LetterDescription-(14/m/Red) LetterDescription-(13/m/Green) LetterDescription-(10/a/Green) LetterDescription-(6/u/Blue) LetterDescription-(11/a/Red) LetterDescription-(3/i/Blue) LetterDescription-(0/r/Blue) LetterDescription-(2/r/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod280(1.00%1.00%):
+LetterDescription-(13/m/Green) LetterDescription-(5/i/Red) LetterDescription-(11/a/Red) LetterDescription-(1/r/Green) LetterDescription-(9/a/Blue) LetterDescription-(2/r/Red) LetterDescription-(3/i/Blue) LetterDescription-(8/u/Red) LetterDescription-(12/m/Blue) LetterDescription-(6/u/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod281(0.45%0.88%):
+LetterDescription-(2/r/Red) LetterDescription-(12/m/Blue) LetterDescription-(16/s/Green) LetterDescription-(4/i/Green) LetterDescription-(14/m/Red) LetterDescription-(15/s/Blue) LetterDescription-(3/i/Blue) 
+StatItemsHandledAtOutputStations: 55
+StatBundlesHandledAtInputStations: 0
+Pod282(1.00%1.00%):
+LetterDescription-(5/i/Red) LetterDescription-(2/r/Red) LetterDescription-(10/a/Green) LetterDescription-(15/s/Blue) LetterDescription-(16/s/Green) LetterDescription-(17/s/Red) LetterDescription-(7/u/Green) LetterDescription-(0/r/Blue) LetterDescription-(14/m/Red) LetterDescription-(4/i/Green) LetterDescription-(6/u/Blue) LetterDescription-(13/m/Green) LetterDescription-(3/i/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod283(0.91%0.91%):
+LetterDescription-(15/s/Blue) LetterDescription-(3/i/Blue) LetterDescription-(1/r/Green) LetterDescription-(5/i/Red) LetterDescription-(17/s/Red) LetterDescription-(13/m/Green) LetterDescription-(6/u/Blue) LetterDescription-(4/i/Green) LetterDescription-(9/a/Blue) LetterDescription-(10/a/Green) LetterDescription-(16/s/Green) 
+StatItemsHandledAtOutputStations: 9
+StatBundlesHandledAtInputStations: 0
+Pod284(0.47%0.95%):
+LetterDescription-(1/r/Green) LetterDescription-(12/m/Blue) LetterDescription-(16/s/Green) LetterDescription-(13/m/Green) LetterDescription-(14/m/Red) LetterDescription-(9/a/Blue) LetterDescription-(15/s/Blue) LetterDescription-(7/u/Green) 
+StatItemsHandledAtOutputStations: 53
+StatBundlesHandledAtInputStations: 0
+Pod285(1.00%1.00%):
+LetterDescription-(5/i/Red) LetterDescription-(6/u/Blue) LetterDescription-(0/r/Blue) LetterDescription-(16/s/Green) LetterDescription-(7/u/Green) LetterDescription-(11/a/Red) LetterDescription-(3/i/Blue) LetterDescription-(13/m/Green) LetterDescription-(15/s/Blue) LetterDescription-(4/i/Green) LetterDescription-(8/u/Red) LetterDescription-(1/r/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod286(1.00%1.00%):
+LetterDescription-(13/m/Green) LetterDescription-(4/i/Green) LetterDescription-(11/a/Red) LetterDescription-(0/r/Blue) LetterDescription-(5/i/Red) LetterDescription-(17/s/Red) LetterDescription-(6/u/Blue) LetterDescription-(9/a/Blue) LetterDescription-(16/s/Green) LetterDescription-(2/r/Red) LetterDescription-(10/a/Green) LetterDescription-(3/i/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod287(1.00%1.00%):
+LetterDescription-(3/i/Blue) LetterDescription-(7/u/Green) LetterDescription-(6/u/Blue) LetterDescription-(13/m/Green) LetterDescription-(9/a/Blue) LetterDescription-(15/s/Blue) LetterDescription-(1/r/Green) LetterDescription-(14/m/Red) LetterDescription-(11/a/Red) LetterDescription-(16/s/Green) LetterDescription-(0/r/Blue) LetterDescription-(4/i/Green) LetterDescription-(2/r/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod288(1.00%1.00%):
+LetterDescription-(17/s/Red) LetterDescription-(1/r/Green) LetterDescription-(2/r/Red) LetterDescription-(8/u/Red) LetterDescription-(14/m/Red) LetterDescription-(4/i/Green) LetterDescription-(3/i/Blue) LetterDescription-(13/m/Green) LetterDescription-(0/r/Blue) LetterDescription-(16/s/Green) LetterDescription-(7/u/Green) LetterDescription-(6/u/Blue) LetterDescription-(5/i/Red) LetterDescription-(9/a/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod289(0.70%0.96%):
+LetterDescription-(16/s/Green) LetterDescription-(14/m/Red) LetterDescription-(17/s/Red) LetterDescription-(0/r/Blue) LetterDescription-(5/i/Red) LetterDescription-(6/u/Blue) LetterDescription-(13/m/Green) LetterDescription-(4/i/Green) LetterDescription-(9/a/Blue) LetterDescription-(15/s/Blue) LetterDescription-(3/i/Blue) 
+StatItemsHandledAtOutputStations: 30
+StatBundlesHandledAtInputStations: 0
+Pod290(1.00%1.00%):
+LetterDescription-(2/r/Red) LetterDescription-(0/r/Blue) LetterDescription-(3/i/Blue) LetterDescription-(5/i/Red) LetterDescription-(15/s/Blue) LetterDescription-(1/r/Green) LetterDescription-(16/s/Green) LetterDescription-(13/m/Green) LetterDescription-(9/a/Blue) LetterDescription-(17/s/Red) LetterDescription-(10/a/Green) LetterDescription-(6/u/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod291(1.00%1.00%):
+LetterDescription-(14/m/Red) LetterDescription-(4/i/Green) LetterDescription-(2/r/Red) LetterDescription-(3/i/Blue) LetterDescription-(16/s/Green) LetterDescription-(17/s/Red) LetterDescription-(10/a/Green) LetterDescription-(15/s/Blue) LetterDescription-(5/i/Red) LetterDescription-(8/u/Red) LetterDescription-(12/m/Blue) LetterDescription-(7/u/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod292(0.64%0.90%):
+LetterDescription-(5/i/Red) LetterDescription-(6/u/Blue) LetterDescription-(15/s/Blue) LetterDescription-(0/r/Blue) LetterDescription-(17/s/Red) LetterDescription-(13/m/Green) LetterDescription-(14/m/Red) LetterDescription-(3/i/Blue) LetterDescription-(16/s/Green) LetterDescription-(12/m/Blue) 
+StatItemsHandledAtOutputStations: 36
+StatBundlesHandledAtInputStations: 0
+Pod293(0.69%0.95%):
+LetterDescription-(9/a/Blue) LetterDescription-(14/m/Red) LetterDescription-(16/s/Green) LetterDescription-(15/s/Blue) LetterDescription-(0/r/Blue) LetterDescription-(1/r/Green) LetterDescription-(13/m/Green) 
+StatItemsHandledAtOutputStations: 31
+StatBundlesHandledAtInputStations: 0
+Pod294(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(10/a/Green) LetterDescription-(2/r/Red) LetterDescription-(3/i/Blue) LetterDescription-(12/m/Blue) LetterDescription-(9/a/Blue) LetterDescription-(6/u/Blue) LetterDescription-(8/u/Red) LetterDescription-(4/i/Green) LetterDescription-(7/u/Green) LetterDescription-(16/s/Green) LetterDescription-(13/m/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod295(1.00%1.00%):
+LetterDescription-(8/u/Red) LetterDescription-(4/i/Green) LetterDescription-(17/s/Red) LetterDescription-(12/m/Blue) LetterDescription-(5/i/Red) LetterDescription-(13/m/Green) LetterDescription-(9/a/Blue) LetterDescription-(3/i/Blue) LetterDescription-(0/r/Blue) LetterDescription-(11/a/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod296(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(2/r/Red) LetterDescription-(1/r/Green) LetterDescription-(13/m/Green) LetterDescription-(4/i/Green) LetterDescription-(9/a/Blue) LetterDescription-(0/r/Blue) LetterDescription-(14/m/Red) LetterDescription-(3/i/Blue) LetterDescription-(6/u/Blue) LetterDescription-(12/m/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod297(1.00%1.00%):
+LetterDescription-(10/a/Green) LetterDescription-(9/a/Blue) LetterDescription-(4/i/Green) LetterDescription-(2/r/Red) LetterDescription-(14/m/Red) LetterDescription-(7/u/Green) LetterDescription-(17/s/Red) LetterDescription-(13/m/Green) LetterDescription-(12/m/Blue) LetterDescription-(8/u/Red) LetterDescription-(6/u/Blue) LetterDescription-(1/r/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod298(1.00%1.00%):
+LetterDescription-(2/r/Red) LetterDescription-(11/a/Red) LetterDescription-(1/r/Green) LetterDescription-(7/u/Green) LetterDescription-(15/s/Blue) LetterDescription-(0/r/Blue) LetterDescription-(5/i/Red) LetterDescription-(3/i/Blue) LetterDescription-(9/a/Blue) LetterDescription-(6/u/Blue) LetterDescription-(14/m/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod299(0.71%0.99%):
+LetterDescription-(5/i/Red) LetterDescription-(17/s/Red) LetterDescription-(12/m/Blue) LetterDescription-(4/i/Green) LetterDescription-(3/i/Blue) LetterDescription-(10/a/Green) LetterDescription-(7/u/Green) LetterDescription-(16/s/Green) LetterDescription-(14/m/Red) 
+StatItemsHandledAtOutputStations: 29
+StatBundlesHandledAtInputStations: 0
+Pod300(1.00%1.00%):
+LetterDescription-(8/u/Red) LetterDescription-(10/a/Green) LetterDescription-(2/r/Red) LetterDescription-(4/i/Green) LetterDescription-(1/r/Green) LetterDescription-(16/s/Green) LetterDescription-(11/a/Red) LetterDescription-(12/m/Blue) LetterDescription-(9/a/Blue) LetterDescription-(13/m/Green) LetterDescription-(17/s/Red) LetterDescription-(7/u/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod301(1.00%1.00%):
+LetterDescription-(10/a/Green) LetterDescription-(16/s/Green) LetterDescription-(17/s/Red) LetterDescription-(1/r/Green) LetterDescription-(9/a/Blue) LetterDescription-(3/i/Blue) LetterDescription-(6/u/Blue) LetterDescription-(0/r/Blue) LetterDescription-(8/u/Red) LetterDescription-(5/i/Red) LetterDescription-(11/a/Red) LetterDescription-(4/i/Green) LetterDescription-(7/u/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod302(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(0/r/Blue) LetterDescription-(1/r/Green) LetterDescription-(5/i/Red) LetterDescription-(4/i/Green) LetterDescription-(17/s/Red) LetterDescription-(13/m/Green) LetterDescription-(14/m/Red) LetterDescription-(16/s/Green) LetterDescription-(10/a/Green) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod303(1.00%1.00%):
+LetterDescription-(4/i/Green) LetterDescription-(2/r/Red) LetterDescription-(17/s/Red) LetterDescription-(11/a/Red) LetterDescription-(1/r/Green) LetterDescription-(5/i/Red) LetterDescription-(15/s/Blue) LetterDescription-(10/a/Green) LetterDescription-(12/m/Blue) LetterDescription-(14/m/Red) LetterDescription-(9/a/Blue) LetterDescription-(3/i/Blue) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod304(1.00%1.00%):
+LetterDescription-(11/a/Red) LetterDescription-(12/m/Blue) LetterDescription-(13/m/Green) LetterDescription-(1/r/Green) LetterDescription-(17/s/Red) LetterDescription-(4/i/Green) LetterDescription-(10/a/Green) LetterDescription-(8/u/Red) LetterDescription-(0/r/Blue) LetterDescription-(9/a/Blue) LetterDescription-(14/m/Red) LetterDescription-(6/u/Blue) LetterDescription-(2/r/Red) 
+StatItemsHandledAtOutputStations: 0
+StatBundlesHandledAtInputStations: 0
+Pod305(0.77%0.90%):
+LetterDescription-(0/r/Blue) LetterDescription-(15/s/Blue) LetterDescription-(2/r/Red) LetterDescription-(1/r/Green) LetterDescription-(17/s/Red) LetterDescription-(4/i/Green) LetterDescription-(5/i/Red) LetterDescription-(16/s/Green) LetterDescription-(10/a/Green) LetterDescription-(7/u/Green) 
+StatItemsHandledAtOutputStations: 23
+StatBundlesHandledAtInputStations: 0
+>>> InputStations
+InputStation0:
+IdleTime: 20500
+UpTime: 0
+DownTime: 0
+NumBundlesPut: 0
+NumInjectedBundlesPut: 0
+BundlePileOn: 0
+PodsHandled: 0
+PodHandlingTimeAvg: 0
+PodHandlingTimeVar: 0
+PodHandlingTimeMin: 0
+PodHandlingTimeMax: 0
+>>> OutputStations
+OutputStation0:
+IdleTime: 6113.75803766585
+UpTime: 20500
+DownTime: 0
+NumItemsPicked: 1470
+NumInjectedItemsPicked: 0
+NumOrdersFinished: 430
+ItemPileOn: 6.50442477876106
+OrderPileOn: 1.90265486725664
+PodsHandled: 226
+PodHandlingTimeAvg: 67.028988199676
+PodHandlingTimeVar: 7386.67332926406
+PodHandlingTimeMin: 10.0444444444438
+PodHandlingTimeMax: 415.885611458753
+OutputStation1:
+IdleTime: 6470.55029177817
+UpTime: 20500
+DownTime: 0
+NumItemsPicked: 1435
+NumInjectedItemsPicked: 0
+NumOrdersFinished: 417
+ItemPileOn: 6.05485232067511
+OrderPileOn: 1.75949367088608
+PodsHandled: 237
+PodHandlingTimeAvg: 62.4023475982058
+PodHandlingTimeVar: 7724.13051338498
+PodHandlingTimeMin: 10.0444444444438
+PodHandlingTimeMax: 568.360000000001
+>>> Timings
+StatTimingPathPlanningAverage: 0.000202730643203883
+StatTimingPathPlanningOverall: 1.0023003
+StatTimingPathPlanningCount: 4944
+StatTimingTaskAllocationAverage: 0.0197592636159281
+StatTimingTaskAllocationOverall: 61.5303469
+StatTimingTaskAllocationCount: 3114
+StatTimingItemStorageAverage: 0.00167657486681291
+StatTimingItemStorageOverall: 5.3499504
+StatTimingItemStorageCount: 3191
+StatTimingPodStorageAverage: 0
+StatTimingPodStorageOverall: 0
+StatTimingPodStorageCount: 0
+StatTimingReplenishmentBatchingAverage: 0
+StatTimingReplenishmentBatchingOverall: 0
+StatTimingReplenishmentBatchingCount: 523
+StatTimingOrderBatchingAverage: 0.0002651640914037
+StatTimingOrderBatchingOverall: 0.4873716
+StatTimingOrderBatchingCount: 1838
+>>> Overall
+StatOverallBundlesPlaced: 298
+StatOverallItemsOrdered: 3368
+StatOverallOrdersPlaced: 1000
+StatOverallBundlesRejected: 0
+StatOverallOrdersRejected: 0
+StatOverallBundlesHandled: 0
+StatOverallItemsHandled: 2905
+StatOverallLinesHandled: 2764
+StatOverallOrdersHandled: 847
+StatOverallCollisions: 0
+StatOverallDistanceEstimated: 11158
+StatOverallAssignedTasks: 3114
+StatMaxMemoryUsed: 46.51171875
+StatRealTimeUsed: 72.1159808
+StatMedianTurnoverTime: 10026.8462267074
+StatLowerQuartileTurnoverTime: 4794.43524858765
+StatUpperQuartileTurnoverTime: 15550.9878030402
+StatAverageThroughputTime: 553.468683216425
+StatMedianThroughputTime: 362.185548362644
+StatLowerQuartileThroughputTime: 171.126650462917
+StatUpperQuartileThroughputTime: 652.1
+StatOverallTotalTimeQueueing: 80436.4855218984
+StatAverageTurnoverTime: 10024.4843424736
+StatAverageThroughputTime: 553.468683216425
+StatOverallDistanceTraveled: 13806.74290608
+

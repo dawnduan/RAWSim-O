@@ -118,6 +118,7 @@
     <Compile Include="Control\Defaults\StationActivation\BacklogThresholdStationManager.cs" />
     <Compile Include="Control\Defaults\StationActivation\ConstantRatioStationActivation.cs" />
     <Compile Include="Control\Defaults\StationActivation\WorkShiftStationActivationManager.cs" />
+    <Compile Include="Control\Defaults\TaskAllocation\RandomBotManager.cs" />
     <Compile Include="Control\Defaults\TaskAllocation\FCFSBotManager.cs" />
     <Compile Include="Control\Defaults\TaskAllocation\GreedyBotManager.cs" />
     <Compile Include="Control\Defaults\TaskAllocation\ConceptBotManager.cs" />
@@ -175,7 +176,7 @@
     <Compile Include="Management\MetaInformationManager.cs" />
     <Compile Include="Management\StockInformation.cs" />
     <Compile Include="Metrics\Distances.cs" />
-    <Compile Include="Control\Defaults\TaskAllocation\RandomBotManager.cs" />
+    <Compile Include="Control\Defaults\TaskAllocation\RandomBotManager_n.cs" />
     <Compile Include="Control\Defaults\PodStorage\FixedPodStorageManager.cs" />
     <Compile Include="Control\Defaults\PodStorage\NearestPodStorageManager.cs" />
     <Compile Include="Control\Defaults\PodStorage\RandomPodStorageManager.cs" />
